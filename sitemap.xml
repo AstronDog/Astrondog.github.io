@@ -2,6 +2,13 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>http://www.astrondog.com/2021/06/05/20210605-formula-english/</loc>
+    
+    <lastmod>2021-06-05T16:20:18.000Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>http://www.astrondog.com/2021/05/17/20210517-virtualenv/</loc>
     
     <lastmod>2021-05-17T07:38:57.000Z</lastmod>
@@ -212,13 +219,6 @@
   </url>
   
   <url>
-    <loc>http://www.astrondog.com/2020/01/20/20200120-waveband/</loc>
-    
-    <lastmod>2020-06-01T19:09:16.398Z</lastmod>
-    
-  </url>
-  
-  <url>
     <loc>http://www.astrondog.com/friends/index.html</loc>
     
     <lastmod>2020-06-01T15:58:03.121Z</lastmod>
@@ -250,6 +250,13 @@
     <loc>http://www.astrondog.com/404.html</loc>
     
     <lastmod>2020-05-29T20:51:20.793Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://www.astrondog.com/2020/01/20/20200120-waveband/</loc>
+    
+    <lastmod>2020-01-20T15:48:41.000Z</lastmod>
     
   </url>
   
