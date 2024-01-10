@@ -1,0 +1,1288 @@
+<!DOCTYPE HTML>
+<html lang="en">
+
+
+<head>
+    <meta charset="utf-8">
+    <meta name="keywords" content="Pulsar and Pulsar Timing, Dr. JunWang">
+    <meta name="description" content="">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+    <meta name="renderer" content="webkit|ie-stand|ie-comp">
+    <meta name="mobile-web-app-capable" content="yes">
+    <meta name="format-detection" content="telephone=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+
+
+    <title>Pulsar and Pulsar Timing | Dr. JunWang</title>
+    <link rel="icon" type="image/png" href="/favicon.png">
+
+    <link rel="stylesheet" type="text/css" href="/libs/awesome/css/all.min.css">
+    <link rel="stylesheet" type="text/css" href="/libs/materialize/materialize.min.css">
+    <link rel="stylesheet" type="text/css" href="/libs/aos/aos.css">
+    <link rel="stylesheet" type="text/css" href="/libs/animate/animate.min.css">
+    <link rel="stylesheet" type="text/css" href="/libs/lightGallery/css/lightgallery.min.css">
+    <link rel="stylesheet" type="text/css" href="/css/matery.css">
+    <link rel="stylesheet" type="text/css" href="/css/my.css">
+
+    <script src="/libs/jquery/jquery-3.6.0.min.js"></script>
+
+<meta name="generator" content="Hexo 5.4.2"><link rel="alternate" href="/atom.xml" title="Dr. JunWang" type="application/atom+xml">
+<link rel="stylesheet" href="/css/prism-tomorrow.css" type="text/css">
+<link rel="stylesheet" href="/css/prism-line-numbers.css" type="text/css"></head>
+
+
+<body>
+    <header class="navbar-fixed">
+    <nav id="headNav" class="bg-color nav-transparent">
+        <div id="navContainer" class="nav-wrapper container">
+            <div class="brand-logo">
+                <a href="/" class="waves-effect waves-light">
+                    
+                    <img src="/medias/logo.png" class="logo-img" alt="LOGO">
+                    
+                    <span class="logo-span">Dr. JunWang</span>
+                </a>
+            </div>
+            
+
+<a href="#" data-target="mobile-nav" class="sidenav-trigger button-collapse"><i class="fas fa-bars"></i></a>
+<ul class="right nav-menu">
+  
+  <li class="hide-on-med-and-down nav-item">
+    
+    <a href="/" class="waves-effect waves-light">
+      
+      <i class="fas fa-home" style="zoom: 0.6;"></i>
+      
+      <span>Index</span>
+    </a>
+    
+  </li>
+  
+  <li class="hide-on-med-and-down nav-item">
+    
+    <a href="/tags" class="waves-effect waves-light">
+      
+      <i class="fas fa-tags" style="zoom: 0.6;"></i>
+      
+      <span>Tags</span>
+    </a>
+    
+  </li>
+  
+  <li class="hide-on-med-and-down nav-item">
+    
+    <a href="/categories" class="waves-effect waves-light">
+      
+      <i class="fas fa-bookmark" style="zoom: 0.6;"></i>
+      
+      <span>Categories</span>
+    </a>
+    
+  </li>
+  
+  <li class="hide-on-med-and-down nav-item">
+    
+    <a href="/archives" class="waves-effect waves-light">
+      
+      <i class="fas fa-archive" style="zoom: 0.6;"></i>
+      
+      <span>Archives</span>
+    </a>
+    
+  </li>
+  
+  <li class="hide-on-med-and-down nav-item">
+    
+    <a href="/about" class="waves-effect waves-light">
+      
+      <i class="fas fa-user-circle" style="zoom: 0.6;"></i>
+      
+      <span>About</span>
+    </a>
+    
+  </li>
+  
+  <li class="hide-on-med-and-down nav-item">
+    
+    <a href="/cv" class="waves-effect waves-light">
+      
+      <i class="fas fa-user-tie" style="zoom: 0.6;"></i>
+      
+      <span>CV</span>
+    </a>
+    
+  </li>
+  
+  <li>
+    <a href="#searchModal" class="modal-trigger waves-effect waves-light">
+      <i id="searchIcon" class="fas fa-search" title="Search" style="zoom: 0.85;"></i>
+    </a>
+  </li>
+</ul>
+
+
+<div id="mobile-nav" class="side-nav sidenav">
+
+    <div class="mobile-head bg-color">
+        
+        <img src="/medias/logo.png" class="logo-img circle responsive-img">
+        
+        <div class="logo-name">Dr. JunWang</div>
+        <div class="logo-desc">
+            
+            Never really desperate, only the lost of the soul.
+            
+        </div>
+    </div>
+
+    
+
+    <ul class="menu-list mobile-menu-list">
+        
+        <li class="m-nav-item">
+	  
+		<a href="/" class="waves-effect waves-light">
+			
+			    <i class="fa-fw fas fa-home"></i>
+			
+			Index
+		</a>
+          
+        </li>
+        
+        <li class="m-nav-item">
+	  
+		<a href="/tags" class="waves-effect waves-light">
+			
+			    <i class="fa-fw fas fa-tags"></i>
+			
+			Tags
+		</a>
+          
+        </li>
+        
+        <li class="m-nav-item">
+	  
+		<a href="/categories" class="waves-effect waves-light">
+			
+			    <i class="fa-fw fas fa-bookmark"></i>
+			
+			Categories
+		</a>
+          
+        </li>
+        
+        <li class="m-nav-item">
+	  
+		<a href="/archives" class="waves-effect waves-light">
+			
+			    <i class="fa-fw fas fa-archive"></i>
+			
+			Archives
+		</a>
+          
+        </li>
+        
+        <li class="m-nav-item">
+	  
+		<a href="/about" class="waves-effect waves-light">
+			
+			    <i class="fa-fw fas fa-user-circle"></i>
+			
+			About
+		</a>
+          
+        </li>
+        
+        <li class="m-nav-item">
+	  
+		<a href="/cv" class="waves-effect waves-light">
+			
+			    <i class="fa-fw fas fa-user-tie"></i>
+			
+			CV
+		</a>
+          
+        </li>
+        
+        
+        <li><div class="divider"></div></li>
+        <li>
+            <a href="https://github.com/blinkfox/hexo-theme-matery" class="waves-effect waves-light" target="_blank">
+                <i class="fab fa-github-square fa-fw"></i>Fork Me
+            </a>
+        </li>
+        
+    </ul>
+</div>
+
+
+        </div>
+
+        
+            <style>
+    .nav-transparent .github-corner {
+        display: none !important;
+    }
+
+    .github-corner {
+        position: absolute;
+        z-index: 10;
+        top: 0;
+        right: 0;
+        border: 0;
+        transform: scale(1.1);
+    }
+
+    .github-corner svg {
+        color: #0f9d58;
+        fill: #fff;
+        height: 64px;
+        width: 64px;
+    }
+
+    .github-corner:hover .octo-arm {
+        animation: a 0.56s ease-in-out;
+    }
+
+    .github-corner .octo-arm {
+        animation: none;
+    }
+
+    @keyframes a {
+        0%,
+        to {
+            transform: rotate(0);
+        }
+        20%,
+        60% {
+            transform: rotate(-25deg);
+        }
+        40%,
+        80% {
+            transform: rotate(10deg);
+        }
+    }
+</style>
+
+<a href="https://github.com/blinkfox/hexo-theme-matery" class="github-corner tooltipped hide-on-med-and-down" target="_blank"
+   data-tooltip="Fork Me" data-position="left" data-delay="50">
+    <svg viewBox="0 0 250 250" aria-hidden="true">
+        <path d="M0,0 L115,115 L130,115 L142,142 L250,250 L250,0 Z"></path>
+        <path d="M128.3,109.0 C113.8,99.7 119.0,89.6 119.0,89.6 C122.0,82.7 120.5,78.6 120.5,78.6 C119.2,72.0 123.4,76.3 123.4,76.3 C127.3,80.9 125.5,87.3 125.5,87.3 C122.9,97.6 130.6,101.9 134.4,103.2"
+              fill="currentColor" style="transform-origin: 130px 106px;" class="octo-arm"></path>
+        <path d="M115.0,115.0 C114.9,115.1 118.7,116.5 119.8,115.4 L133.7,101.6 C136.9,99.2 139.9,98.4 142.2,98.6 C133.8,88.0 127.5,74.4 143.8,58.0 C148.5,53.4 154.0,51.2 159.7,51.0 C160.3,49.4 163.2,43.6 171.4,40.1 C171.4,40.1 176.1,42.5 178.8,56.2 C183.1,58.6 187.2,61.8 190.9,65.4 C194.5,69.0 197.7,73.2 200.1,77.6 C213.8,80.2 216.3,84.9 216.3,84.9 C212.7,93.1 206.9,96.0 205.4,96.6 C205.1,102.4 203.0,107.8 198.3,112.5 C181.9,128.9 168.3,122.5 157.7,114.1 C157.9,116.9 156.7,120.9 152.7,124.9 L141.0,136.5 C139.8,137.7 141.6,141.9 141.8,141.8 Z"
+              fill="currentColor" class="octo-body"></path>
+    </svg>
+</a>
+        
+    </nav>
+
+</header>
+
+    
+<script src="/libs/cryptojs/crypto-js.min.js"></script>
+<script>
+    (function() {
+        let pwd = '9f81ee6d15a55b0085a37d80a15a5d29c31a21b18e9de3418ae83df0ceecf550';
+        if (pwd && pwd.length > 0) {
+            if (pwd !== CryptoJS.SHA256(prompt('Please enter password to read this article.')).toString(CryptoJS.enc.Hex)) {
+                alert('Incorrect password, back to the index!');
+                location.href = '/';
+            }
+        }
+    })();
+</script>
+
+
+
+
+<div class="bg-cover pd-header post-cover" style="background-image: url('/medias/images/11.jpg')">
+    <div class="container" style="right: 0px;left: 0px;">
+        <div class="row">
+            <div class="col s12 m12 l12">
+                <div class="brand">
+                    <h1 class="description center-align post-title">Pulsar and Pulsar Timing</h1>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+
+<main class="container content">
+
+    
+    <!-- 文章内容详情 -->
+<div id="artDetail">
+    <div class="card">
+        <div class="card-content article-info">
+            <div class="row tag-cate">
+                <div class="col s7">
+                    
+                    <div class="article-tag">
+                        
+                            <a href="/tags/Pulsar/">
+                                <span class="chip bg-color">Pulsar</span>
+                            </a>
+                        
+                    </div>
+                    
+                </div>
+                <div class="col s5 right-align">
+                    
+                    <div class="post-cate">
+                        <i class="fas fa-bookmark fa-fw icon-category"></i>
+                        
+                            <a href="/categories/Research/" class="post-category">
+                                Research
+                            </a>
+                        
+                    </div>
+                    
+                </div>
+            </div>
+
+            <div class="post-info">
+                
+                <div class="post-date info-break-policy">
+                    <i class="far fa-calendar-minus fa-fw"></i>Publish Date:&nbsp;&nbsp;
+                    2019-09-22
+                </div>
+                
+
+                
+
+                
+
+                
+
+                
+            </div>
+        </div>
+        <hr class="clearfix">
+        <div class="card-content article-card-content">
+            <div id="articleContent">
+                <script src="/assets/js/APlayer.min.js"> </script><h2 id="1-About-Pulsar"><a href="#1-About-Pulsar" class="headerlink" title="1. About Pulsar"></a>1. About Pulsar</h2><p>When a large star gets very old, it will probably blow up. What it blows up to depends on how large it was in the first place, but some stars blow up and become Neutron Stars. When a star the size of our sun runs out of fuel, its outer layers are ejected as a colorful nebula, and the core collapses in on itself into a <strong>white dwarf star</strong>, generally destined to cool and fade over time (<em>left, in illustration below</em>). When a super giant star at least 20 times more massive than our sun runs out of fuel, it collapses abruptly, which can trigger a supernova explosion, and can result in the formation of a <strong>black hole</strong> (<em>right</em>). Stars lighter than about 20 solar masses but several times heavier than our sun can end their lives by creating a supernova that leaves behind a small, dense core rather than a black hole. Gravity presses the material in on itself so tightly that protons and electrons combine to make neutrons. The result is a <strong>neutron star</strong>—in which a mass about equal to that of our sun, is compressed into an incredibly dense sphere with a diameter of only about 20 kilometers (<em>middle</em>).</p>
+<img width="385px" height="185px" src="https://github.com/AstronDog/blog-pic/raw/master/2019092204.jpg">
+
+<p>The high energy of an explosive birth and an extremely dense core can set the stage for a strong magnetic field. The <strong>magnetic axis</strong> can be dramatically misaligned with the <strong>rotational axis</strong>. As the star rotates, it emanates a radio beam, generated by the combined effect of the magnetic field and the rotation, which sweeps periodically through the surrounding space, like a lighthouse beacon. If we’re lucky, then the radiation from these poles sweeps across the earth once during each orbit and we detect ‘pulses’ of radiation. Hence the name, <strong>pulsars</strong>.</p>
+<img width="385px" height="185px" src="https://github.com/AstronDog/blog-pic/raw/master/2019092205.jpg">
+
+<p>Pulsars are fascinating objects - they are incredibly dense (300 million million grams per centimetre cubed!), and often rotating very quickly. Though pulsars do slow down, there are a certain type of extremely short period pulsars (known as millisecond pulsars - they have periods of the order of milliseconds) that slow down very slowly and in an entirely predictable way. Once a mathematical model has been built that describes how the pulsar slows down (called an ephemeris) these pulsars can be used as one of the most reliable clocks in the universe. Because they are so stable data from these pulsars can be used to test theories such as the Theory of General Relativity, or new gravitational models. Joe Taylor of Princeton University and a student of his, Russell Hulse were awarded the Nobel Prize for Physics in 1993 for their pulsar timing work which indirectly detected gravitational waves.</p>
+<img width="385px" height="185px" src="https://github.com/AstronDog/blog-pic/raw/master/2019092202.gif">
+
+
+
+
+
+<p>However, because the pulsar is emitting so much energy it slows down (energy is always conserved) which means that the pulses of radiation get further and further apart. The ‘period’ of a pulsar is the time between each pulse, so as the pulsar slows down the period is seen to increase. Knowing the pulsar period (P) and the rate at which it is slowing down (dP/dt or ‘p-dot’) allows the age and the magnetic field of the pulsar to be found, and the more accurately these parameters are known, the more accurately information can be derived about the pulsar.</p>
+<h3 id="1-1-Discovery-and-Basic-Properties"><a href="#1-1-Discovery-and-Basic-Properties" class="headerlink" title="1.1 Discovery and Basic Properties"></a>1.1 Discovery and Basic Properties</h3><p>Shortly after the discovery of the neutron by Chadwick in 1932, two astronomers, Baade &amp; Zwicky, proposed that during Supernova explosions small, extremely dense objects could be created in the centre of the exploding star. They suggested that the enormous pressure occurring in the centre of the explosion would be sufficient to enable an “inverse beta-decay” during which electrons and protons are combined to neutrons and neutrinos. Neutrinos could leave the star to carry away a substantial amount of energy, leaving behind a very dense object consisting mostly of neutrons. They called these objects accordingly “neutron stars”. </p>
+<p>Five years later, Oppenheimer (who later lead the Manhattan project) &amp; Volkov were the first to calculate the expected size and mass of these newly predicted objects. Based on quantum mechanical arguments they computed that neutron stars should have a diameter of about 20 km while containing 1.4 times the mass of the sun. Given this extremely small size expected for these objects, astronomers therefore considered it to be impossible to ever detect neutron stars and hence to verify the predictions by Baade &amp; Zwicky. </p>
+<p>The situation changed dramatically in 1967. Meanwhile a new window had been opened up for astronomers, the radio window. It was in summer 1967 when a research student, Jocelyn Bell, was working on her PhD thesis at Cambridge under the supervision of Anthony Hewish. They wanted to study the intensity variation of quasars, which were discovered only a few years earlier. After constructing a radio telescope dedicated to monitor the sky for intensity variations, <a target="_blank" rel="noopener" href="http://www.pbs.org/wgbh/aso/ontheedge/pulsar/">Jocelyn Bell came across a signal</a> which originated from a certain location in the sky, RA B19:19:36 - DEC +21:47:16. The signal was highly periodic with a periodicity of 1.337 seconds. Figure 1 shows the discovery recording. </p>
+<p>The astronomers were puzzled by this discovery and wanted to establish its nature before they made it public. Indeed, one possibility that was seriously considered was that of a signal sent by extra-terrestrial intelligence. Soon, however, the team discovered more such periodic signals, and it seemed highly unlikely that one would suddenly receive signals from many different civilisations at once. Moreover, a period variation due to a Doppler effect caused by the moving planet of a possibly transmitting civilisation was not discovered. A natural origin of the signal was hence concluded. </p>
+<h3 id="1-2-The-nature-of-pulsars"><a href="#1-2-The-nature-of-pulsars" class="headerlink" title="1.2 The nature of pulsars"></a>1.2 The nature of pulsars</h3><p>A journalist finally invented the name  “Pulsar” for these objects, standing for “Pulsating Radio Source”. Three possible explanation were put forward in the publication reporting the discovery. A pulsar could be</p>
+<ul>
+<li>an oscillating object (similar to intensity variations of Cepheids in the optical),</li>
+<li>an orbiting object (i.e. a companion eclipsing a radio source) and</li>
+<li>a rotating object (like a rotating lighthouse).</li>
+</ul>
+<p>The question about the true nature of pulsars was finally settled, when a pulsar was discovered in the centre of the Crab Nebula supernova remnant. </p>
+<p>The Crab Nebula (Figure 2; also called M1 as it was the first object in Messier’s famous list) is the visible remnant of a supernova explosion witnessed by Chinese astronomers in A.D.1054. The nebula had been in the focus of discussions before, since its brightness was hard to explain given the nebula’s age. It was suggested that a mysterious star visible in the centre (see arrow in Figure 2) was responsible, but the star did not fit any known category. It happened that in parallel to the discovery of pulsars, Thomas Gold (1968) had proposed that the nebula could be powered by a highly magnetised neutron star. After the discovery of pulsars, Staelin &amp; Reifenstein (1968) observed the nebula for pulsed radio emission. They discovered high intensity pulses originating from the central “strange” star, identifying it as a pulsar. It turned out later, that these “giant pulses” which they observed, occur every two minutes or so, and that the true pulse period was in fact as short as 33 milliseconds. </p>
+<p>Periods for radial oscillations of neutron stars were predicted to be larger than 1 second and were hence incompatible with the periods of the first discovered pulsars. Finally, another property of pulsars, also most easily observed in the Crab pulsar, provided the final clue. It was noticed that the period of pulsars slowly increases, for the Crab pulsar by as much as 36 nanoseconds per day. This property is not expected for the model of an eclipsing binary, where due to the loss of energy one would in fact expect the companions to come closer, reducing the pulse period. However, a slow-down of the period is indeed expected for a rotating object. The problem was finally solved: pulsars are rotating cosmic light houses. </p>
+<p>Pulsars are named according to their celestial coordinates. Using the equatorial system, the name is composed from hours and minutes of right ascension and degrees (and minutes) of declination, preceeded by a leading “PSR” for “pulsar”. As the Earth axis is precessing, the equatorial coordinate system changes slowly and we have to indicate the epoch we refer to. For all newly discovered pulsars today, J2000 coordinates are chosen and we write, for instance, PSR J1022+1001. In the past, coordinates referred to epoch B1950, and well studied pulsars are still known under their B1950 names (not including minutes of declination), e.g. see PSR B0329+54 below. </p>
+<p>But the stacked plot pulses below are irregular, not clean bell curves, as shown in the animation above.</p>
+<img width="385px" height="185px" src="https://github.com/AstronDog/blog-pic/raw/master/2019092206.jpg">
+
+<p>Several researchers, including <a target="_blank" rel="noopener" href="http://adsabs.harvard.edu/abs/1993ApJS...85..145R">Joanna Rankin</a>, have proposed that variation in pulse shape could be due to internal variation in the cone of emissions. Here are some idealized forms, but the pattern could be further complicated with additional hotspots and interference by solar wind.</p>
+<img width="385px" height="185px" src="https://github.com/AstronDog/blog-pic/raw/master/2019092207.jpg">
+
+<p>Although there’s definitely variation from pulse to pulse, the average shape over about a minute results in a characteristic form that is different for each individual pulsar.</p>
+<img width="385px" height="185px" src="https://github.com/AstronDog/blog-pic/raw/master/2019092208.jpg">
+
+<h2 id="2-Pulsar-Data-Archive"><a href="#2-Pulsar-Data-Archive" class="headerlink" title="2. Pulsar Data Archive"></a>2. Pulsar Data Archive</h2><p>The ‘Archive Files’ contain the raw, unprocessed data taken straight from the telescope. All archive files have names that end in ‘.ar’. The telescope collects information on three parameters, and stores it in a three-dimensional array with the following dimensions:</p>
+<blockquote>
+<p>Polarisation<br>Frequency<br>Timei</p>
+</blockquote>
+<p>The polarisation of light is the angle of oscillation of a transverse light wave. Imagine light as a wave on a string - the polarisation is the angle that the string is moving up and down along. Radio waves are electromagnetic waves just like light, so we can talk about how the radio waves are polarised. One of the ways that the angle of this polarisation may be detected is by crossing two electric dipoles at right angles to one another within the telescope- as the wave passes by it induces a voltage across the dipoles - the proportion of voltage induced across each dipole allows us to know the polarisation of the incident radio signal. The polarisation of the radio signal is not the same throughout the pulse - indicating that it changes across the beam. Knowing how it changes allows astronomers to learn about mechanisms inside the pulsar.</p>
+<p>The telescope collects polarisation data as coherency products . These are:</p>
+<blockquote>
+<p>LL (left polarised)<br>RR (right polarised)<br>LR<br>RL</p>
+</blockquote>
+<p>These coherency products are used to give the Stoke’s Parameters (I; Total intensity, Q and U; Linear intensities and V; Circular intensity) which can be used to specify the phase and polarisation of the radiation at any time.</p>
+<p>The frequency in this case doesn’t refer to the pulsar frequency, but to the frequency of radiation coming in. Observations are made in certain bandwidths centred on one frequency, eg 800MHz +/- 0.5MHz so there is some spread in the frequencies of radiation being observed. The frequency of the signal is very important in correcting for a phenomenon known as dispersion:</p>
+<p>As electromagnetic radiation travels through space, it interacts with the interstellar medium (ISM). Photons are scattered off interstellar electrons essentially causing them to slow down. This effect is more prominent with lower frequencies and so they are slowed down more than higher frequencies. This means that when a pulse is detected at the telescope, higher frequencies are detected sooner than lower frequencies. An example of an archive file is shown below:</p>
+<img width="385px" height="185px" src="/home/jwang/2019092208.jpg">
+
+
+<p>Note how the higher frequencies arrive well before the lower frequencies. Knowing the frequencies of the incoming data, this dispersion effect can be accounted for, and the pulse ‘lined up’. An interesting offshoot of this effect is that it gives astronomers the ability to estimate a distance to the pulsar by measuring just how much more delayed the lower frequencies are. The more delayed they are, the more electrons the radiation interacted with - so assuming that the electron density in space is constant (which is not a great assumption), we have an indication of the pulsar’s distance from Earth. The ‘amount of delay’ across the frequencies in each pulse is known as the Dispersion Measure (DM) .</p>
+<p>The ultimate aim of this part of the timing process is to create a Pulse Profile. A pulse profile is a single polarisation intensity distribution usually formed by the integration of several, to several thousand, to several million pulsar rotatios. A good pulse profile will be narrow (properly dispersion corrected and correctly timed) with a high signal to noise ratio. The signal to noise ratio (SNR) is the height of the pulse signal, divided by the average height of the background noise - so the bigger the better! Quantitatively, the ‘root-mean-square’ (like the average) of the noise height goes as one over the square root of the total integration time. This means that combining the data from more pulses reduces the noise height, so the SNR goes up. This is a good thing.</p>
+<h2 id="3-Pulsar-Timing"><a href="#3-Pulsar-Timing" class="headerlink" title="3. Pulsar Timing"></a>3. Pulsar Timing</h2><p>The inherent assumption is that average pulsar profiles are stable (Lorimer &amp; Kramer 2004), and that any given observed profile \(O(x)\) is just a phase-shifted version of the intrinsic profile \(P(x)\) multiplied by a constant plus noise \(N(x)\), ie $$O(x) = AP(x − \alhpa) + N(x)$$, where A is a scale factor and α is the phase shift. One then cross correlates this observed profile with a template, and obtains an arrival time and associated error.</p>
+<p>Pulsars are intrinsically low-luminosity objects, and pulsar timing requires the world’s largest telescopes in many cases just to detect them. From an astrometric point of view, we can think of pulsar timing as an interferometric experiment. The pulsar, due to its massive moment of inertia and small braking torque is a very precise clock. The pulses therefore represent a source of coherent radiation and the Earth-Sun system are immersed in radiation from this coherent source. The wavelength of the radiation can be thought of as having a wavelength \(\lambda = cP\), where \(c\) is the speed of light. The baseline of our experiment is 2 astronomical units (AU). The position of the pulsar can therefore be determined to an accuracy of \(~λ/(2AU)\) times the relative accuracy with which we can determine the arrival time of the pulse at any given epoch. For a gaussian profile this is approximately \(w/(2 × P × SNR)\) where \(w\) is the half-width of the Gaussian and SNR is the signal-to-noise ratio of the pulsar.</p>
+<p>The SNR is provided by a modified version of the radiometer equation: $$SNR = $$</p>
+<p>where S is the pulsar flux in Janskys, G the receiver gain in the units of K/Jy, B the<br>receiver bandwith (Hz), Np is the number of polarisations (usually 2), t the integration<br>time in seconds, and Trec and Tsky are the effective temperatures of the receiver and sky<br>respectively.<br>This means the error (σ) in the arrival times or TOAs is approximately:</p>
+<p>and for the brightest millisecond pulsars can be below 100 nanoseconds. These types of errors permit not only positions to be determined to a precision of just tens of microarcseconds, but also allow very accurate proper motions and even parallaxes, orbital period derivatives, and relativistic effects such as Shapiro delay to be observed. For narrow pulsar profiles, \(\sigma ∝ w^{3/2}\) , highlighting the importance of finding pulsars with narrow features or using instrumentation that minimizes any smearing. </p>
+<p>The theory of pulsar timing relies on the pulse profile being an invariant. We know it isn’t. Observations of slow pulsars with large fluxes demonstrate that pulsar profiles require many rotations to stabilize, but due to their small fluxes, this is difficult to<br>establish for the millisecond pulsars.</p>
+<p>Astronomers fit a template, often constructed of either the sum of the best observations or the addition of several Gaussian components that closely approximate the pulse shape to each observation. As we saw in the introduction the “theory” is that each observation is just a scaled version of the template plus random noise with a phase shift. Fitting to equation 1.1 for A and α (often in the Fourier domain) yield an arrival time (TOA) and error. These TOAs and errors are often placed into a least squares fitting program like tempo2 (Hobbs, Edwards and Manchester 2006) to yield pulsar parameter estimations from which physical interpretations are made.</p>
+<p>Unfortunately, once this fit is performed, the reduced chi-squared is often far from unity, limiting the interpretation of the physical parameter errors, and ultimately the pulsar timing methodology. A conservative approach to this problem is to keep adding a systematic error term in quadrature to each TOA until the reduced chi-squared is unity. A more dangerous (but more often used approach) is to linearly increase the size of each error until the reduced chi-squared is unity. This is an optimistic assumption, but reduces the size of the errors on the physical parameters.</p>
+<h2 id="4-Pulsar-Timing-Process"><a href="#4-Pulsar-Timing-Process" class="headerlink" title="4. Pulsar Timing Process"></a>4. Pulsar Timing Process</h2><p>There are 6 main steps to timing a pulsar:</p>
+<blockquote>
+<ol>
+<li>Use Pav to view the pulses and familiarise yourself with the data.</li>
+<li>Use Pam to scrunch the data</li>
+<li>Choose a standard pulse for that set of data</li>
+<li>Use Pat to measure the difference in pulse arrival times from the standard pulse</li>
+<li>Use the online Pulsar Catalogue to get a up to date ephemeris for the pulsar</li>
+<li>Fit the ephemeris parameters for minmize the residuals with tempo2</li>
+</ol>
+</blockquote>
+<p>The ephemeris of a pulsar is a mathematical model that defines how the pulsar ‘pulses’ - an accurate ephemeris will allow you to predict any time into the future whether the pulse will be ‘on’ or ‘off’.</p>
+<h3 id="4-1-Using-Pav-Pulsar-Archive-Viewer"><a href="#4-1-Using-Pav-Pulsar-Archive-Viewer" class="headerlink" title="4.1 Using Pav (Pulsar Archive Viewer)"></a>4.1 Using Pav (Pulsar Archive Viewer)</h3><p>You can look at a pulse using the visualisation tool ‘pav’. In the directory that you just created, try typing:</p>
+<pre class="line-numbers language-bash"><code class="language-bash">pav -DFTp <span class="token string">'name-of-file.ar'</span>
+<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
+<p>(Any archive file will do for now) Before displaying the data, your computer will ask you to specify a graphics device:</p>
+<pre class="line-numbers language-bash"><code class="language-bash">Graphics device/type <span class="token punctuation">(</span>? to see list, default /NULL<span class="token punctuation">)</span>:
+<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
+<p>Type:</p>
+<pre class="line-numbers language-bash"><code class="language-bash">/xs
+<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
+<p>And a pulse should appear (Hint: typing all the file-name in can be tedious, use your mouse to copy the file-name by left-clicking on the name - it should highlight it. Then, go back to where you were typing and right-click - the highlighted region will copy down).</p>
+<p>What pav has done, is:</p>
+<blockquote>
+<ol>
+<li>‘Scrunched’ (combined) all of the frequency data and accounted for dispersion</li>
+<li>Scrunched all of the polarisation data</li>
+<li>Scrunched the timing data</li>
+<li>Put all the combined data together and created one final pulse for that archive.</li>
+</ol>
+</blockquote>
+<p>To compare more than one pulse at a time, type:</p>
+<pre class="line-numbers language-bash"><code class="language-bash"> pav -DFTp -N 3,3 *.ar
+<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
+<p>Press ‘enter’ to scroll through the data page by page.</p>
+<p>So have a look at these pulses - you’ll notice that most archives show a double peak. Interestingly if you look at the dates (in the filename) you’ll see that the earlier archives don’t resolve the double pulse but the later ones do. This is because the telescope software and hardware has improved somewhat over the years. Some of these archives are great, others are not - some appear to have nothing in them, others really do have nothing in them. One thing to look for is the signal to noise ratio - this is the height of the pulse over the height of the noise in the background. Bigger signal to noise ratios mean a clearer pulse.</p>
+<h3 id="4-2-Using-Pam-Pulsar-Archive-Manipulator"><a href="#4-2-Using-Pam-Pulsar-Archive-Manipulator" class="headerlink" title="4.2 Using Pam (Pulsar Archive Manipulator)"></a>4.2 Using Pam (Pulsar Archive Manipulator)</h3><p>Using ‘pav’ to view the archives involved telling pav to scrunch the data.</p>
+<p>Pam will scrunch the data in each archive, and write it to a new file ending in ‘.FTp’. The archives must be pammed like this so that the pulse arrival times can be properly compared in the next section. You could pam each archive individually- but it would take too long. Using the wildcard ‘*’ you can specify that pam should run on each archive in the following way:</p>
+<pre class="line-numbers language-bash"><code class="language-bash">pam -FTp -e FTp *.ar
+<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
+<p>This literally means: use pam to scrunch the archives ending in ‘.ar’ in frequency, time and polarisation, then write files (-e) that end with ‘.FTp’.</p>
+<p>Because the files have been scrunched, you can view ‘.FTp’ files using ‘pav’ but without the ‘FTp’ part, so try the command:</p>
+<pre class="line-numbers language-bash"><code class="language-bash">pav -D -N 3,3 *.FT
+<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
+<p>Or, to just view one file:</p>
+<pre class="line-numbers language-bash"><code class="language-bash">pav -D <span class="token string">'filename.FT'</span>
+<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
+<p>These pulses should look exactly the same as the scrunched archive files you were looking at in the previous section.</p>
+<h3 id="4-3-Choosing-A-Standard-Pulse"><a href="#4-3-Choosing-A-Standard-Pulse" class="headerlink" title="4.3 Choosing A Standard Pulse"></a>4.3 Choosing A Standard Pulse</h3><p>Now that the data has been scrunched, It is advisable to choose the ‘best looking pulse’ profile as the standard template through psrstat script, which can be used to  evaluation the S/N value of the archives.  Type:</p>
+<pre class="line-numbers language-bash"><code class="language-bash">psrstat -c snr -Q *.FTp <span class="token operator">|</span> <span class="token function">sort</span> -gk2  
+<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
+<p>For simplicity’s sake I’d strongly recommend you to pick the one(for examples, J1713+0747.aaa.FTp) with highest S/N as the single brightest templates and  copy this standard pulse to the tempaltes directory:</p>
+<pre class="line-numbers language-bash"><code class="language-bash"><span class="token function">mkdir</span> templates
+<span class="token function">cp</span> J1713+0747.aaa.FTp ./templates/J1713+0747.FTp.single.std
+<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span></span></code></pre>
+<h3 id="4-4-Using-Pat-Pulsar-Archive-Timer"><a href="#4-4-Using-Pat-Pulsar-Archive-Timer" class="headerlink" title="4.4 Using Pat (Pulsar Archive Timer)"></a>4.4 Using Pat (Pulsar Archive Timer)</h3><p>Pat is used to determine the arrival times of pulsars in each archive. This is the most important part of timing a pulsar and determining its ephemeris.</p>
+<p>Pat will take the pulse data from each pammed data file and measure its arrival time relative to that of the standard pulse. It compiles all of the arrival time data into a file that is suitable for reading by a program called TEMPO2. At the present time, pat can use several cross-correlation algorithms to determine the phase shift between the standard template and the observed Profile. Here, we strongly suggest you to use the ‘Fourier domain with Markov chain Monte Carlo’(‘FDM’) algorithms. </p>
+<p>To use pat, type the following command:</p>
+<pre class="line-numbers language-bash"><code class="language-bash">pat -FT -A FDM -C snr -s fcm20cm.std -f <span class="token string">"tempo2 IPTA"</span> *.FTp <span class="token operator">></span> J1713+0747.tim
+<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
+<p>This translates to: ‘Use pat to compare your standard file to the arrival times of pulses in each of the files with names ending in ‘.FTp’. Output all the arrival time data into a file called your.tim’.</p>
+<p>You could look at the data that pat has produced by either typing ‘more yourinitials.tim’ into your shell, or opening the file with vim (%vim J1713+0747.tim). The data is in a table with the following columns:</p>
+<p>Filename : Observation Frequency : Time of Arrival : Error in Microsecs : Telescope no and any other flags and value represent the observation messages.</p>
+<p>So now you have created a file with the arrival times of all the pulses relative to the standard pulse. This will be used in the next part to show the timing residuals of the pulsar and fit for the up to data ephemeris.</p>
+<h3 id="4-5-Downloading-an-Ephemeris"><a href="#4-5-Downloading-an-Ephemeris" class="headerlink" title="4.5 Downloading an Ephemeris"></a>4.5 Downloading an Ephemeris</h3><p>The most simple pulsar data format is the ephemeris. This is the parameters used in the timing model. Ephemerdies come as text files with a .eph or .par extension.</p>
+<p>For most pulsars, an attempt at timing has already been made and an estimate of an ephemeris drawn up. We use this now to base our new ephemeris on and give the program some idea of where to start. For most pulsars, the ephemeris can be download form the IPTA data release through the EPTA website.</p>
+<p>There appears to be no formal specification of what parameters are used in these files, although a loose standard has developed, with the following common parameters.</p>
+<table>
+<thead>
+<tr>
+<th>Param</th>
+<th>Units</th>
+<th>Description</th>
+<th>Aliases</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>PSRJ</td>
+<td>Str</td>
+<td>Pulsar JName</td>
+<td></td>
+</tr>
+<tr>
+<td>RAJ</td>
+<td>hr</td>
+<td>Right Asscention (J2000)</td>
+<td></td>
+</tr>
+<tr>
+<td>DECJ</td>
+<td>deg</td>
+<td>Declination (J2000)</td>
+<td></td>
+</tr>
+<tr>
+<td>PEPOCH</td>
+<td>MJD</td>
+<td>Period Epoch</td>
+<td></td>
+</tr>
+<tr>
+<td>F0</td>
+<td>Hz</td>
+<td>Rotational Frequency</td>
+<td>or P/P0</td>
+</tr>
+<tr>
+<td>F1</td>
+<td>Hz/s</td>
+<td>First derivitive of F0</td>
+<td></td>
+</tr>
+<tr>
+<td>F2</td>
+<td>Hz/s/s</td>
+<td>Second derivitive of F0</td>
+<td></td>
+</tr>
+<tr>
+<td>POSEPOCH</td>
+<td>MJD</td>
+<td>Position Epoch</td>
+<td></td>
+</tr>
+<tr>
+<td>DM</td>
+<td>pc/cm3</td>
+<td>Dispersion Measure</td>
+<td></td>
+</tr>
+<tr>
+<td>START</td>
+<td>MJD</td>
+<td>Time the eph is valid from</td>
+<td></td>
+</tr>
+<tr>
+<td>FINISH</td>
+<td>MJD</td>
+<td>Time the eph is valid till</td>
+<td></td>
+</tr>
+<tr>
+<td>BINARY</td>
+<td>Str</td>
+<td>The binary model used (if any)</td>
+<td></td>
+</tr>
+<tr>
+<td>EPHVER</td>
+<td>Int</td>
+<td>The eph version</td>
+<td>5:tempo2</td>
+</tr>
+<tr>
+<td>CLK</td>
+<td>Str</td>
+<td>Definition of clock to use</td>
+<td></td>
+</tr>
+<tr>
+<td>PMRA</td>
+<td>mas/yr</td>
+<td>Proper mothin in RA</td>
+<td></td>
+</tr>
+<tr>
+<td>PMDEC</td>
+<td>mas/yr</td>
+<td>Proper mothin in DEC</td>
+<td></td>
+</tr>
+<tr>
+<td>PX</td>
+<td>mas</td>
+<td>Parallax</td>
+<td></td>
+</tr>
+<tr>
+<td>NITS</td>
+<td>Int</td>
+<td>Number of fitting interations</td>
+<td></td>
+</tr>
+</tbody></table>
+<p>The parameters for the binary motion are dependent on the binary model used.</p>
+<p>For the <strong>BT</strong> model:</p>
+<table>
+<thead>
+<tr>
+<th>Param</th>
+<th>Units</th>
+<th>Description</th>
+<th>Aliases</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>A1</td>
+<td>ltsec</td>
+<td>projected semimajor axis</td>
+<td></td>
+</tr>
+<tr>
+<td>ECC</td>
+<td></td>
+<td>Eccentricity of the orbit</td>
+<td></td>
+</tr>
+<tr>
+<td>T0</td>
+<td>MJD</td>
+<td>Epoch of periastron</td>
+<td></td>
+</tr>
+<tr>
+<td>PB</td>
+<td>days</td>
+<td>Orbital Period</td>
+<td></td>
+</tr>
+<tr>
+<td>OM</td>
+<td>deg</td>
+<td>Longitude of Periastron</td>
+<td></td>
+</tr>
+<tr>
+<td>ECCDOT</td>
+<td></td>
+<td>First derivitive of ECC</td>
+<td></td>
+</tr>
+<tr>
+<td>XDOT</td>
+<td></td>
+<td>First derivitive of A1</td>
+<td></td>
+</tr>
+<tr>
+<td>OMDOT</td>
+<td>deg/yr</td>
+<td>First derivitive of OM</td>
+<td></td>
+</tr>
+<tr>
+<td>PBDOT</td>
+<td></td>
+<td>First derivitive of PB</td>
+<td></td>
+</tr>
+</tbody></table>
+<h3 id="4-6-Using-tempo2-to-show-the-residuals-and-fit-Ephemeris-for-the-Pulsar"><a href="#4-6-Using-tempo2-to-show-the-residuals-and-fit-Ephemeris-for-the-Pulsar" class="headerlink" title="4.6. Using tempo2 to show the residuals and fit Ephemeris for the Pulsar"></a>4.6. Using tempo2 to show the residuals and fit Ephemeris for the Pulsar</h3><p>The TEMPO2 software package is mainly used in pulsar timing analysis. It d implements pulsar timing algorithms with a precision and accuracy of ~1 ns.  Usually TEMPO2 is used to compare a model for a pulsar’s rotation, position and orbital parameters with actual observations of  pulse arrival times. </p>
+<p>The difference between actual and predicted arrival times are known as the pulsar “timing residuals”. After calculating these timing residuals, TEMPO2 carries out a linear least-squares-fit to improve the parameters in the model. It is possible that the model is too simplistic and does not contain all the phenomena that affect the pulse arrival times. For instance, the pulsar may undergo glitch events, or may have unmodelled binary companions. Various tools exist to study such effects that are not included in the timing model. TEMPO2 can also be used to predict the pulse period and phase at any given time.</p>
+<p>Type:</p>
+<pre class="line-numbers language-bash"><code class="language-bash">tempo2 -gr plk -f J1713+0747.IPTA.par J1713+0747.tim
+<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
+<p>$$x = 100 * y + z - 10 / 33 + 10 % 3$$</p>
+<p>hangjiangongsh1:  \(a + b\)</p>
+<script>
+        document.querySelectorAll('.github-emoji')
+          .forEach(el => {
+            if (!el.dataset.src) { return; }
+            const img = document.createElement('img');
+            img.style = 'display:none !important;';
+            img.src = el.dataset.src;
+            img.addEventListener('error', () => {
+              img.remove();
+              el.style.color = 'inherit';
+              el.style.backgroundImage = 'none';
+              el.style.background = 'none';
+            });
+            img.addEventListener('load', () => {
+              img.remove();
+            });
+            document.body.appendChild(img);
+          });
+      </script>
+            </div>
+            <hr/>
+
+            
+
+    <div class="reprint" id="reprint-statement">
+        
+            <div class="reprint__author">
+                <span class="reprint-meta" style="font-weight: bold;">
+                    <i class="fas fa-user">
+                        Author:
+                    </i>
+                </span>
+                <span class="reprint-info">
+                    <a href="/about" rel="external nofollow noreferrer">Jun Wang</a>
+                </span>
+            </div>
+            <div class="reprint__type">
+                <span class="reprint-meta" style="font-weight: bold;">
+                    <i class="fas fa-link">
+                        Link:
+                    </i>
+                </span>
+                <span class="reprint-info">
+                    <a href="http://www.drjun.wang/2019/09/22/20190922-pulsar-timing/">http://www.drjun.wang/2019/09/22/20190922-pulsar-timing/</a>
+                </span>
+            </div>
+            <div class="reprint__notice">
+                <span class="reprint-meta" style="font-weight: bold;">
+                    <i class="fas fa-copyright">
+                        Reprint policy:
+                    </i>
+                </span>
+                <span class="reprint-info">
+                    All articles in this blog are used except for special statements
+                    <a href="https://creativecommons.org/licenses/by/4.0/deed.zh" rel="external nofollow noreferrer" target="_blank">CC BY 4.0</a>
+                    reprint policy. If reproduced, please indicate source
+                    <a href="/about" target="_blank">Jun Wang</a>
+                    !
+                </span>
+            </div>
+        
+    </div>
+
+    <script async defer>
+      document.addEventListener("copy", function (e) {
+        let toastHTML = '<span>Copied successfully, please follow the reprint policy of this article</span><button class="btn-flat toast-action" onclick="navToReprintStatement()" style="font-size: smaller">more</a>';
+        M.toast({html: toastHTML})
+      });
+
+      function navToReprintStatement() {
+        $("html, body").animate({scrollTop: $("#reprint-statement").offset().top - 80}, 800);
+      }
+    </script>
+
+
+
+            <div class="tag_share" style="display: block;">
+                <div class="post-meta__tag-list" style="display: inline-block;">
+                    
+                        <div class="article-tag">
+                            
+                                <a href="/tags/Pulsar/">
+                                    <span class="chip bg-color">Pulsar</span>
+                                </a>
+                            
+                        </div>
+                    
+                </div>
+                <div class="post_share" style="zoom: 80%; width: fit-content; display: inline-block; float: right; margin: -0.15rem 0;">
+                    <link rel="stylesheet" type="text/css" href="/libs/share/css/share.min.css">
+<div id="article-share">
+
+    
+    <div class="social-share" data-sites="twitter,facebook,google,qq,qzone,wechat,weibo,douban,linkedin" data-wechat-qrcode-helper="<p>微信扫一扫即可分享！</p>"></div>
+    <script src="/libs/share/js/social-share.min.js"></script>
+    
+
+    
+
+</div>
+
+                </div>
+            </div>
+            
+                <style>
+    #reward {
+        margin: 40px 0;
+        text-align: center;
+    }
+
+    #reward .reward-link {
+        font-size: 1.4rem;
+        line-height: 38px;
+    }
+
+    #reward .btn-floating:hover {
+        box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2), 0 5px 15px rgba(0, 0, 0, 0.2);
+    }
+
+    #rewardModal {
+        width: 320px;
+        height: 350px;
+    }
+
+    #rewardModal .reward-title {
+        margin: 15px auto;
+        padding-bottom: 5px;
+    }
+
+    #rewardModal .modal-content {
+        padding: 10px;
+    }
+
+    #rewardModal .close {
+        position: absolute;
+        right: 15px;
+        top: 15px;
+        color: rgba(0, 0, 0, 0.5);
+        font-size: 1.3rem;
+        line-height: 20px;
+        cursor: pointer;
+    }
+
+    #rewardModal .close:hover {
+        color: #ef5350;
+        transform: scale(1.3);
+        -moz-transform:scale(1.3);
+        -webkit-transform:scale(1.3);
+        -o-transform:scale(1.3);
+    }
+
+    #rewardModal .reward-tabs {
+        margin: 0 auto;
+        width: 210px;
+    }
+
+    .reward-tabs .tabs {
+        height: 38px;
+        margin: 10px auto;
+        padding-left: 0;
+    }
+
+    .reward-content ul {
+        padding-left: 0 !important;
+    }
+
+    .reward-tabs .tabs .tab {
+        height: 38px;
+        line-height: 38px;
+    }
+
+    .reward-tabs .tab a {
+        color: #fff;
+        background-color: #ccc;
+    }
+
+    .reward-tabs .tab a:hover {
+        background-color: #ccc;
+        color: #fff;
+    }
+
+    .reward-tabs .wechat-tab .active {
+        color: #fff !important;
+        background-color: #22AB38 !important;
+    }
+
+    .reward-tabs .alipay-tab .active {
+        color: #fff !important;
+        background-color: #019FE8 !important;
+    }
+
+    .reward-tabs .reward-img {
+        width: 210px;
+        height: 210px;
+    }
+</style>
+
+<div id="reward">
+    <a href="#rewardModal" class="reward-link modal-trigger btn-floating btn-medium waves-effect waves-light red">赏</a>
+
+    <!-- Modal Structure -->
+    <div id="rewardModal" class="modal">
+        <div class="modal-content">
+            <a class="close modal-close"><i class="fas fa-times"></i></a>
+            <h4 class="reward-title">Thanks for your donation!</h4>
+            <div class="reward-content">
+                <div class="reward-tabs">
+                    <ul class="tabs row">
+                        <li class="tab col s6 alipay-tab waves-effect waves-light"><a href="#alipay">支付宝</a></li>
+                        <li class="tab col s6 wechat-tab waves-effect waves-light"><a href="#wechat">微 信</a></li>
+                    </ul>
+                    <div id="alipay">
+                        <img src="/medias/reward/alipay.jpg" class="reward-img" alt="支付宝打赏二维码">
+                    </div>
+                    <div id="wechat">
+                        <img src="/medias/reward/wechat.png" class="reward-img" alt="微信打赏二维码">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script>
+    $(function () {
+        $('.tabs').tabs();
+    });
+</script>
+
+            
+        </div>
+    </div>
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+<article id="prenext-posts" class="prev-next articles">
+    <div class="row article-row">
+        
+        <div class="article col s12 m6" data-aos="fade-up">
+            <div class="article-badge left-badge text-color">
+                <i class="fas fa-chevron-left"></i>&nbsp;Previous</div>
+            <div class="card">
+                <a href="/2019/09/26/20190926-toa/">
+                    <div class="card-image">
+                        
+                        <img src="/medias/images/12.jpg" class="responsive-img" alt="Time of Arrival">
+                        
+                        <span class="card-title">Time of Arrival</span>
+                    </div>
+                </a>
+                <div class="card-content article-content">
+                    <div class="summary block-with-text">
+                        
+                            This article illustrates the TOAs.
+                        
+                    </div>
+                    <div class="publish-info">
+                        <span class="publish-date">
+                            <i class="far fa-clock fa-fw icon-date"></i>2019-09-26
+                        </span>
+                        <span class="publish-author">
+                            
+                            <i class="fas fa-bookmark fa-fw icon-category"></i>
+                            
+                            <a href="/categories/Research/" class="post-category">
+                                    Research
+                                </a>
+                            
+                            
+                        </span>
+                    </div>
+                </div>
+                
+                <div class="card-action article-tags">
+                    
+                    <a href="/tags/Pulsar/">
+                        <span class="chip bg-color">Pulsar</span>
+                    </a>
+                    
+                </div>
+                
+            </div>
+        </div>
+        
+        
+        <div class="article col s12 m6" data-aos="fade-up">
+            <div class="article-badge right-badge text-color">
+                Next&nbsp;<i class="fas fa-chevron-right"></i>
+            </div>
+            <div class="card">
+                <a href="/2019/05/27/20190527-sklearn/">
+                    <div class="card-image">
+                        
+                        <img src="/medias/images/10.jpg" class="responsive-img" alt="20190527-sklearn">
+                        
+                        <span class="card-title">20190527-sklearn</span>
+                    </div>
+                </a>
+                <div class="card-content article-content">
+                    <div class="summary block-with-text">
+                        
+                            This article illustrates the usage of LaTeX formula.
+                        
+                    </div>
+                    <div class="publish-info">
+                            <span class="publish-date">
+                                <i class="far fa-clock fa-fw icon-date"></i>2019-05-27
+                            </span>
+                        <span class="publish-author">
+                            
+                            <i class="fas fa-bookmark fa-fw icon-category"></i>
+                            
+                            <a href="/categories/Learn/" class="post-category">
+                                    Learn
+                                </a>
+                            
+                            
+                        </span>
+                    </div>
+                </div>
+                
+                <div class="card-action article-tags">
+                    
+                    <a href="/tags/Software/">
+                        <span class="chip bg-color">Software</span>
+                    </a>
+                    
+                </div>
+                
+            </div>
+        </div>
+        
+    </div>
+</article>
+
+</div>
+
+
+
+<!-- 代码块功能依赖 -->
+<script type="text/javascript" src="/libs/codeBlock/codeBlockFuction.js"></script>
+
+<!-- 代码语言 -->
+
+<script type="text/javascript" src="/libs/codeBlock/codeLang.js"></script>
+
+
+<!-- 代码块复制 -->
+
+<script type="text/javascript" src="/libs/codeBlock/codeCopy.js"></script>
+
+
+<!-- 代码块收缩 -->
+
+<script type="text/javascript" src="/libs/codeBlock/codeShrink.js"></script>
+
+
+<!-- 代码块折行 -->
+
+<style type="text/css">
+code[class*="language-"], pre[class*="language-"] { white-space: pre !important; }
+</style>
+
+
+    
+
+</main>
+
+
+<script src="https://cdn.bootcss.com/mathjax/2.7.5/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+<script>
+    MathJax.Hub.Config({
+        tex2jax: {inlineMath: [['$', '$'], ['\(', '\)']]}
+    });
+</script>
+
+
+
+    <footer class="page-footer bg-color">
+    
+        <link rel="stylesheet" href="/libs/aplayer/APlayer.min.css">
+<style>
+    .aplayer .aplayer-lrc p {
+        
+        display: none;
+        
+        font-size: 12px;
+        font-weight: 700;
+        line-height: 16px !important;
+    }
+
+    .aplayer .aplayer-lrc p.aplayer-lrc-current {
+        
+        display: none;
+        
+        font-size: 15px;
+        color: #42b983;
+    }
+
+    
+    .aplayer.aplayer-fixed.aplayer-narrow .aplayer-body {
+        left: -66px !important;
+    }
+
+    .aplayer.aplayer-fixed.aplayer-narrow .aplayer-body:hover {
+        left: 0px !important;
+    }
+
+    
+</style>
+<div class="">
+    
+    <div class="row">
+        <meting-js class="col l8 offset-l2 m10 offset-m1 s12"
+                   server="netease"
+                   type="playlist"
+                   id="503838841"
+                   fixed='true'
+                   autoplay='false'
+                   theme='#42b983'
+                   loop='all'
+                   order='random'
+                   preload='auto'
+                   volume='0.7'
+                   list-folded='true'
+        >
+        </meting-js>
+    </div>
+</div>
+
+<script src="/libs/aplayer/APlayer.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/meting@2/dist/Meting.min.js"></script>
+
+    
+    <div class="container row center-align" style="margin-bottom: 0px !important;">
+        <div class="col s12 m8 l8 copy-right">
+            Copyright&nbsp;&copy;
+            <span id="year">2019</span>
+            <a href="/about" target="_blank">Jun Wang</a>
+            |&nbsp;Powered by&nbsp;<a href="https://github.com/" target="_blank">GitHub</a>
+            |&nbsp;Theme&nbsp;<a href="https://www.astrondog.com" target="_blank">AstronDog</a>
+            <br>
+            
+            
+            
+            
+            
+            
+            <span id="busuanzi_container_site_pv">
+                |&nbsp;<i class="far fa-eye"></i>&nbsp;总访问量:&nbsp;<span id="busuanzi_value_site_pv"
+                    class="white-color"></span>&nbsp;次
+            </span>
+            
+            
+            <span id="busuanzi_container_site_uv">
+                |&nbsp;<i class="fas fa-users"></i>&nbsp;总访问人数:&nbsp;<span id="busuanzi_value_site_uv"
+                    class="white-color"></span>&nbsp;人
+            </span>
+            
+            <br>
+            
+            <br>
+            
+        </div>
+        <div class="col s12 m4 l4 social-link social-statis">
+    <a href="https://github.com/astrondog" class="tooltipped" target="_blank" data-tooltip="Vist GitHub" data-position="top" data-delay="50">
+        <i class="fab fa-github"></i>
+    </a>
+
+
+
+    <a href="mailto:junwang@drjun.wang" class="tooltipped" target="_blank" data-tooltip="Contact me via Email" data-position="top" data-delay="50">
+        <i class="fas fa-envelope-open"></i>
+    </a>
+
+
+
+
+
+
+
+    <a href="tencent://AddContact/?fromId=50&fromSubId=1&subcmd=all&uin=454450168" class="tooltipped" target="_blank" data-tooltip="Contact me via QQ: 454450168" data-position="top" data-delay="50">
+        <i class="fab fa-qq"></i>
+    </a>
+
+
+
+
+
+
+
+    <a href="/atom.xml" class="tooltipped" target="_blank" data-tooltip="RSS subscribe" data-position="top" data-delay="50">
+        <i class="fas fa-rss"></i>
+    </a>
+
+</div>
+    </div>
+</footer>
+
+<div class="progress-bar"></div>
+
+
+    <!-- 搜索遮罩框 -->
+<div id="searchModal" class="modal">
+    <div class="modal-content">
+        <div class="search-header">
+            <span class="title"><i class="fas fa-search"></i>&nbsp;&nbsp;Search</span>
+            <input type="search" id="searchInput" name="s" placeholder="Please enter a search keyword"
+                   class="search-input">
+        </div>
+        <div id="searchResult"></div>
+    </div>
+</div>
+
+<script src="/js/search.js"></script>
+<script type="text/javascript">
+$(function () {
+    searchFunc("/search.xml", 'searchInput', 'searchResult');
+});
+</script>
+
+    <!-- 回到顶部按钮 -->
+<div id="backTop" class="top-scroll">
+    <a class="btn-floating btn-large waves-effect waves-light" href="#!">
+        <i class="fas fa-arrow-up"></i>
+    </a>
+</div>
+
+
+    <script src="/libs/materialize/materialize.min.js"></script>
+    <script src="/libs/masonry/masonry.pkgd.min.js"></script>
+    <script src="/libs/aos/aos.js"></script>
+    <script src="/libs/scrollprogress/scrollProgress.min.js"></script>
+    <script src="/libs/lightGallery/js/lightgallery-all.min.js"></script>
+    <script src="/js/matery.js"></script>
+
+    <!-- Baidu Analytics -->
+
+    <!-- Baidu Push -->
+
+<script>
+    (function () {
+        var bp = document.createElement('script');
+        var curProtocol = window.location.protocol.split(':')[0];
+        if (curProtocol === 'https') {
+            bp.src = 'https://zz.bdstatic.com/linksubmit/push.js';
+        } else {
+            bp.src = 'http://push.zhanzhang.baidu.com/push.js';
+        }
+        var s = document.getElementsByTagName("script")[0];
+        s.parentNode.insertBefore(bp, s);
+    })();
+</script>
+
+    
+    <script src="/libs/others/clicklove.js" async="async"></script>
+    
+    
+    <script async src="/libs/others/busuanzi.pure.mini.js"></script>
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+    <script src="/libs/instantpage/instantpage.js" type="module"></script>
+    
+
+</body>
+
+</html>
+
+
+<!-- weather -->
+<script type="text/javascript">
+WIDGET = {FID: 'YWKH0s75Vi'}
+</script>
+<script type="text/javascript" src="https://apip.weatherdt.com/float/static/js/r.js?v=1111"></script>

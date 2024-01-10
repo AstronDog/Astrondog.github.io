@@ -1,0 +1,1258 @@
+<!DOCTYPE HTML>
+<html lang="en">
+
+
+<head>
+    <meta charset="utf-8">
+    <meta name="keywords" content="Software Installation for Pulsar Data Analysis, Dr. JunWang">
+    <meta name="description" content="">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+    <meta name="renderer" content="webkit|ie-stand|ie-comp">
+    <meta name="mobile-web-app-capable" content="yes">
+    <meta name="format-detection" content="telephone=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+
+
+    <title>Software Installation for Pulsar Data Analysis | Dr. JunWang</title>
+    <link rel="icon" type="image/png" href="/favicon.png">
+
+    <link rel="stylesheet" type="text/css" href="/libs/awesome/css/all.min.css">
+    <link rel="stylesheet" type="text/css" href="/libs/materialize/materialize.min.css">
+    <link rel="stylesheet" type="text/css" href="/libs/aos/aos.css">
+    <link rel="stylesheet" type="text/css" href="/libs/animate/animate.min.css">
+    <link rel="stylesheet" type="text/css" href="/libs/lightGallery/css/lightgallery.min.css">
+    <link rel="stylesheet" type="text/css" href="/css/matery.css">
+    <link rel="stylesheet" type="text/css" href="/css/my.css">
+
+    <script src="/libs/jquery/jquery-3.6.0.min.js"></script>
+
+<meta name="generator" content="Hexo 5.4.2"><link rel="alternate" href="/atom.xml" title="Dr. JunWang" type="application/atom+xml">
+<link rel="stylesheet" href="/css/prism-tomorrow.css" type="text/css">
+<link rel="stylesheet" href="/css/prism-line-numbers.css" type="text/css"></head>
+
+
+<body>
+    <header class="navbar-fixed">
+    <nav id="headNav" class="bg-color nav-transparent">
+        <div id="navContainer" class="nav-wrapper container">
+            <div class="brand-logo">
+                <a href="/" class="waves-effect waves-light">
+                    
+                    <img src="/medias/logo.png" class="logo-img" alt="LOGO">
+                    
+                    <span class="logo-span">Dr. JunWang</span>
+                </a>
+            </div>
+            
+
+<a href="#" data-target="mobile-nav" class="sidenav-trigger button-collapse"><i class="fas fa-bars"></i></a>
+<ul class="right nav-menu">
+  
+  <li class="hide-on-med-and-down nav-item">
+    
+    <a href="/" class="waves-effect waves-light">
+      
+      <i class="fas fa-home" style="zoom: 0.6;"></i>
+      
+      <span>Index</span>
+    </a>
+    
+  </li>
+  
+  <li class="hide-on-med-and-down nav-item">
+    
+    <a href="/tags" class="waves-effect waves-light">
+      
+      <i class="fas fa-tags" style="zoom: 0.6;"></i>
+      
+      <span>Tags</span>
+    </a>
+    
+  </li>
+  
+  <li class="hide-on-med-and-down nav-item">
+    
+    <a href="/categories" class="waves-effect waves-light">
+      
+      <i class="fas fa-bookmark" style="zoom: 0.6;"></i>
+      
+      <span>Categories</span>
+    </a>
+    
+  </li>
+  
+  <li class="hide-on-med-and-down nav-item">
+    
+    <a href="/archives" class="waves-effect waves-light">
+      
+      <i class="fas fa-archive" style="zoom: 0.6;"></i>
+      
+      <span>Archives</span>
+    </a>
+    
+  </li>
+  
+  <li class="hide-on-med-and-down nav-item">
+    
+    <a href="/about" class="waves-effect waves-light">
+      
+      <i class="fas fa-user-circle" style="zoom: 0.6;"></i>
+      
+      <span>About</span>
+    </a>
+    
+  </li>
+  
+  <li class="hide-on-med-and-down nav-item">
+    
+    <a href="/cv" class="waves-effect waves-light">
+      
+      <i class="fas fa-user-tie" style="zoom: 0.6;"></i>
+      
+      <span>CV</span>
+    </a>
+    
+  </li>
+  
+  <li>
+    <a href="#searchModal" class="modal-trigger waves-effect waves-light">
+      <i id="searchIcon" class="fas fa-search" title="Search" style="zoom: 0.85;"></i>
+    </a>
+  </li>
+</ul>
+
+
+<div id="mobile-nav" class="side-nav sidenav">
+
+    <div class="mobile-head bg-color">
+        
+        <img src="/medias/logo.png" class="logo-img circle responsive-img">
+        
+        <div class="logo-name">Dr. JunWang</div>
+        <div class="logo-desc">
+            
+            Never really desperate, only the lost of the soul.
+            
+        </div>
+    </div>
+
+    
+
+    <ul class="menu-list mobile-menu-list">
+        
+        <li class="m-nav-item">
+	  
+		<a href="/" class="waves-effect waves-light">
+			
+			    <i class="fa-fw fas fa-home"></i>
+			
+			Index
+		</a>
+          
+        </li>
+        
+        <li class="m-nav-item">
+	  
+		<a href="/tags" class="waves-effect waves-light">
+			
+			    <i class="fa-fw fas fa-tags"></i>
+			
+			Tags
+		</a>
+          
+        </li>
+        
+        <li class="m-nav-item">
+	  
+		<a href="/categories" class="waves-effect waves-light">
+			
+			    <i class="fa-fw fas fa-bookmark"></i>
+			
+			Categories
+		</a>
+          
+        </li>
+        
+        <li class="m-nav-item">
+	  
+		<a href="/archives" class="waves-effect waves-light">
+			
+			    <i class="fa-fw fas fa-archive"></i>
+			
+			Archives
+		</a>
+          
+        </li>
+        
+        <li class="m-nav-item">
+	  
+		<a href="/about" class="waves-effect waves-light">
+			
+			    <i class="fa-fw fas fa-user-circle"></i>
+			
+			About
+		</a>
+          
+        </li>
+        
+        <li class="m-nav-item">
+	  
+		<a href="/cv" class="waves-effect waves-light">
+			
+			    <i class="fa-fw fas fa-user-tie"></i>
+			
+			CV
+		</a>
+          
+        </li>
+        
+        
+        <li><div class="divider"></div></li>
+        <li>
+            <a href="https://github.com/blinkfox/hexo-theme-matery" class="waves-effect waves-light" target="_blank">
+                <i class="fab fa-github-square fa-fw"></i>Fork Me
+            </a>
+        </li>
+        
+    </ul>
+</div>
+
+
+        </div>
+
+        
+            <style>
+    .nav-transparent .github-corner {
+        display: none !important;
+    }
+
+    .github-corner {
+        position: absolute;
+        z-index: 10;
+        top: 0;
+        right: 0;
+        border: 0;
+        transform: scale(1.1);
+    }
+
+    .github-corner svg {
+        color: #0f9d58;
+        fill: #fff;
+        height: 64px;
+        width: 64px;
+    }
+
+    .github-corner:hover .octo-arm {
+        animation: a 0.56s ease-in-out;
+    }
+
+    .github-corner .octo-arm {
+        animation: none;
+    }
+
+    @keyframes a {
+        0%,
+        to {
+            transform: rotate(0);
+        }
+        20%,
+        60% {
+            transform: rotate(-25deg);
+        }
+        40%,
+        80% {
+            transform: rotate(10deg);
+        }
+    }
+</style>
+
+<a href="https://github.com/blinkfox/hexo-theme-matery" class="github-corner tooltipped hide-on-med-and-down" target="_blank"
+   data-tooltip="Fork Me" data-position="left" data-delay="50">
+    <svg viewBox="0 0 250 250" aria-hidden="true">
+        <path d="M0,0 L115,115 L130,115 L142,142 L250,250 L250,0 Z"></path>
+        <path d="M128.3,109.0 C113.8,99.7 119.0,89.6 119.0,89.6 C122.0,82.7 120.5,78.6 120.5,78.6 C119.2,72.0 123.4,76.3 123.4,76.3 C127.3,80.9 125.5,87.3 125.5,87.3 C122.9,97.6 130.6,101.9 134.4,103.2"
+              fill="currentColor" style="transform-origin: 130px 106px;" class="octo-arm"></path>
+        <path d="M115.0,115.0 C114.9,115.1 118.7,116.5 119.8,115.4 L133.7,101.6 C136.9,99.2 139.9,98.4 142.2,98.6 C133.8,88.0 127.5,74.4 143.8,58.0 C148.5,53.4 154.0,51.2 159.7,51.0 C160.3,49.4 163.2,43.6 171.4,40.1 C171.4,40.1 176.1,42.5 178.8,56.2 C183.1,58.6 187.2,61.8 190.9,65.4 C194.5,69.0 197.7,73.2 200.1,77.6 C213.8,80.2 216.3,84.9 216.3,84.9 C212.7,93.1 206.9,96.0 205.4,96.6 C205.1,102.4 203.0,107.8 198.3,112.5 C181.9,128.9 168.3,122.5 157.7,114.1 C157.9,116.9 156.7,120.9 152.7,124.9 L141.0,136.5 C139.8,137.7 141.6,141.9 141.8,141.8 Z"
+              fill="currentColor" class="octo-body"></path>
+    </svg>
+</a>
+        
+    </nav>
+
+</header>
+
+    
+<script src="/libs/cryptojs/crypto-js.min.js"></script>
+<script>
+    (function() {
+        let pwd = '06fb4a6dfec9bb2c8d48a7ef9f5369f20e8f05d49ccdbcc2dc474dd148e0a38a';
+        if (pwd && pwd.length > 0) {
+            if (pwd !== CryptoJS.SHA256(prompt('Please enter password to read this article.')).toString(CryptoJS.enc.Hex)) {
+                alert('Incorrect password, back to the index!');
+                location.href = '/';
+            }
+        }
+    })();
+</script>
+
+
+
+
+<div class="bg-cover pd-header post-cover" style="background-image: url('/medias/images/02.jpg')">
+    <div class="container" style="right: 0px;left: 0px;">
+        <div class="row">
+            <div class="col s12 m12 l12">
+                <div class="brand">
+                    <h1 class="description center-align post-title">Software Installation for Pulsar Data Analysis</h1>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+
+<main class="container content">
+
+    
+    <!-- 文章内容详情 -->
+<div id="artDetail">
+    <div class="card">
+        <div class="card-content article-info">
+            <div class="row tag-cate">
+                <div class="col s7">
+                    
+                    <div class="article-tag">
+                        
+                            <a href="/tags/Pulsar/">
+                                <span class="chip bg-color">Pulsar</span>
+                            </a>
+                        
+                            <a href="/tags/Software/">
+                                <span class="chip bg-color">Software</span>
+                            </a>
+                        
+                    </div>
+                    
+                </div>
+                <div class="col s5 right-align">
+                    
+                    <div class="post-cate">
+                        <i class="fas fa-bookmark fa-fw icon-category"></i>
+                        
+                            <a href="/categories/Research/" class="post-category">
+                                Research
+                            </a>
+                        
+                    </div>
+                    
+                </div>
+            </div>
+
+            <div class="post-info">
+                
+                <div class="post-date info-break-policy">
+                    <i class="far fa-calendar-minus fa-fw"></i>Publish Date:&nbsp;&nbsp;
+                    2019-01-18
+                </div>
+                
+
+                
+
+                
+
+                
+
+                
+            </div>
+        </div>
+        <hr class="clearfix">
+        <div class="card-content article-card-content">
+            <div id="articleContent">
+                <script src="/assets/js/APlayer.min.js"> </script><h3 id="1-Ubuntu-Linux-64-bit"><a href="#1-Ubuntu-Linux-64-bit" class="headerlink" title="1. Ubuntu Linux (64-bit)"></a>1. Ubuntu Linux (64-bit)</h3><p>This guide takes you through the necessary steps required to install software for pulsar data analysis on a machine running Ubuntu Linux. These notes are based on installation onto a fresh install of Ubuntu 14.04 LTS on a 64-bit machine. Please note that for installation to be successful, the software should be installed in the order described on this page.</p>
+<h3 id="2-Installation"><a href="#2-Installation" class="headerlink" title="2. Installation"></a>2. Installation</h3><h4 id="2-1-Define-some-environmental-variables"><a href="#2-1-Define-some-environmental-variables" class="headerlink" title="2.1 Define some environmental variables"></a>2.1 Define some environmental variables</h4><pre class="line-numbers language-bash"><code class="language-bash"><span class="token comment" spellcheck="true"># Path to the pulsar software installation directory e.g:</span>
+<span class="token function">export</span> ASTROSOFT<span class="token operator">=</span>/home/<span class="token punctuation">{</span>user<span class="token punctuation">}</span>/pulsar_software
+
+<span class="token comment" spellcheck="true"># OSTYPE</span>
+<span class="token function">export</span> OSTYPE<span class="token operator">=</span>linux
+
+<span class="token comment" spellcheck="true"># BOOST</span>
+<span class="token function">export</span> BOOST_ROOT<span class="token operator">=</span><span class="token variable">$ASTROSOFT</span>/boost_1_68_0
+<span class="token function">export</span> BOOST_LIB<span class="token operator">=</span><span class="token variable">$BOOST_ROOT</span>/stage/lib
+
+<span class="token comment" spellcheck="true"># PSRCAT</span>
+<span class="token function">export</span> PSRCAT_RUNDIR<span class="token operator">=</span><span class="token variable">$ASTROSOFT</span>/psrcat_tar
+<span class="token function">export</span> PSRCAT_FILE<span class="token operator">=</span><span class="token variable">$ASTROSOFT</span>/psrcat_tar/psrcat.db
+
+<span class="token comment" spellcheck="true"># Tempo</span>
+<span class="token function">export</span> TEMPO<span class="token operator">=</span><span class="token variable">$ASTROSOFT</span>/tempo
+
+<span class="token comment" spellcheck="true"># Tempo2</span>
+<span class="token function">export</span> TEMPO2<span class="token operator">=</span><span class="token variable">$ASTROSOFT</span>/tempo2/T2runtime
+
+<span class="token comment" spellcheck="true"># PGPLOT</span>
+<span class="token function">export</span> PGPLOT_DIR<span class="token operator">=</span><span class="token variable">$ASTROSOFT</span>/pgplot_build
+<span class="token function">export</span> PGPLOT_DEV<span class="token operator">=</span>/xwindow
+<span class="token function">export</span> PGPLOT_FONT<span class="token operator">=</span><span class="token variable">$ASTROSOFT</span>/pgplot_build/grfont.dat
+
+<span class="token comment" spellcheck="true"># PRESTO</span>
+<span class="token function">export</span> PRESTO<span class="token operator">=</span><span class="token variable">$ASTROSOFT</span>/presto
+
+<span class="token comment" spellcheck="true"># MULTINEST</span>
+<span class="token function">export</span> MULTINEST_DIR<span class="token operator">=</span><span class="token variable">$ASTROSOFT</span>/TempoNest/MultiNest
+
+<span class="token comment" spellcheck="true"># LD_LIBRARY_PATH</span>
+<span class="token function">export</span> LD_LIBRARY_PATH<span class="token operator">=</span>/usr/lib:/usr/lib/x86_64-linux-gnu:<span class="token variable">$PGPLOT_DIR</span><span class="token keyword">:</span><span class="token variable">$ASTROSOFT</span>/lib:<span class="token variable">$PRESTO</span>/lib:<span class="token variable">$PRESTO</span>/lib64:<span class="token variable">$MULTINEST_DIR</span>
+
+<span class="token comment" spellcheck="true"># PATH</span>
+<span class="token comment" spellcheck="true"># Some Presto executables match sigproc executables so keep separate -</span>
+<span class="token comment" spellcheck="true"># all other executables are found in $ASTROSOFT/bin</span>
+<span class="token function">export</span> PATH<span class="token operator">=</span><span class="token variable">$PATH</span><span class="token keyword">:</span><span class="token variable">$ASTROSOFT</span>/bin:<span class="token variable">$PRESTO</span>/bin:<span class="token variable">$PGPLOT_DIR</span>
+
+<span class="token comment" spellcheck="true"># PYTHON PATH eg.</span>
+<span class="token function">export</span> PYTHONPATH<span class="token operator">=</span><span class="token variable">$PRESTO</span>/lib/python:<span class="token variable">$PRESTO</span>/lib64/python:/usr/lib/python2.7/site-packages/:/usr/lib64/python2.7/site-packages:<span class="token variable">$ASTROSOFT</span>/lib/python2.7/site-packages
+<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
+<p>Then reload your .bashrc file and check changes are taken up:</p>
+<pre class="line-numbers language-bash"><code class="language-bash">$ <span class="token function">source</span> ~/.bashrc
+$ <span class="token keyword">echo</span> <span class="token variable">$ASTROSOFT</span>
+<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span></span></code></pre>
+<h4 id="2-2-Install-some-dependencies"><a href="#2-2-Install-some-dependencies" class="headerlink" title="2.2 Install some dependencies"></a>2.2 Install some dependencies</h4><pre class="line-numbers language-bash"><code class="language-bash"><span class="token function">sudo</span> <span class="token function">apt-get</span> <span class="token function">install</span> <span class="token function">ftp</span> <span class="token function">wget</span> csh build-essential gfortran  cvs autoconf automake libtool m4 <span class="token function">git</span> gsl-bin libgsl-dev flex bison fort77 libglib2.0-dev gnuplot gnuplot-x11 python-dev python-numpy python-scipy python-matplotlib ipython python-sympy python-nose swig libltdl-dev libltdl7 dkms <span class="token function">htop</span> <span class="token function">screen</span> xterm emacs gpicview xpdf cmake default-jre default-jdk libblas3 liblapack3 libblas-dev liblapack-dev libxext-dev libx11-dev libopenmpi-dev openmpi-bin libhdf5-openmpi-dev mpich libmpich-dev libhdf5-mpich-dev
+<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
+<h4 id="2-3-Build"><a href="#2-3-Build" class="headerlink" title="2.3 Build"></a>2.3 Build</h4><h5 id="ZLIB"><a href="#ZLIB" class="headerlink" title="ZLIB"></a>ZLIB</h5><pre class="line-numbers language-bash"><code class="language-bash"><span class="token function">cd</span> zlib-1.2.11/
+./configure --prefix<span class="token operator">=</span><span class="token variable">$ASTROSOFT</span>
+<span class="token function">make</span>
+<span class="token function">make</span> <span class="token function">install</span>
+<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span></span></code></pre>
+<h5 id="CURL"><a href="#CURL" class="headerlink" title="CURL"></a>CURL</h5><pre class="line-numbers language-bash"><code class="language-bash"><span class="token function">cd</span> curl-7.61.1/
+./configure --prefix<span class="token operator">=</span><span class="token variable">$ASTROSOFT</span> --with-ssh --with-zlib
+<span class="token function">make</span>
+<span class="token function">make</span> <span class="token function">install</span>
+<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span></span></code></pre>
+<h5 id="GIT"><a href="#GIT" class="headerlink" title="GIT"></a>GIT</h5><pre class="line-numbers language-bash"><code class="language-bash"><span class="token function">cd</span> git-2.19.0/
+./configure --prefix<span class="token operator">=</span><span class="token variable">$ASTROSOFT</span> CFLAGS<span class="token operator">=</span>-I<span class="token variable">$ASTROSOFT</span>/include LDFLAGS<span class="token operator">=</span>-L<span class="token variable">$ASTROSOFT</span>/lib
+<span class="token function">make</span>
+<span class="token function">make</span> <span class="token function">install</span>
+<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span></span></code></pre>
+<h5 id="LAPACK"><a href="#LAPACK" class="headerlink" title="LAPACK"></a>LAPACK</h5><pre class="line-numbers language-bash"><code class="language-bash"><span class="token function">cd</span> lapack-release/
+<span class="token function">make</span> PREFIX<span class="token operator">=</span><span class="token variable">$ASTROSOFT</span>
+<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span></span></code></pre>
+<h5 id="BOOST"><a href="#BOOST" class="headerlink" title="BOOST"></a>BOOST</h5><pre class="line-numbers language-bash"><code class="language-bash"><span class="token function">cd</span> boost_1_68_0/
+./bootstrap.sh --prefix<span class="token operator">=</span><span class="token variable">$ASTROSOFT</span>
+./b2
+<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span></span></code></pre>
+<h5 id="PRF2FITS"><a href="#PRF2FITS" class="headerlink" title="PRF2FITS"></a>PRF2FITS</h5><pre class="line-numbers language-bash"><code class="language-bash"><span class="token function">cd</span> prf2fits/
+<span class="token function">make</span> cfgen prf2fits
+<span class="token function">cp</span> <span class="token punctuation">{</span>prf2fits,cfgen<span class="token punctuation">}</span> <span class="token variable">$ASTROSOFT</span>/bin
+<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span></span></code></pre>
+<h5 id="FFTW"><a href="#FFTW" class="headerlink" title="FFTW"></a>FFTW</h5><pre class="line-numbers language-bash"><code class="language-bash"><span class="token function">cd</span> fftw-<span class="token punctuation">{</span>version<span class="token punctuation">}</span>
+<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
+<p>a) single precision (for Ps</p>
+<pre class="line-numbers language-bash"><code class="language-bash">./configure --prefix<span class="token operator">=</span><span class="token variable">$ASTROSOFT</span> --enable-float --enable-threads --enable-shared --enable-single CFLAGS<span class="token operator">=</span>-fPIC FFLAGS<span class="token operator">=</span>-fPIC
+<span class="token function">make</span>
+<span class="token function">make</span> check
+<span class="token function">make</span> <span class="token function">install</span>
+<span class="token function">make</span> clean
+<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span></span></code></pre>
+<p>b) double precision (for Tempo2)</p>
+<pre class="line-numbers language-bash"><code class="language-bash">./configure --prefix<span class="token operator">=</span><span class="token variable">$ASTROSOFT</span> CFLAGS<span class="token operator">=</span>-fPIC FFLAGS<span class="token operator">=</span>-fPIC
+<span class="token function">make</span>
+<span class="token function">make</span> check
+<span class="token function">make</span> <span class="token function">install</span>
+<span class="token function">make</span> clean
+<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span></span></code></pre>
+<h5 id="CFITISO"><a href="#CFITISO" class="headerlink" title="CFITISO"></a>CFITISO</h5><pre class="line-numbers language-bash"><code class="language-bash"><span class="token function">cd</span> cfitsio
+./configure --prefix<span class="token operator">=</span><span class="token variable">$ASTROSOFT</span> CFLAGS<span class="token operator">=</span>-fPIC FFLAGS<span class="token operator">=</span>-fPIC
+<span class="token function">make</span> shared
+<span class="token function">make</span> <span class="token function">install</span>
+<span class="token function">make</span> clean
+<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span></span></code></pre>
+<h5 id="PSRCAT"><a href="#PSRCAT" class="headerlink" title="PSRCAT"></a>PSRCAT</h5><pre class="line-numbers language-bash"><code class="language-bash"><span class="token function">cd</span> psrcat_tar
+<span class="token function">source</span> makeit
+<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span></span></code></pre>
+<p>Copy psrcat executable to $ASTROSOFT/bin:</p>
+<pre class="line-numbers language-bash"><code class="language-bash"><span class="token function">cp</span> psrcat <span class="token variable">$ASTROSOFT</span>/bin
+<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
+<h5 id="PGPLOT"><a href="#PGPLOT" class="headerlink" title="PGPLOT"></a>PGPLOT</h5><p>Create an empty directory (pgplot_build) alongside the pgplot-{version} directory.<br>Copy pgplot-{version}/drivers.list to the pgplot_build directory.</p>
+<pre class="line-numbers language-bash"><code class="language-bash"><span class="token function">cd</span> pgplot_build
+<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
+<p>Edit drivers.list as required to enable the appropriate drivers(suggest to uncomment the following lines:),</p>
+<pre class="line-numbers language-bash"><code class="language-bash"><span class="token comment" spellcheck="true">#GIDRIV 1</span>
+<span class="token comment" spellcheck="true">#GIDRIV 2</span>
+<span class="token comment" spellcheck="true">#PNDRIV 1 </span>
+<span class="token comment" spellcheck="true">#PNDRIV 2 </span>
+<span class="token comment" spellcheck="true">#PSDRIV 1</span>
+<span class="token comment" spellcheck="true">#PSDRIV 2</span>
+<span class="token comment" spellcheck="true">#PSDRIV 3</span>
+<span class="token comment" spellcheck="true">#PSDRIV 4</span>
+<span class="token comment" spellcheck="true">#X2DRIV 0</span>
+<span class="token comment" spellcheck="true">#XWDRIV 1</span>
+<span class="token comment" spellcheck="true">#XWDRIV 2</span>
+<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
+<p>then start the build:</p>
+<pre class="line-numbers language-bash"><code class="language-bash"><span class="token punctuation">..</span>/pgplot/makemake <span class="token punctuation">..</span>/pgplot linux g77_gcc_aout
+<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
+<p>Edit the makefile with the following:</p>
+<p>a) Set the fortran compiler to gfortran, and append FFLAGC and CFLAGC with -fPIC e.g:</p>
+<pre class="line-numbers language-bash"><code class="language-bash">FCOMPL<span class="token operator">=</span>gfortran
+FFLAGC<span class="token operator">=</span>-fPIC -Wall -O
+CFLAGC<span class="token operator">=</span>-fPIC -DPG_PPU -O2 -I.
+<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span></span></code></pre>
+<p>b) Check paths to png.h, pngconf.h, zlib.h, zconf.h, and change line 882</p>
+<pre class="line-numbers language-bash"><code class="language-bash">pndriv.o <span class="token keyword">:</span> ./png.h ./pngconf.h ./zlib.h ./zconf.h
+<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
+<p>to eg:</p>
+<pre class="line-numbers language-bash"><code class="language-bash">pndriv.o <span class="token keyword">:</span> /usr/include/libpng12/png.h /usr/include/libpng12/pngconf.h /usr/include/zlib.h /usr/src/linux-headers-4.18.0-15/incluede/linux/zconf.h
+<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
+<p>Save the file and compile it:</p>
+<pre class="line-numbers language-bash"><code class="language-bash"><span class="token function">make</span>
+<span class="token function">make</span> clean
+<span class="token function">make</span> cpg
+ld -shared -o libcpgplot.so --whole-archive libcpgplot.a
+<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span></span></code></pre>
+<p>Try the PGPLOT demo:</p>
+<pre class="line-numbers language-bash"><code class="language-bash">./pgdemo1
+<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
+<p>Press enter at the prompt.</p>
+<h5 id="TEMPO"><a href="#TEMPO" class="headerlink" title="TEMPO"></a>TEMPO</h5><pre class="line-numbers language-bash"><code class="language-bash"><span class="token function">cd</span> tempo
+./prepare
+./configure F77<span class="token operator">=</span>gfortran --prefix<span class="token operator">=</span><span class="token variable">$ASTROSOFT</span> CFLAGS<span class="token operator">=</span>-fPIC FFLAGS<span class="token operator">=</span>-fPIC
+<span class="token function">make</span>
+<span class="token function">make</span> <span class="token function">install</span>
+<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span></span></code></pre>
+<h5 id="TEMPO2"><a href="#TEMPO2" class="headerlink" title="TEMPO2"></a>TEMPO2</h5><pre class="line-numbers language-bash"><code class="language-bash"><span class="token function">cd</span> tempo2
+./bootstrap
+./configure F77<span class="token operator">=</span>gfortran --prefix<span class="token operator">=</span><span class="token variable">$ASTROSOFT</span> --with-cfitsio-dir<span class="token operator">=</span><span class="token variable">$ASTROSOFT</span> --with-fftw3-dir<span class="token operator">=</span><span class="token variable">$ASTROSOFT</span> CFLAGS<span class="token operator">=</span>-fPIC FFLAGS<span class="token operator">=</span>-fPIC CXXFLAGS<span class="token operator">=</span><span class="token string">"-I<span class="token variable">$ASTROSOFT</span>/include -I<span class="token variable">$PGPLOT_DIR</span>"</span> LDFLAGS<span class="token operator">=</span>-L<span class="token variable">$PGPLOT_DIR</span>
+<span class="token function">make</span> <span class="token operator">&amp;&amp;</span> <span class="token function">make</span> <span class="token function">install</span>
+<span class="token function">make</span> plugins <span class="token operator">&amp;&amp;</span> <span class="token function">make</span> plugins-install
+<span class="token function">make</span> unsupported
+<span class="token function">make</span> clean
+<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
+<h5 id="PSRCHIVE-with-python-interface"><a href="#PSRCHIVE-with-python-interface" class="headerlink" title="PSRCHIVE (with python interface)"></a>PSRCHIVE (with python interface)</h5><pre class="line-numbers language-bash"><code class="language-bash"><span class="token function">cd</span> psrchive
+./bootstrap
+./configure F77<span class="token operator">=</span>gfortran --prefix<span class="token operator">=</span><span class="token variable">$ASTROSOFT</span> --with-cfitsio-dir<span class="token operator">=</span><span class="token variable">$ASTROSOFT</span> --with-fftw3-dir<span class="token operator">=</span><span class="token variable">$ASTROSOFT</span> --enable-shared CFLAGS<span class="token operator">=</span>-fPIC FFLAGS<span class="token operator">=</span>-fPIC CXXFLAGS<span class="token operator">=</span><span class="token string">"-I<span class="token variable">$INC</span> -I<span class="token variable">$PGPLOT_DIR</span>"</span> LDFLAGS<span class="token operator">=</span>-L<span class="token variable">$PGPLOT_DIR</span>
+<span class="token function">make</span>
+<span class="token function">make</span> <span class="token function">install</span>
+<span class="token function">make</span> clean
+<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
+<h5 id="SIGPROC-Mike-Keith’s-version"><a href="#SIGPROC-Mike-Keith’s-version" class="headerlink" title="SIGPROC (Mike Keith’s version)"></a>SIGPROC (Mike Keith’s version)</h5><pre class="line-numbers language-bash"><code class="language-bash"><span class="token function">cd</span> sigproc
+./bootstrap
+./configure --prefix<span class="token operator">=</span><span class="token variable">$ASTROSOFT</span> --with-cfitsio-dir<span class="token operator">=</span><span class="token variable">$ASTROSOFT</span> --with-fftw-dir<span class="token operator">=</span><span class="token variable">$ASTROSOFT</span> F77<span class="token operator">=</span>gfortran CFLAGS<span class="token operator">=</span>-fPIC FFLAGS<span class="token operator">=</span>-fPIC CPPFLAGS<span class="token operator">=</span>-I<span class="token variable">$ASTROSOFT</span>/include LDFLAGS<span class="token operator">=</span><span class="token string">"-L<span class="token variable">$ASTROSOFT</span>/lib -L<span class="token variable">$PGPLOT_DIR</span> -L/usr/lib/x86_64-linux-gnu"</span> LIBS<span class="token operator">=</span><span class="token string">"-lX11 -ltempo2pred -lpng"</span>
+<span class="token function">make</span>
+<span class="token function">make</span> <span class="token function">install</span>
+<span class="token function">make</span> clean
+<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
+<h5 id="DSPSR"><a href="#DSPSR" class="headerlink" title="DSPSR"></a>DSPSR</h5><p>To select the backend support to be compiled, create a text file named ‘backends.list’ containing e.g:</p>
+<pre class="line-numbers language-bash"><code class="language-bash">apsr asp bcpm bpsr caspsr cpsr2 cpsr dummy fits gmrt guppi kat lbadr64 lbadr lump lwa mark4 mark5 maxim mwa pdev pmdaq s2 sigproc spda1k spigot vdif
+<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
+<p>Continue the build:</p>
+<pre class="line-numbers language-bash"><code class="language-bash">./bootstrap
+./configure --prefix<span class="token operator">=</span><span class="token variable">$ASTROSOFT</span> --with-cfitsio-dir<span class="token operator">=</span><span class="token variable">$ASTROSOFT</span> F77<span class="token operator">=</span>gfortran CFLAGS<span class="token operator">=</span>-fPIC FFLAGS<span class="token operator">=</span>-fPIC LDFLAGS<span class="token operator">=</span>-L<span class="token variable">$PGPLOT_DIR</span>
+<span class="token function">make</span>
+<span class="token function">make</span> <span class="token function">install</span>
+<span class="token function">make</span> clean
+<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span></span></code></pre>
+<h5 id="TEMPONEST"><a href="#TEMPONEST" class="headerlink" title="TEMPONEST"></a>TEMPONEST</h5><pre class="line-numbers language-bash"><code class="language-bash"><span class="token function">cd</span> TempoNest
+
+<span class="token comment" spellcheck="true"># build MultiNest</span>
+<span class="token function">cd</span> MultiNest/
+<span class="token function">mv</span> Makefile MakefileMPI
+<span class="token function">cp</span> MakefileNoMPI Makefile
+<span class="token function">make</span>
+<span class="token function">make</span> libnest3.so
+
+<span class="token function">cd</span> <span class="token punctuation">..</span>/
+./autogen.sh
+./configure CXXFLAGS<span class="token operator">=</span>-I<span class="token variable">$ASTROSOFT</span>/include LDFLAGS<span class="token operator">=</span>-L<span class="token variable">$ASTROSOFT</span>/lib
+<span class="token function">make</span> <span class="token operator">&amp;&amp;</span> <span class="token function">make</span> <span class="token function">install</span>
+<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
+<h5 id="PRESTO-v2-latest-version"><a href="#PRESTO-v2-latest-version" class="headerlink" title="PRESTO v2 (latest version)"></a>PRESTO v2 (latest version)</h5><pre class="line-numbers language-bash"><code class="language-bash"><span class="token function">cd</span> presto/src
+<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
+<p>Edit Makefile as follows:</p>
+<p>a) Define paths to fftw and cfitsio includes and libs</p>
+<pre class="line-numbers language-bash"><code class="language-bash">FFTINC <span class="token operator">=</span> -I<span class="token variable"><span class="token variable">$(</span>ASTROSOFT<span class="token variable">)</span></span>/include
+FFTLINK <span class="token operator">=</span> -L<span class="token variable"><span class="token variable">$(</span>ASTROSOFT<span class="token variable">)</span></span>/lib -lfftw3f
+CFITSIOINC <span class="token operator">=</span> -I<span class="token variable"><span class="token variable">$(</span>ASTROSOFT<span class="token variable">)</span></span>/include
+CFITSIOLINK <span class="token operator">=</span> -L<span class="token variable"><span class="token variable">$(</span>ASTROSOFT<span class="token variable">)</span></span>/lib -lcfitsio
+<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span></span></code></pre>
+<p>b) Add ‘-lm’ flag to CFLAGS</p>
+<p>c) Add ‘-g -fPIC’ to FFLAGS</p>
+<p>Continue the build:</p>
+<pre class="line-numbers language-bash"><code class="language-bash"><span class="token function">make</span> makewisdom
+<span class="token function">make</span> prep
+<span class="token function">make</span>
+<span class="token function">make</span> clean
+<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span></span></code></pre>
+<p>Now for the python:</p>
+<pre class="line-numbers language-bash"><code class="language-bash"><span class="token function">cd</span> <span class="token variable">$PRESTO</span>/python
+<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
+<p>Edit library and include paths in setup.py and setup_ppgplot.py e.g.:</p>
+<pre class="line-numbers language-bash"><code class="language-bash">setup.py
+---
+extra_compile_args <span class="token operator">=</span> <span class="token punctuation">[</span><span class="token string">"-DUSEFFTW -fPIC"</span><span class="token punctuation">]</span>
+include_dirs <span class="token operator">=</span> <span class="token punctuation">[</span><span class="token string">"/home/{user}/pulsar_software/include"</span><span class="token punctuation">]</span>
+ppgplot_libraries <span class="token operator">=</span> <span class="token punctuation">[</span><span class="token string">"cpgplot"</span>, <span class="token string">"pgplot"</span>, <span class="token string">"X11"</span>, <span class="token string">"png"</span>, <span class="token string">"m"</span>, <span class="token string">"gfortran"</span><span class="token punctuation">]</span>
+ppgplot_library_dirs <span class="token operator">=</span> <span class="token punctuation">[</span><span class="token string">"/home/{user}/pulsar_software/pgplot_build"</span><span class="token punctuation">]</span>
+presto_libraries <span class="token operator">=</span> <span class="token punctuation">[</span><span class="token string">"presto"</span>, <span class="token string">"fftw3f"</span>, <span class="token string">"m"</span><span class="token punctuation">]</span>
+presto_library_dirs <span class="token operator">=</span> <span class="token punctuation">[</span><span class="token string">"/home/{user}/pulsar_software/lib"</span>,<span class="token string">"/home/{user}/pulsar_software/presto/lib"</span><span class="token punctuation">]</span>
+---
+setup_ppgplot.py
+---
+extra_compile_args <span class="token operator">=</span> <span class="token punctuation">[</span><span class="token string">"-fPIC"</span><span class="token punctuation">]</span>
+ppgplot_libraries <span class="token operator">=</span> <span class="token punctuation">[</span><span class="token string">"cpgplot"</span>, <span class="token string">"pgplot"</span>, <span class="token string">"X11"</span>, <span class="token string">"png"</span>, <span class="token string">"m"</span>, <span class="token string">"g2c"</span>, <span class="token string">"gfortran"</span><span class="token punctuation">]</span>
+ppgplot_library_dirs <span class="token operator">=</span> <span class="token punctuation">[</span><span class="token string">"/home/{user}/pulsar_software/pgplot_build"</span><span class="token punctuation">]</span>
+---
+<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
+<p>Continue the build:</p>
+<pre class="line-numbers language-bash"><code class="language-bash"><span class="token function">make</span>
+<span class="token function">make</span> clean
+<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span></span></code></pre>
+<h3 id="Packages-Download"><a href="#Packages-Download" class="headerlink" title="Packages Download"></a>Packages Download</h3><pre class="line-numbers language-bash"><code class="language-bash"><span class="token comment" spellcheck="true"># zlib</span>
+curl -L <span class="token string">"https://zlib.net/zlib-1.2.11.tar.gz"</span> -o zlib-1.2.11<span class="token punctuation">..</span>tar.gz
+<span class="token comment" spellcheck="true"># git</span>
+curl -L <span class="token string">"https://mirrors.edge.kernel.org/pub/software/scm/git/git-2.9.4.tar.gz"</span> -o git-2.9.4.tar.gz
+<span class="token comment" spellcheck="true"># boost</span>
+curl -L <span class="token string">"https://dl.bintray.com/boostorg/release/1.68.0/source/boost_1_68_0.tar.gz"</span> -o boost_1_68_0.tar.gz
+<span class="token comment" spellcheck="true"># curl</span>
+curl -L <span class="token string">"https://curl.haxx.se/download/curl-7.61.1.tar.gz"</span> -o curl-7.61.1.tar.gz
+<span class="token comment" spellcheck="true"># calceph</span>
+curl -L <span class="token string">"https://www.imcce.fr/content/medias/recherche/equipes/asd/calceph/calceph-3.1.0.tar.gz"</span> -o calceph-3.1.0.tar.gz
+<span class="token comment" spellcheck="true"># lapack</span>
+<span class="token function">git</span> clone https://github.com/Reference-LAPACK/lapack-release.git
+<span class="token comment" spellcheck="true"># psr2fits</span>
+<span class="token function">git</span> clone https://github.com/shiningsurya/prf2fits.git
+<span class="token comment" spellcheck="true"># cfitsio</span>
+curl -L <span class="token string">"http://heasarc.gsfc.nasa.gov/FTP/software/fitsio/c/cfitsio3450.tar.gz"</span> -o cfitsio3450.tar.gz 
+<span class="token comment" spellcheck="true"># psrcat</span>
+curl -L <span class="token string">"http://www.atnf.csiro.au/research/pulsar/psrcat/downloads/psrcat_pkg.tar.gz"</span> -o psrcat_pkg.tar.gz
+<span class="token comment" spellcheck="true"># fftw</span>
+curl -L <span class="token string">"http://www.fftw.org/fftw-3.3.8.tar.gz"</span> -o fftw-3.3.8.tar.gz
+<span class="token comment" spellcheck="true"># pgplot</span>
+curl -L <span class="token string">"ftp://ftp.astro.caltech.edu/pub/pgplot/pgplot5.2.tar.gz"</span> -o pgplot5.2.tar.gz
+<span class="token comment" spellcheck="true"># psrchive</span>
+<span class="token function">git</span> clone git://git.code.sf.net/p/psrchive/code psrchive
+<span class="token comment" spellcheck="true"># tempo</span>
+<span class="token function">git</span> clone git://git.code.sf.net/p/tempo/tempo
+<span class="token comment" spellcheck="true"># tempo2</span>
+<span class="token function">git</span> clone https://bitbucket.org/psrsoft/tempo2.git
+<span class="token comment" spellcheck="true"># presto</span>
+<span class="token function">git</span> clone git://github.com/scottransom/presto.git
+<span class="token comment" spellcheck="true"># dspsr</span>
+<span class="token function">git</span> clone git://git.code.sf.net/p/dspsr/code dspsr
+<span class="token comment" spellcheck="true"># tempoNest</span>
+<span class="token function">git</span> clone https://github.com/LindleyLentati/TempoNest.git
+<span class="token comment" spellcheck="true"># Mike Keith's version of sigproc which handles PSRFITS format files:</span>
+<span class="token function">git</span> clone https://github.com/SixByNine/sigproc.git
+<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
+<script>
+        document.querySelectorAll('.github-emoji')
+          .forEach(el => {
+            if (!el.dataset.src) { return; }
+            const img = document.createElement('img');
+            img.style = 'display:none !important;';
+            img.src = el.dataset.src;
+            img.addEventListener('error', () => {
+              img.remove();
+              el.style.color = 'inherit';
+              el.style.backgroundImage = 'none';
+              el.style.background = 'none';
+            });
+            img.addEventListener('load', () => {
+              img.remove();
+            });
+            document.body.appendChild(img);
+          });
+      </script>
+            </div>
+            <hr/>
+
+            
+
+    <div class="reprint" id="reprint-statement">
+        
+            <div class="reprint__author">
+                <span class="reprint-meta" style="font-weight: bold;">
+                    <i class="fas fa-user">
+                        Author:
+                    </i>
+                </span>
+                <span class="reprint-info">
+                    <a href="/about" rel="external nofollow noreferrer">Jun Wang</a>
+                </span>
+            </div>
+            <div class="reprint__type">
+                <span class="reprint-meta" style="font-weight: bold;">
+                    <i class="fas fa-link">
+                        Link:
+                    </i>
+                </span>
+                <span class="reprint-info">
+                    <a href="http://www.drjun.wang/2019/01/18/20190118-pulsar-software/">http://www.drjun.wang/2019/01/18/20190118-pulsar-software/</a>
+                </span>
+            </div>
+            <div class="reprint__notice">
+                <span class="reprint-meta" style="font-weight: bold;">
+                    <i class="fas fa-copyright">
+                        Reprint policy:
+                    </i>
+                </span>
+                <span class="reprint-info">
+                    All articles in this blog are used except for special statements
+                    <a href="https://creativecommons.org/licenses/by/4.0/deed.zh" rel="external nofollow noreferrer" target="_blank">CC BY 4.0</a>
+                    reprint policy. If reproduced, please indicate source
+                    <a href="/about" target="_blank">Jun Wang</a>
+                    !
+                </span>
+            </div>
+        
+    </div>
+
+    <script async defer>
+      document.addEventListener("copy", function (e) {
+        let toastHTML = '<span>Copied successfully, please follow the reprint policy of this article</span><button class="btn-flat toast-action" onclick="navToReprintStatement()" style="font-size: smaller">more</a>';
+        M.toast({html: toastHTML})
+      });
+
+      function navToReprintStatement() {
+        $("html, body").animate({scrollTop: $("#reprint-statement").offset().top - 80}, 800);
+      }
+    </script>
+
+
+
+            <div class="tag_share" style="display: block;">
+                <div class="post-meta__tag-list" style="display: inline-block;">
+                    
+                        <div class="article-tag">
+                            
+                                <a href="/tags/Pulsar/">
+                                    <span class="chip bg-color">Pulsar</span>
+                                </a>
+                            
+                                <a href="/tags/Software/">
+                                    <span class="chip bg-color">Software</span>
+                                </a>
+                            
+                        </div>
+                    
+                </div>
+                <div class="post_share" style="zoom: 80%; width: fit-content; display: inline-block; float: right; margin: -0.15rem 0;">
+                    <link rel="stylesheet" type="text/css" href="/libs/share/css/share.min.css">
+<div id="article-share">
+
+    
+    <div class="social-share" data-sites="twitter,facebook,google,qq,qzone,wechat,weibo,douban,linkedin" data-wechat-qrcode-helper="<p>微信扫一扫即可分享！</p>"></div>
+    <script src="/libs/share/js/social-share.min.js"></script>
+    
+
+    
+
+</div>
+
+                </div>
+            </div>
+            
+                <style>
+    #reward {
+        margin: 40px 0;
+        text-align: center;
+    }
+
+    #reward .reward-link {
+        font-size: 1.4rem;
+        line-height: 38px;
+    }
+
+    #reward .btn-floating:hover {
+        box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2), 0 5px 15px rgba(0, 0, 0, 0.2);
+    }
+
+    #rewardModal {
+        width: 320px;
+        height: 350px;
+    }
+
+    #rewardModal .reward-title {
+        margin: 15px auto;
+        padding-bottom: 5px;
+    }
+
+    #rewardModal .modal-content {
+        padding: 10px;
+    }
+
+    #rewardModal .close {
+        position: absolute;
+        right: 15px;
+        top: 15px;
+        color: rgba(0, 0, 0, 0.5);
+        font-size: 1.3rem;
+        line-height: 20px;
+        cursor: pointer;
+    }
+
+    #rewardModal .close:hover {
+        color: #ef5350;
+        transform: scale(1.3);
+        -moz-transform:scale(1.3);
+        -webkit-transform:scale(1.3);
+        -o-transform:scale(1.3);
+    }
+
+    #rewardModal .reward-tabs {
+        margin: 0 auto;
+        width: 210px;
+    }
+
+    .reward-tabs .tabs {
+        height: 38px;
+        margin: 10px auto;
+        padding-left: 0;
+    }
+
+    .reward-content ul {
+        padding-left: 0 !important;
+    }
+
+    .reward-tabs .tabs .tab {
+        height: 38px;
+        line-height: 38px;
+    }
+
+    .reward-tabs .tab a {
+        color: #fff;
+        background-color: #ccc;
+    }
+
+    .reward-tabs .tab a:hover {
+        background-color: #ccc;
+        color: #fff;
+    }
+
+    .reward-tabs .wechat-tab .active {
+        color: #fff !important;
+        background-color: #22AB38 !important;
+    }
+
+    .reward-tabs .alipay-tab .active {
+        color: #fff !important;
+        background-color: #019FE8 !important;
+    }
+
+    .reward-tabs .reward-img {
+        width: 210px;
+        height: 210px;
+    }
+</style>
+
+<div id="reward">
+    <a href="#rewardModal" class="reward-link modal-trigger btn-floating btn-medium waves-effect waves-light red">赏</a>
+
+    <!-- Modal Structure -->
+    <div id="rewardModal" class="modal">
+        <div class="modal-content">
+            <a class="close modal-close"><i class="fas fa-times"></i></a>
+            <h4 class="reward-title">Thanks for your donation!</h4>
+            <div class="reward-content">
+                <div class="reward-tabs">
+                    <ul class="tabs row">
+                        <li class="tab col s6 alipay-tab waves-effect waves-light"><a href="#alipay">支付宝</a></li>
+                        <li class="tab col s6 wechat-tab waves-effect waves-light"><a href="#wechat">微 信</a></li>
+                    </ul>
+                    <div id="alipay">
+                        <img src="/medias/reward/alipay.jpg" class="reward-img" alt="支付宝打赏二维码">
+                    </div>
+                    <div id="wechat">
+                        <img src="/medias/reward/wechat.png" class="reward-img" alt="微信打赏二维码">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script>
+    $(function () {
+        $('.tabs').tabs();
+    });
+</script>
+
+            
+        </div>
+    </div>
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+<article id="prenext-posts" class="prev-next articles">
+    <div class="row article-row">
+        
+        <div class="article col s12 m6" data-aos="fade-up">
+            <div class="article-badge left-badge text-color">
+                <i class="fas fa-chevron-left"></i>&nbsp;Previous</div>
+            <div class="card">
+                <a href="/2019/02/16/20190216-fanghua/">
+                    <div class="card-image">
+                        
+                        <img src="/medias/images/02.jpg" class="responsive-img" alt="惊艳韶华">
+                        
+                        <span class="card-title">惊艳韶华</span>
+                    </div>
+                </a>
+                <div class="card-content article-content">
+                    <div class="summary block-with-text">
+                        
+                            This article illustrates the usage of LaTeX formula.
+                        
+                    </div>
+                    <div class="publish-info">
+                        <span class="publish-date">
+                            <i class="far fa-clock fa-fw icon-date"></i>2019-02-16
+                        </span>
+                        <span class="publish-author">
+                            
+                            <i class="fas fa-bookmark fa-fw icon-category"></i>
+                            
+                            <a href="/categories/Leisure/" class="post-category">
+                                    Leisure
+                                </a>
+                            
+                            
+                        </span>
+                    </div>
+                </div>
+                
+                <div class="card-action article-tags">
+                    
+                    <a href="/tags/Personal/">
+                        <span class="chip bg-color">Personal</span>
+                    </a>
+                    
+                    <a href="/tags/Quotes/">
+                        <span class="chip bg-color">Quotes</span>
+                    </a>
+                    
+                </div>
+                
+            </div>
+        </div>
+        
+        
+        <div class="article col s12 m6" data-aos="fade-up">
+            <div class="article-badge right-badge text-color">
+                Next&nbsp;<i class="fas fa-chevron-right"></i>
+            </div>
+            <div class="card">
+                <a href="/2018/11/15/20181115-Bielefeld/">
+                    <div class="card-image">
+                        
+                        <img src="/medias/images/01.jpg" class="responsive-img" alt="20181115 Bielefeld">
+                        
+                        <span class="card-title">20181115 Bielefeld</span>
+                    </div>
+                </a>
+                <div class="card-content article-content">
+                    <div class="summary block-with-text">
+                        
+                            The slides present at the EPTA meeting in Beilefeld on November 2018.
+                        
+                    </div>
+                    <div class="publish-info">
+                            <span class="publish-date">
+                                <i class="far fa-clock fa-fw icon-date"></i>2018-11-15
+                            </span>
+                        <span class="publish-author">
+                            
+                            <i class="fas fa-bookmark fa-fw icon-category"></i>
+                            
+                            <a href="/categories/Research/" class="post-category">
+                                    Research
+                                </a>
+                            
+                            
+                        </span>
+                    </div>
+                </div>
+                
+                <div class="card-action article-tags">
+                    
+                    <a href="/tags/PPT/">
+                        <span class="chip bg-color">PPT</span>
+                    </a>
+                    
+                    <a href="/tags/Meeting/">
+                        <span class="chip bg-color">Meeting</span>
+                    </a>
+                    
+                </div>
+                
+            </div>
+        </div>
+        
+    </div>
+</article>
+
+</div>
+
+
+
+<!-- 代码块功能依赖 -->
+<script type="text/javascript" src="/libs/codeBlock/codeBlockFuction.js"></script>
+
+<!-- 代码语言 -->
+
+<script type="text/javascript" src="/libs/codeBlock/codeLang.js"></script>
+
+
+<!-- 代码块复制 -->
+
+<script type="text/javascript" src="/libs/codeBlock/codeCopy.js"></script>
+
+
+<!-- 代码块收缩 -->
+
+<script type="text/javascript" src="/libs/codeBlock/codeShrink.js"></script>
+
+
+<!-- 代码块折行 -->
+
+<style type="text/css">
+code[class*="language-"], pre[class*="language-"] { white-space: pre !important; }
+</style>
+
+
+    
+
+</main>
+
+
+<script src="https://cdn.bootcss.com/mathjax/2.7.5/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+<script>
+    MathJax.Hub.Config({
+        tex2jax: {inlineMath: [['$', '$'], ['\(', '\)']]}
+    });
+</script>
+
+
+
+    <footer class="page-footer bg-color">
+    
+        <link rel="stylesheet" href="/libs/aplayer/APlayer.min.css">
+<style>
+    .aplayer .aplayer-lrc p {
+        
+        display: none;
+        
+        font-size: 12px;
+        font-weight: 700;
+        line-height: 16px !important;
+    }
+
+    .aplayer .aplayer-lrc p.aplayer-lrc-current {
+        
+        display: none;
+        
+        font-size: 15px;
+        color: #42b983;
+    }
+
+    
+    .aplayer.aplayer-fixed.aplayer-narrow .aplayer-body {
+        left: -66px !important;
+    }
+
+    .aplayer.aplayer-fixed.aplayer-narrow .aplayer-body:hover {
+        left: 0px !important;
+    }
+
+    
+</style>
+<div class="">
+    
+    <div class="row">
+        <meting-js class="col l8 offset-l2 m10 offset-m1 s12"
+                   server="netease"
+                   type="playlist"
+                   id="503838841"
+                   fixed='true'
+                   autoplay='false'
+                   theme='#42b983'
+                   loop='all'
+                   order='random'
+                   preload='auto'
+                   volume='0.7'
+                   list-folded='true'
+        >
+        </meting-js>
+    </div>
+</div>
+
+<script src="/libs/aplayer/APlayer.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/meting@2/dist/Meting.min.js"></script>
+
+    
+    <div class="container row center-align" style="margin-bottom: 0px !important;">
+        <div class="col s12 m8 l8 copy-right">
+            Copyright&nbsp;&copy;
+            <span id="year">2019</span>
+            <a href="/about" target="_blank">Jun Wang</a>
+            |&nbsp;Powered by&nbsp;<a href="https://github.com/" target="_blank">GitHub</a>
+            |&nbsp;Theme&nbsp;<a href="https://www.astrondog.com" target="_blank">AstronDog</a>
+            <br>
+            
+            
+            
+            
+            
+            
+            <span id="busuanzi_container_site_pv">
+                |&nbsp;<i class="far fa-eye"></i>&nbsp;总访问量:&nbsp;<span id="busuanzi_value_site_pv"
+                    class="white-color"></span>&nbsp;次
+            </span>
+            
+            
+            <span id="busuanzi_container_site_uv">
+                |&nbsp;<i class="fas fa-users"></i>&nbsp;总访问人数:&nbsp;<span id="busuanzi_value_site_uv"
+                    class="white-color"></span>&nbsp;人
+            </span>
+            
+            <br>
+            
+            <br>
+            
+        </div>
+        <div class="col s12 m4 l4 social-link social-statis">
+    <a href="https://github.com/astrondog" class="tooltipped" target="_blank" data-tooltip="Vist GitHub" data-position="top" data-delay="50">
+        <i class="fab fa-github"></i>
+    </a>
+
+
+
+    <a href="mailto:junwang@drjun.wang" class="tooltipped" target="_blank" data-tooltip="Contact me via Email" data-position="top" data-delay="50">
+        <i class="fas fa-envelope-open"></i>
+    </a>
+
+
+
+
+
+
+
+    <a href="tencent://AddContact/?fromId=50&fromSubId=1&subcmd=all&uin=454450168" class="tooltipped" target="_blank" data-tooltip="Contact me via QQ: 454450168" data-position="top" data-delay="50">
+        <i class="fab fa-qq"></i>
+    </a>
+
+
+
+
+
+
+
+    <a href="/atom.xml" class="tooltipped" target="_blank" data-tooltip="RSS subscribe" data-position="top" data-delay="50">
+        <i class="fas fa-rss"></i>
+    </a>
+
+</div>
+    </div>
+</footer>
+
+<div class="progress-bar"></div>
+
+
+    <!-- 搜索遮罩框 -->
+<div id="searchModal" class="modal">
+    <div class="modal-content">
+        <div class="search-header">
+            <span class="title"><i class="fas fa-search"></i>&nbsp;&nbsp;Search</span>
+            <input type="search" id="searchInput" name="s" placeholder="Please enter a search keyword"
+                   class="search-input">
+        </div>
+        <div id="searchResult"></div>
+    </div>
+</div>
+
+<script src="/js/search.js"></script>
+<script type="text/javascript">
+$(function () {
+    searchFunc("/search.xml", 'searchInput', 'searchResult');
+});
+</script>
+
+    <!-- 回到顶部按钮 -->
+<div id="backTop" class="top-scroll">
+    <a class="btn-floating btn-large waves-effect waves-light" href="#!">
+        <i class="fas fa-arrow-up"></i>
+    </a>
+</div>
+
+
+    <script src="/libs/materialize/materialize.min.js"></script>
+    <script src="/libs/masonry/masonry.pkgd.min.js"></script>
+    <script src="/libs/aos/aos.js"></script>
+    <script src="/libs/scrollprogress/scrollProgress.min.js"></script>
+    <script src="/libs/lightGallery/js/lightgallery-all.min.js"></script>
+    <script src="/js/matery.js"></script>
+
+    <!-- Baidu Analytics -->
+
+    <!-- Baidu Push -->
+
+<script>
+    (function () {
+        var bp = document.createElement('script');
+        var curProtocol = window.location.protocol.split(':')[0];
+        if (curProtocol === 'https') {
+            bp.src = 'https://zz.bdstatic.com/linksubmit/push.js';
+        } else {
+            bp.src = 'http://push.zhanzhang.baidu.com/push.js';
+        }
+        var s = document.getElementsByTagName("script")[0];
+        s.parentNode.insertBefore(bp, s);
+    })();
+</script>
+
+    
+    <script src="/libs/others/clicklove.js" async="async"></script>
+    
+    
+    <script async src="/libs/others/busuanzi.pure.mini.js"></script>
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+    <script src="/libs/instantpage/instantpage.js" type="module"></script>
+    
+
+</body>
+
+</html>
+
+
+<!-- weather -->
+<script type="text/javascript">
+WIDGET = {FID: 'YWKH0s75Vi'}
+</script>
+<script type="text/javascript" src="https://apip.weatherdt.com/float/static/js/r.js?v=1111"></script>

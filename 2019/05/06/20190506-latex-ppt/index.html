@@ -1,0 +1,1176 @@
+<!DOCTYPE HTML>
+<html lang="en">
+
+
+<head>
+    <meta charset="utf-8">
+    <meta name="keywords" content="Latex Presentation Notes, Dr. JunWang">
+    <meta name="description" content="">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+    <meta name="renderer" content="webkit|ie-stand|ie-comp">
+    <meta name="mobile-web-app-capable" content="yes">
+    <meta name="format-detection" content="telephone=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+
+
+    <title>Latex Presentation Notes | Dr. JunWang</title>
+    <link rel="icon" type="image/png" href="/favicon.png">
+
+    <link rel="stylesheet" type="text/css" href="/libs/awesome/css/all.min.css">
+    <link rel="stylesheet" type="text/css" href="/libs/materialize/materialize.min.css">
+    <link rel="stylesheet" type="text/css" href="/libs/aos/aos.css">
+    <link rel="stylesheet" type="text/css" href="/libs/animate/animate.min.css">
+    <link rel="stylesheet" type="text/css" href="/libs/lightGallery/css/lightgallery.min.css">
+    <link rel="stylesheet" type="text/css" href="/css/matery.css">
+    <link rel="stylesheet" type="text/css" href="/css/my.css">
+
+    <script src="/libs/jquery/jquery-3.6.0.min.js"></script>
+
+<meta name="generator" content="Hexo 5.4.2"><link rel="alternate" href="/atom.xml" title="Dr. JunWang" type="application/atom+xml">
+<link rel="stylesheet" href="/css/prism-tomorrow.css" type="text/css">
+<link rel="stylesheet" href="/css/prism-line-numbers.css" type="text/css"></head>
+
+
+<body>
+    <header class="navbar-fixed">
+    <nav id="headNav" class="bg-color nav-transparent">
+        <div id="navContainer" class="nav-wrapper container">
+            <div class="brand-logo">
+                <a href="/" class="waves-effect waves-light">
+                    
+                    <img src="/medias/logo.png" class="logo-img" alt="LOGO">
+                    
+                    <span class="logo-span">Dr. JunWang</span>
+                </a>
+            </div>
+            
+
+<a href="#" data-target="mobile-nav" class="sidenav-trigger button-collapse"><i class="fas fa-bars"></i></a>
+<ul class="right nav-menu">
+  
+  <li class="hide-on-med-and-down nav-item">
+    
+    <a href="/" class="waves-effect waves-light">
+      
+      <i class="fas fa-home" style="zoom: 0.6;"></i>
+      
+      <span>Index</span>
+    </a>
+    
+  </li>
+  
+  <li class="hide-on-med-and-down nav-item">
+    
+    <a href="/tags" class="waves-effect waves-light">
+      
+      <i class="fas fa-tags" style="zoom: 0.6;"></i>
+      
+      <span>Tags</span>
+    </a>
+    
+  </li>
+  
+  <li class="hide-on-med-and-down nav-item">
+    
+    <a href="/categories" class="waves-effect waves-light">
+      
+      <i class="fas fa-bookmark" style="zoom: 0.6;"></i>
+      
+      <span>Categories</span>
+    </a>
+    
+  </li>
+  
+  <li class="hide-on-med-and-down nav-item">
+    
+    <a href="/archives" class="waves-effect waves-light">
+      
+      <i class="fas fa-archive" style="zoom: 0.6;"></i>
+      
+      <span>Archives</span>
+    </a>
+    
+  </li>
+  
+  <li class="hide-on-med-and-down nav-item">
+    
+    <a href="/about" class="waves-effect waves-light">
+      
+      <i class="fas fa-user-circle" style="zoom: 0.6;"></i>
+      
+      <span>About</span>
+    </a>
+    
+  </li>
+  
+  <li class="hide-on-med-and-down nav-item">
+    
+    <a href="/cv" class="waves-effect waves-light">
+      
+      <i class="fas fa-user-tie" style="zoom: 0.6;"></i>
+      
+      <span>CV</span>
+    </a>
+    
+  </li>
+  
+  <li>
+    <a href="#searchModal" class="modal-trigger waves-effect waves-light">
+      <i id="searchIcon" class="fas fa-search" title="Search" style="zoom: 0.85;"></i>
+    </a>
+  </li>
+</ul>
+
+
+<div id="mobile-nav" class="side-nav sidenav">
+
+    <div class="mobile-head bg-color">
+        
+        <img src="/medias/logo.png" class="logo-img circle responsive-img">
+        
+        <div class="logo-name">Dr. JunWang</div>
+        <div class="logo-desc">
+            
+            Never really desperate, only the lost of the soul.
+            
+        </div>
+    </div>
+
+    
+
+    <ul class="menu-list mobile-menu-list">
+        
+        <li class="m-nav-item">
+	  
+		<a href="/" class="waves-effect waves-light">
+			
+			    <i class="fa-fw fas fa-home"></i>
+			
+			Index
+		</a>
+          
+        </li>
+        
+        <li class="m-nav-item">
+	  
+		<a href="/tags" class="waves-effect waves-light">
+			
+			    <i class="fa-fw fas fa-tags"></i>
+			
+			Tags
+		</a>
+          
+        </li>
+        
+        <li class="m-nav-item">
+	  
+		<a href="/categories" class="waves-effect waves-light">
+			
+			    <i class="fa-fw fas fa-bookmark"></i>
+			
+			Categories
+		</a>
+          
+        </li>
+        
+        <li class="m-nav-item">
+	  
+		<a href="/archives" class="waves-effect waves-light">
+			
+			    <i class="fa-fw fas fa-archive"></i>
+			
+			Archives
+		</a>
+          
+        </li>
+        
+        <li class="m-nav-item">
+	  
+		<a href="/about" class="waves-effect waves-light">
+			
+			    <i class="fa-fw fas fa-user-circle"></i>
+			
+			About
+		</a>
+          
+        </li>
+        
+        <li class="m-nav-item">
+	  
+		<a href="/cv" class="waves-effect waves-light">
+			
+			    <i class="fa-fw fas fa-user-tie"></i>
+			
+			CV
+		</a>
+          
+        </li>
+        
+        
+        <li><div class="divider"></div></li>
+        <li>
+            <a href="https://github.com/blinkfox/hexo-theme-matery" class="waves-effect waves-light" target="_blank">
+                <i class="fab fa-github-square fa-fw"></i>Fork Me
+            </a>
+        </li>
+        
+    </ul>
+</div>
+
+
+        </div>
+
+        
+            <style>
+    .nav-transparent .github-corner {
+        display: none !important;
+    }
+
+    .github-corner {
+        position: absolute;
+        z-index: 10;
+        top: 0;
+        right: 0;
+        border: 0;
+        transform: scale(1.1);
+    }
+
+    .github-corner svg {
+        color: #0f9d58;
+        fill: #fff;
+        height: 64px;
+        width: 64px;
+    }
+
+    .github-corner:hover .octo-arm {
+        animation: a 0.56s ease-in-out;
+    }
+
+    .github-corner .octo-arm {
+        animation: none;
+    }
+
+    @keyframes a {
+        0%,
+        to {
+            transform: rotate(0);
+        }
+        20%,
+        60% {
+            transform: rotate(-25deg);
+        }
+        40%,
+        80% {
+            transform: rotate(10deg);
+        }
+    }
+</style>
+
+<a href="https://github.com/blinkfox/hexo-theme-matery" class="github-corner tooltipped hide-on-med-and-down" target="_blank"
+   data-tooltip="Fork Me" data-position="left" data-delay="50">
+    <svg viewBox="0 0 250 250" aria-hidden="true">
+        <path d="M0,0 L115,115 L130,115 L142,142 L250,250 L250,0 Z"></path>
+        <path d="M128.3,109.0 C113.8,99.7 119.0,89.6 119.0,89.6 C122.0,82.7 120.5,78.6 120.5,78.6 C119.2,72.0 123.4,76.3 123.4,76.3 C127.3,80.9 125.5,87.3 125.5,87.3 C122.9,97.6 130.6,101.9 134.4,103.2"
+              fill="currentColor" style="transform-origin: 130px 106px;" class="octo-arm"></path>
+        <path d="M115.0,115.0 C114.9,115.1 118.7,116.5 119.8,115.4 L133.7,101.6 C136.9,99.2 139.9,98.4 142.2,98.6 C133.8,88.0 127.5,74.4 143.8,58.0 C148.5,53.4 154.0,51.2 159.7,51.0 C160.3,49.4 163.2,43.6 171.4,40.1 C171.4,40.1 176.1,42.5 178.8,56.2 C183.1,58.6 187.2,61.8 190.9,65.4 C194.5,69.0 197.7,73.2 200.1,77.6 C213.8,80.2 216.3,84.9 216.3,84.9 C212.7,93.1 206.9,96.0 205.4,96.6 C205.1,102.4 203.0,107.8 198.3,112.5 C181.9,128.9 168.3,122.5 157.7,114.1 C157.9,116.9 156.7,120.9 152.7,124.9 L141.0,136.5 C139.8,137.7 141.6,141.9 141.8,141.8 Z"
+              fill="currentColor" class="octo-body"></path>
+    </svg>
+</a>
+        
+    </nav>
+
+</header>
+
+    
+<script src="/libs/cryptojs/crypto-js.min.js"></script>
+<script>
+    (function() {
+        let pwd = 'b92c812720d10a5e5c42c722c48225d2920490e894167b1de10f632b66b44c5c';
+        if (pwd && pwd.length > 0) {
+            if (pwd !== CryptoJS.SHA256(prompt('Please enter password to read this article.')).toString(CryptoJS.enc.Hex)) {
+                alert('Incorrect password, back to the index!');
+                location.href = '/';
+            }
+        }
+    })();
+</script>
+
+
+
+
+<div class="bg-cover pd-header post-cover" style="background-image: url('/medias/images/08.jpg')">
+    <div class="container" style="right: 0px;left: 0px;">
+        <div class="row">
+            <div class="col s12 m12 l12">
+                <div class="brand">
+                    <h1 class="description center-align post-title">Latex Presentation Notes</h1>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+
+<main class="container content">
+
+    
+    <!-- 文章内容详情 -->
+<div id="artDetail">
+    <div class="card">
+        <div class="card-content article-info">
+            <div class="row tag-cate">
+                <div class="col s7">
+                    
+                    <div class="article-tag">
+                        
+                            <a href="/tags/Latex/">
+                                <span class="chip bg-color">Latex</span>
+                            </a>
+                        
+                    </div>
+                    
+                </div>
+                <div class="col s5 right-align">
+                    
+                    <div class="post-cate">
+                        <i class="fas fa-bookmark fa-fw icon-category"></i>
+                        
+                            <a href="/categories/Learn/" class="post-category">
+                                Learn
+                            </a>
+                        
+                    </div>
+                    
+                </div>
+            </div>
+
+            <div class="post-info">
+                
+                <div class="post-date info-break-policy">
+                    <i class="far fa-calendar-minus fa-fw"></i>Publish Date:&nbsp;&nbsp;
+                    2019-05-06
+                </div>
+                
+
+                
+
+                
+
+                
+
+                
+            </div>
+        </div>
+        <hr class="clearfix">
+        <div class="card-content article-card-content">
+            <div id="articleContent">
+                <script src="/assets/js/APlayer.min.js"> </script><h3 id="Standard-Frame"><a href="#Standard-Frame" class="headerlink" title="Standard Frame"></a>Standard Frame</h3><pre class="line-numbers language-latex"><code class="language-latex"><span class="token function selector">\documentclass</span><span class="token punctuation">{</span><span class="token keyword">beamer</span><span class="token punctuation">}</span>
+<span class="token function selector">\usepackage</span><span class="token punctuation">[</span>english<span class="token punctuation">]</span><span class="token punctuation">{</span><span class="token keyword">babel</span><span class="token punctuation">}</span>   <span class="token comment" spellcheck="true">%如果去掉，中英混合会出错</span>
+<span class="token function selector">\usepackage</span><span class="token punctuation">[</span>noindent<span class="token punctuation">]</span><span class="token punctuation">{</span><span class="token keyword">ctex</span><span class="token punctuation">}</span>   <span class="token comment" spellcheck="true">%可使用 \usepackage{CJK}</span>
+<span class="token function selector">\usepackage</span><span class="token punctuation">{</span><span class="token keyword">beamerthemesplit</span><span class="token punctuation">}</span>
+<span class="token comment" spellcheck="true">% Or whatever. Note that the encoding and the font should match. If T1</span>
+<span class="token comment" spellcheck="true">% does not look nice, try deleting the line with the fontenc.</span>
+<span class="token function selector">\usepackage</span><span class="token punctuation">[</span>T1<span class="token punctuation">]</span><span class="token punctuation">{</span><span class="token keyword">fontenc</span><span class="token punctuation">}</span>
+<span class="token function selector">\usepackage</span><span class="token punctuation">{</span><span class="token keyword">times</span><span class="token punctuation">}</span>
+ 
+<span class="token function selector">\usetheme</span><span class="token punctuation">{</span>Berkeley<span class="token punctuation">}</span>
+ 
+<span class="token function selector">\title</span><span class="token punctuation">{</span>XXXX<span class="token punctuation">}</span>
+ 
+<span class="token function selector">\subtitle</span><span class="token punctuation">{</span>XXXX<span class="token punctuation">}</span>
+ 
+<span class="token function selector">\author</span><span class="token punctuation">{</span>Ofey<span class="token punctuation">}</span>
+ 
+<span class="token function selector">\institute</span><span class="token punctuation">{</span>
+  School of Computer Science<span class="token function selector">\\</span>
+  Beijing Institute of Technology
+<span class="token punctuation">}</span>
+ 
+<span class="token comment" spellcheck="true">% This is only inserted into the PDF information catalog. Can be left out.</span>
+<span class="token function selector">\subject</span><span class="token punctuation">{</span>OOO<span class="token punctuation">}</span>
+<span class="token function selector">\keywords</span><span class="token punctuation">{</span>OXOX<span class="token punctuation">}</span>
+ 
+<span class="token function selector">\begin</span><span class="token punctuation">{</span><span class="token keyword">document</span><span class="token punctuation">}</span>
+ 
+<span class="token function selector">\begin</span><span class="token punctuation">{</span><span class="token keyword">frame</span><span class="token punctuation">}</span><span class="token punctuation">{</span>XXXX<span class="token punctuation">}</span>
+A normal frame.
+<span class="token function selector">\end</span><span class="token punctuation">{</span><span class="token keyword">frame</span><span class="token punctuation">}</span>
+ 
+<span class="token function selector">\end</span><span class="token punctuation">{</span><span class="token keyword">document</span><span class="token punctuation">}</span>
+<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
+<p> Multiple Authors and Institutions</p>
+<pre class="line-numbers language-latex"><code class="language-latex"><span class="token function selector">\author</span><span class="token punctuation">{</span>F.~Author<span class="token function selector">\inst</span><span class="token punctuation">{</span>1<span class="token punctuation">}</span> <span class="token function selector">\and</span> S.~Another<span class="token function selector">\inst</span><span class="token punctuation">{</span>2<span class="token punctuation">}</span><span class="token punctuation">}</span> 
+<span class="token function selector">\institute</span><span class="token punctuation">[</span>Universities of Somewhere and Elsewhere<span class="token punctuation">]</span> <span class="token comment" spellcheck="true">% (optional, but mostly needed) </span>
+<span class="token punctuation">{</span> 
+    <span class="token function selector">\inst</span><span class="token punctuation">{</span>1<span class="token punctuation">}</span><span class="token comment" spellcheck="true">% </span>
+    University of Somewhere 
+    <span class="token function selector">\inst</span><span class="token punctuation">{</span>2<span class="token punctuation">}</span><span class="token comment" spellcheck="true">% </span>
+    University of Elsewhere<span class="token punctuation">}</span> 
+<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
+<h3 id="Table-of-Content"><a href="#Table-of-Content" class="headerlink" title="Table of Content"></a>Table of Content</h3><h4 id="Simple"><a href="#Simple" class="headerlink" title="Simple"></a>Simple</h4><pre class="line-numbers language-latex"><code class="language-latex"><span class="token function selector">\begin</span><span class="token punctuation">{</span><span class="token keyword">frame</span><span class="token punctuation">}</span>
+  <span class="token function selector">\tableofcontents</span>
+<span class="token function selector">\end</span><span class="token punctuation">{</span><span class="token keyword">frame</span><span class="token punctuation">}</span>
+<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span></span></code></pre>
+<p>有时，可能目录太多，想分成两栏，可以使用multicol包</p>
+<h4 id="Complex"><a href="#Complex" class="headerlink" title="Complex"></a>Complex</h4><pre class="line-numbers language-latex"><code class="language-latex"><span class="token comment" spellcheck="true">% This environment allows switching between one and multicolumn format on the same page</span>
+<span class="token function selector">\usepackage</span><span class="token punctuation">{</span><span class="token keyword">multicol</span><span class="token punctuation">}</span>
+ 
+<span class="token function selector">\begin</span><span class="token punctuation">{</span><span class="token keyword">frame</span><span class="token punctuation">}</span><span class="token punctuation">{</span>Outline<span class="token punctuation">}</span>
+ 
+  <span class="token function selector">\begin</span><span class="token punctuation">{</span><span class="token keyword">multicols</span><span class="token punctuation">}</span><span class="token punctuation">{</span>2<span class="token punctuation">}</span>
+    <span class="token function selector">\tableofcontents</span>
+    <span class="token comment" spellcheck="true">% You might wish to add the option [pausesections]</span>
+  <span class="token function selector">\end</span><span class="token punctuation">{</span><span class="token keyword">multicols</span><span class="token punctuation">}</span>
+<span class="token function selector">\end</span><span class="token punctuation">{</span><span class="token keyword">frame</span><span class="token punctuation">}</span>
+<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
+<h4 id="Only-Show-Selecetd-Section"><a href="#Only-Show-Selecetd-Section" class="headerlink" title="Only Show Selecetd Section"></a>Only Show Selecetd Section</h4><pre class="line-numbers language-latex"><code class="language-latex">有时，可能不想显示subsection之类，亦或者只想限制指定的几个section，如下：
+
+<span class="token function selector">\tableofcontents</span><span class="token punctuation">[</span>hidesubsections,sections=<span class="token punctuation">{</span>&lt;1-4><span class="token punctuation">}</span><span class="token punctuation">]</span> <span class="token comment" spellcheck="true">%显示1-4section，不显示subsection</span>
+<span class="token function selector">\tableofcontents</span>还有很多其他参数设置，详见文档。
+
+若想在没个章节前显示下目录提示，可以如下代码：
+
+
+<span class="token function selector">\AtBeginSection</span><span class="token punctuation">[</span><span class="token punctuation">]</span> <span class="token punctuation">{</span> 
+  <span class="token function selector">\begin</span><span class="token punctuation">{</span><span class="token keyword">frame</span><span class="token punctuation">}</span>
+    <span class="token function selector">\frametitle</span><span class="token punctuation">{</span><span class="token headline class-name">Outline</span><span class="token punctuation">}</span> 
+    <span class="token function selector">\tableofcontents</span><span class="token punctuation">[</span>currentsection,hideothersubsections<span class="token punctuation">]</span> 
+  <span class="token function selector">\end</span><span class="token punctuation">{</span><span class="token keyword">frame</span><span class="token punctuation">}</span> 
+  <span class="token function selector">\addtocounter</span><span class="token punctuation">{</span>framenumber<span class="token punctuation">}</span><span class="token punctuation">{</span>-1<span class="token punctuation">}</span>  <span class="token comment" spellcheck="true">%目录页不计算页码</span>
+<span class="token punctuation">}</span>
+不过没发现如何获得当前section的数值，这样我就可以自动在每张前插入目录，且使当前目录为第一。
+当然，还可以做成一个个显示目录的动画效果，不过没啥实际意义- -！
+<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
+<h3 id="Interlinkage"><a href="#Interlinkage" class="headerlink" title="Interlinkage"></a>Interlinkage</h3><p>slides中的链接<br>有时想在slides中加入超链接，可以跳转到指定的页面，这个也是很easy的。<br>给欲跳转到的frame加上label</p>
+<pre class="line-numbers language-latex"><code class="language-latex"><span class="token function selector">\frame</span><span class="token punctuation">[</span>label = XXX<span class="token punctuation">]</span>
+<span class="token punctuation">{</span>
+  <span class="token function selector">\frametitle</span><span class="token punctuation">{</span><span class="token headline class-name">OOO</span><span class="token punctuation">}</span>
+  <span class="token function selector">\framesubtitle</span><span class="token punctuation">{</span>XXX<span class="token punctuation">}</span>
+  OOXX
+<span class="token punctuation">}</span>
+再在想加入超链接的地方加入：
+
+
+  <span class="token function selector">\hyperlink</span><span class="token punctuation">{</span>XXX<span class="token punctuation">}</span><span class="token punctuation">{</span><span class="token function selector">\beamergotobutton</span><span class="token punctuation">{</span>乃想显示的文本<span class="token punctuation">}</span><span class="token punctuation">}</span> <span class="token comment" spellcheck="true">%\beamergotobutton可以选其他的按钮</span>
+显示时间+页数
+这个根据不同的主题不一样，比如Berkeley默认就木有，而CambridgeUS就是有的，可以自己在导言区加入：
+
+
+<span class="token function selector">\setbeamertemplate</span><span class="token punctuation">{</span>footline<span class="token punctuation">}</span><span class="token punctuation">{</span><span class="token comment" spellcheck="true">%</span>
+  <span class="token function selector">\leavevmode</span><span class="token comment" spellcheck="true">%</span>
+  <span class="token function selector">\hbox</span><span class="token punctuation">{</span><span class="token comment" spellcheck="true">%</span>
+    <span class="token function selector">\begin</span><span class="token punctuation">{</span><span class="token keyword">beamercolorbox</span><span class="token punctuation">}</span><span class="token punctuation">[</span>wd=.333333<span class="token function selector">\paperwidth</span>,ht=2.25ex,dp=1ex,center<span class="token punctuation">]</span><span class="token punctuation">{</span>author in head/foot<span class="token punctuation">}</span><span class="token comment" spellcheck="true">%</span>
+      <span class="token function selector">\usebeamerfont</span><span class="token punctuation">{</span>author in head/foot<span class="token punctuation">}</span><span class="token function selector">\insertshortauthor</span>
+    <span class="token function selector">\end</span><span class="token punctuation">{</span><span class="token keyword">beamercolorbox</span><span class="token punctuation">}</span><span class="token comment" spellcheck="true">%</span>
+    <span class="token function selector">\begin</span><span class="token punctuation">{</span><span class="token keyword">beamercolorbox</span><span class="token punctuation">}</span><span class="token punctuation">[</span>wd=.333333<span class="token function selector">\paperwidth</span>,ht=2.25ex,dp=1ex,center<span class="token punctuation">]</span><span class="token punctuation">{</span>title in head/foot<span class="token punctuation">}</span><span class="token comment" spellcheck="true">%</span>
+      <span class="token function selector">\usebeamerfont</span><span class="token punctuation">{</span>title in head/foot<span class="token punctuation">}</span><span class="token function selector">\insertshorttitle</span>
+    <span class="token function selector">\end</span><span class="token punctuation">{</span><span class="token keyword">beamercolorbox</span><span class="token punctuation">}</span><span class="token comment" spellcheck="true">%</span>
+    <span class="token function selector">\begin</span><span class="token punctuation">{</span><span class="token keyword">beamercolorbox</span><span class="token punctuation">}</span><span class="token punctuation">[</span>wd=.333333<span class="token function selector">\paperwidth</span>,ht=2.25ex,dp=1ex,right<span class="token punctuation">]</span><span class="token punctuation">{</span>date in head/foot<span class="token punctuation">}</span><span class="token comment" spellcheck="true">%</span>
+      <span class="token function selector">\usebeamerfont</span><span class="token punctuation">{</span>date in head/foot<span class="token punctuation">}</span><span class="token function selector">\insertshortdate</span><span class="token punctuation">{</span><span class="token punctuation">}</span><span class="token function selector">\hspace*</span><span class="token punctuation">{</span>2em<span class="token punctuation">}</span>
+      <span class="token function selector">\insertframenumber</span><span class="token punctuation">{</span><span class="token punctuation">}</span> / <span class="token function selector">\inserttotalframenumber</span><span class="token function selector">\hspace*</span><span class="token punctuation">{</span>2ex<span class="token punctuation">}</span>
+    <span class="token function selector">\end</span><span class="token punctuation">{</span><span class="token keyword">beamercolorbox</span><span class="token punctuation">}</span><span class="token punctuation">}</span><span class="token comment" spellcheck="true">%</span>
+  <span class="token function selector">\vskip</span>0pt<span class="token comment" spellcheck="true">%</span>
+<span class="token punctuation">}</span>
+<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
+<h3 id="Footline"><a href="#Footline" class="headerlink" title="Footline"></a>Footline</h3><p>页脚显示文本<br>有时希望在frame的左下角页脚能显示一些内容，并不是为了报告时如何，只是给其他途径看slides的人一点更详尽的解释、资料，但是又不想用脚注(脚注在beamer效果不咋的)。</p>
+<pre><code>% add text to beamer footline
+ 
+\makeatletter
+% add a macro that saves its argument
+\newcommand{\footlineextra}[1]{\gdef\insertfootlineextra{#1}}
+\newbox\footlineextrabox
+ 
+% add a beamer template that sets the saved argument in a box.
+% The * means that the beamer font and color "footline extra" are automatically added. 
+\defbeamertemplate*{footline extra}{default}{
+  \begin{beamercolorbox}[ht=2.25ex,dp=1ex,leftskip=\Gm@lmargin]{footline extra}
+    \insertfootlineextra
+    % \par\vspace{2.5pt}
+  \end{beamercolorbox}
+}
+ 
+\addtobeamertemplate{footline}{%
+  % set the box with the extra footline material but make it add no vertical space
+  \setbox\footlineextrabox=\vbox{\usebeamertemplate*{footline extra}}
+  \vskip -\ht\footlineextrabox
+  \vskip -\dp\footlineextrabox
+  \box\footlineextrabox%
+}
+{}
+ 
+% patch \begin{frame} to reset the footline extra material
+\let\beamer@original@frame=\frame
+\def\frame{\gdef\insertfootlineextra{}\beamer@original@frame}
+\footlineextra{}
+\makeatother
+使用很简单：
+
+
+\footlineextra{XXXX}
+</code></pre>
+<h3 id="References"><a href="#References" class="headerlink" title="References"></a>References</h3><p>LATEX最爽的几点之一就是参考文献的管理使用啊，毕设论文得用doc的泪奔T.T<br>一般用的比较多的是bibtex，首先，自己搞定bib文件，然后slides中加上一页来放引用文献</p>
+<pre class="line-numbers language-latex"><code class="language-latex"><span class="token comment" spellcheck="true">%一般的引用样式只是[1]类，paper中这样没啥，slides这样不够友好</span>
+<span class="token comment" spellcheck="true">%apalike：美国心理学学会期刊样式，显示作者名+年份</span>
+<span class="token function selector">\bibliographystyle</span><span class="token punctuation">{</span>apalike<span class="token punctuation">}</span>   
+<span class="token function selector">\bibliography</span><span class="token punctuation">{</span>XXX<span class="token punctuation">}</span>   <span class="token comment" spellcheck="true">%引用的XXX.bib文件</span>
+此外，reference可能较多，slides一页一般都不够用，beamer是可以自动分成多页的，如下：
+
+
+<span class="token comment" spellcheck="true">% If there are too many of them to fit on the frame, </span>
+<span class="token comment" spellcheck="true">% you must manually split them among additional frames or use the allowframebreaks option.</span>
+<span class="token function selector">\begin</span><span class="token punctuation">{</span><span class="token keyword">frame</span><span class="token punctuation">}</span><span class="token punctuation">[</span>allowframebreaks<span class="token punctuation">]</span><span class="token punctuation">{</span>References<span class="token punctuation">}</span> 
+  <span class="token function selector">\scriptsize</span>
+  <span class="token function selector">\bibliographystyle</span><span class="token punctuation">{</span>apalike<span class="token punctuation">}</span>
+  <span class="token function selector">\bibliography</span><span class="token punctuation">{</span>XXX<span class="token punctuation">}</span>
+<span class="token function selector">\end</span><span class="token punctuation">{</span><span class="token keyword">frame</span><span class="token punctuation">}</span>
+<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
+<p>引用，自然是\cite{}命令了</p>
+<h3 id="Tabel"><a href="#Tabel" class="headerlink" title="Tabel"></a>Tabel</h3><p>有时，需要画一些表格，可能比较复杂，比如可能需要合并几行，或者几列，下面一个示例：<br>导言区加上</p>
+<pre class="line-numbers language-latex"><code class="language-latex"><span class="token function selector">\usepackage</span><span class="token punctuation">{</span><span class="token keyword">multirow</span><span class="token punctuation">}</span>
+
+<span class="token comment" spellcheck="true">% The \cline command draws horizontal lines across the columns specified,</span>
+�ginning in column i and ending in column j, which are identified in the mandatory argument.
+<span class="token comment" spellcheck="true">% \cline{i-j}</span>
+  <span class="token function selector">\begin</span><span class="token punctuation">{</span><span class="token keyword">table</span><span class="token punctuation">}</span>
+    <span class="token function selector">\begin</span><span class="token punctuation">{</span><span class="token keyword">tabular</span><span class="token punctuation">}</span><span class="token punctuation">{</span>c|c|c|c<span class="token punctuation">}</span>
+      <span class="token function selector">\hline</span>
+      <span class="token comment" spellcheck="true">% \multicolumn{2}{c}{\backslashbox{Name}{Numer}} &amp;  \multicolumn{2}{c}{}\\ \hline</span>
+      <span class="token function selector">\multirow</span><span class="token punctuation">{</span>2<span class="token punctuation">}</span><span class="token punctuation">{</span>*<span class="token punctuation">}</span><span class="token punctuation">{</span>CleanEval<span class="token punctuation">}</span> <span class="token punctuation">&amp;</span> <span class="token function selector">\multirow</span><span class="token punctuation">{</span>2<span class="token punctuation">}</span><span class="token punctuation">{</span>*<span class="token punctuation">}</span><span class="token punctuation">{</span>CleanEval-Eng<span class="token punctuation">}</span> <span class="token punctuation">&amp;</span> training set <span class="token punctuation">&amp;</span> 60 <span class="token function selector">\\</span> <span class="token function selector">\cline</span><span class="token punctuation">{</span>3-4<span class="token punctuation">}</span> 
+      <span class="token function selector">\multirow</span><span class="token punctuation">{</span>2<span class="token punctuation">}</span><span class="token punctuation">{</span>*<span class="token punctuation">}</span><span class="token punctuation">{</span><span class="token punctuation">}</span>          <span class="token punctuation">&amp;</span> <span class="token function selector">\multirow</span><span class="token punctuation">{</span>2<span class="token punctuation">}</span><span class="token punctuation">{</span>*<span class="token punctuation">}</span><span class="token punctuation">{</span><span class="token punctuation">}</span>              <span class="token punctuation">&amp;</span> evaluation set <span class="token punctuation">&amp;</span>   864 <span class="token function selector">\\</span> <span class="token function selector">\hline</span> 
+ 
+      <span class="token function selector">\multirow</span><span class="token punctuation">{</span>6<span class="token punctuation">}</span>*<span class="token punctuation">{</span>CETD<span class="token punctuation">}</span> <span class="token punctuation">&amp;</span> NYTimes      <span class="token punctuation">&amp;</span> <span class="token function selector">\multicolumn</span><span class="token punctuation">{</span>2<span class="token punctuation">}</span><span class="token punctuation">{</span>c<span class="token punctuation">}</span><span class="token punctuation">{</span>100<span class="token punctuation">}</span> <span class="token function selector">\\</span> <span class="token function selector">\cline</span><span class="token punctuation">{</span>2-4<span class="token punctuation">}</span> 
+      <span class="token function selector">\multirow</span><span class="token punctuation">{</span>6<span class="token punctuation">}</span>*<span class="token punctuation">{</span><span class="token punctuation">}</span>     <span class="token punctuation">&amp;</span> Yahoo!       <span class="token punctuation">&amp;</span> <span class="token function selector">\multicolumn</span><span class="token punctuation">{</span>2<span class="token punctuation">}</span><span class="token punctuation">{</span>c<span class="token punctuation">}</span><span class="token punctuation">{</span>100<span class="token punctuation">}</span> <span class="token function selector">\\</span> <span class="token function selector">\cline</span><span class="token punctuation">{</span>2-4<span class="token punctuation">}</span> 
+      <span class="token function selector">\multirow</span><span class="token punctuation">{</span>6<span class="token punctuation">}</span>*<span class="token punctuation">{</span><span class="token punctuation">}</span>     <span class="token punctuation">&amp;</span> Wikipedia    <span class="token punctuation">&amp;</span> <span class="token function selector">\multicolumn</span><span class="token punctuation">{</span>2<span class="token punctuation">}</span><span class="token punctuation">{</span>c<span class="token punctuation">}</span><span class="token punctuation">{</span>100<span class="token punctuation">}</span> <span class="token function selector">\\</span> <span class="token function selector">\cline</span><span class="token punctuation">{</span>2-4<span class="token punctuation">}</span>
+      <span class="token function selector">\multirow</span><span class="token punctuation">{</span>6<span class="token punctuation">}</span>*<span class="token punctuation">{</span><span class="token punctuation">}</span>     <span class="token punctuation">&amp;</span> BBC          <span class="token punctuation">&amp;</span> <span class="token function selector">\multicolumn</span><span class="token punctuation">{</span>2<span class="token punctuation">}</span><span class="token punctuation">{</span>c<span class="token punctuation">}</span><span class="token punctuation">{</span>100<span class="token punctuation">}</span> <span class="token function selector">\\</span> <span class="token function selector">\cline</span><span class="token punctuation">{</span>2-4<span class="token punctuation">}</span>
+      <span class="token function selector">\multirow</span><span class="token punctuation">{</span>6<span class="token punctuation">}</span>*<span class="token punctuation">{</span><span class="token punctuation">}</span>     <span class="token punctuation">&amp;</span> Ars Technica <span class="token punctuation">&amp;</span> <span class="token function selector">\multicolumn</span><span class="token punctuation">{</span>2<span class="token punctuation">}</span><span class="token punctuation">{</span>c<span class="token punctuation">}</span><span class="token punctuation">{</span>100<span class="token punctuation">}</span> <span class="token function selector">\\</span> <span class="token function selector">\cline</span><span class="token punctuation">{</span>2-4<span class="token punctuation">}</span>
+      <span class="token function selector">\multirow</span><span class="token punctuation">{</span>6<span class="token punctuation">}</span>*<span class="token punctuation">{</span><span class="token punctuation">}</span>     <span class="token punctuation">&amp;</span> Chaos        <span class="token punctuation">&amp;</span> <span class="token function selector">\multicolumn</span><span class="token punctuation">{</span>2<span class="token punctuation">}</span><span class="token punctuation">{</span>c<span class="token punctuation">}</span><span class="token punctuation">{</span>200<span class="token punctuation">}</span> <span class="token function selector">\\</span> <span class="token function selector">\hline</span> 
+    <span class="token function selector">\end</span><span class="token punctuation">{</span><span class="token keyword">tabular</span><span class="token punctuation">}</span>
+  <span class="token function selector">\end</span><span class="token punctuation">{</span><span class="token keyword">table</span><span class="token punctuation">}</span>
+<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
+<h3 id="Sidebar"><a href="#Sidebar" class="headerlink" title="Sidebar"></a>Sidebar</h3><p>Berkeley主题中的sidebar默认显示所有的subsection，并且在显示对应的页时，高亮相应的section。对此可以作一些自定义。<br>一般章节较多时，sidebar就很不友好了，显示不全，间距还大，别扭，只是取消显示subsection,一句话搞定</p>
+<p>\usetheme[hideallsubsections]{Berkeley}<br>一种更好的sidebar显示方式：</p>
+<pre class="line-numbers language-latex"><code class="language-latex"><span class="token comment" spellcheck="true">% By default, the current entry of the table of contents in the sidebar will be highlighted by using a more vibrant color.</span>
+<span class="token comment" spellcheck="true">% A good alternative is to highlight the current entry by using a different color for the background of the current point.</span>
+<span class="token comment" spellcheck="true">% The color theme sidebartab installs the appropriate colors</span>
+ 
+<span class="token function selector">\usecolortheme</span><span class="token punctuation">{</span>sidebartab<span class="token punctuation">}</span>
+<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span></span></code></pre>
+<h3 id="Figures"><a href="#Figures" class="headerlink" title="Figures"></a>Figures</h3><p>beamer仿佛默认是不显示图标标号的默认值是Figure：XXX</p>
+<pre class="line-numbers language-latex"><code class="language-latex"><span class="token comment" spellcheck="true">% show fig and table number</span>
+<span class="token function selector">\setbeamertemplate</span><span class="token punctuation">{</span>caption<span class="token punctuation">}</span><span class="token punctuation">[</span>numbered<span class="token punctuation">]</span>
+<span class="token comment" spellcheck="true">% show theorems and example number</span>
+<span class="token function selector">\setbeamertemplate</span><span class="token punctuation">{</span>theorems<span class="token punctuation">}</span><span class="token punctuation">[</span>numbered<span class="token punctuation">]</span>
+字体大小
+beamer中某人的一些项目字体太大，比如样例example，可以在导言区自定义
+
+
+<span class="token function selector">\setbeamerfont</span><span class="token punctuation">{</span>example<span class="token punctuation">}</span><span class="token punctuation">{</span>size=<span class="token function selector">\tiny</span><span class="token punctuation">}</span>
+<span class="token function selector">\setbeamerfont</span><span class="token punctuation">{</span>algorithm<span class="token punctuation">}</span><span class="token punctuation">{</span>size=<span class="token function selector">\scriptsize</span><span class="token punctuation">}</span>
+<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
+<h3 id="Text-Size"><a href="#Text-Size" class="headerlink" title="Text Size"></a>Text Size</h3><p>\tiny<br>\scriptsize<br>\footnotesize<br>\small<br>\normalsize<br>\large<br>\Large<br>\LARGE<br>\huge<br>\Huge</p>
+<script>
+        document.querySelectorAll('.github-emoji')
+          .forEach(el => {
+            if (!el.dataset.src) { return; }
+            const img = document.createElement('img');
+            img.style = 'display:none !important;';
+            img.src = el.dataset.src;
+            img.addEventListener('error', () => {
+              img.remove();
+              el.style.color = 'inherit';
+              el.style.backgroundImage = 'none';
+              el.style.background = 'none';
+            });
+            img.addEventListener('load', () => {
+              img.remove();
+            });
+            document.body.appendChild(img);
+          });
+      </script>
+            </div>
+            <hr/>
+
+            
+
+    <div class="reprint" id="reprint-statement">
+        
+            <div class="reprint__author">
+                <span class="reprint-meta" style="font-weight: bold;">
+                    <i class="fas fa-user">
+                        Author:
+                    </i>
+                </span>
+                <span class="reprint-info">
+                    <a href="/about" rel="external nofollow noreferrer">Jun Wang</a>
+                </span>
+            </div>
+            <div class="reprint__type">
+                <span class="reprint-meta" style="font-weight: bold;">
+                    <i class="fas fa-link">
+                        Link:
+                    </i>
+                </span>
+                <span class="reprint-info">
+                    <a href="http://www.drjun.wang/2019/05/06/20190506-latex-ppt/">http://www.drjun.wang/2019/05/06/20190506-latex-ppt/</a>
+                </span>
+            </div>
+            <div class="reprint__notice">
+                <span class="reprint-meta" style="font-weight: bold;">
+                    <i class="fas fa-copyright">
+                        Reprint policy:
+                    </i>
+                </span>
+                <span class="reprint-info">
+                    All articles in this blog are used except for special statements
+                    <a href="https://creativecommons.org/licenses/by/4.0/deed.zh" rel="external nofollow noreferrer" target="_blank">CC BY 4.0</a>
+                    reprint policy. If reproduced, please indicate source
+                    <a href="/about" target="_blank">Jun Wang</a>
+                    !
+                </span>
+            </div>
+        
+    </div>
+
+    <script async defer>
+      document.addEventListener("copy", function (e) {
+        let toastHTML = '<span>Copied successfully, please follow the reprint policy of this article</span><button class="btn-flat toast-action" onclick="navToReprintStatement()" style="font-size: smaller">more</a>';
+        M.toast({html: toastHTML})
+      });
+
+      function navToReprintStatement() {
+        $("html, body").animate({scrollTop: $("#reprint-statement").offset().top - 80}, 800);
+      }
+    </script>
+
+
+
+            <div class="tag_share" style="display: block;">
+                <div class="post-meta__tag-list" style="display: inline-block;">
+                    
+                        <div class="article-tag">
+                            
+                                <a href="/tags/Latex/">
+                                    <span class="chip bg-color">Latex</span>
+                                </a>
+                            
+                        </div>
+                    
+                </div>
+                <div class="post_share" style="zoom: 80%; width: fit-content; display: inline-block; float: right; margin: -0.15rem 0;">
+                    <link rel="stylesheet" type="text/css" href="/libs/share/css/share.min.css">
+<div id="article-share">
+
+    
+    <div class="social-share" data-sites="twitter,facebook,google,qq,qzone,wechat,weibo,douban,linkedin" data-wechat-qrcode-helper="<p>微信扫一扫即可分享！</p>"></div>
+    <script src="/libs/share/js/social-share.min.js"></script>
+    
+
+    
+
+</div>
+
+                </div>
+            </div>
+            
+                <style>
+    #reward {
+        margin: 40px 0;
+        text-align: center;
+    }
+
+    #reward .reward-link {
+        font-size: 1.4rem;
+        line-height: 38px;
+    }
+
+    #reward .btn-floating:hover {
+        box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2), 0 5px 15px rgba(0, 0, 0, 0.2);
+    }
+
+    #rewardModal {
+        width: 320px;
+        height: 350px;
+    }
+
+    #rewardModal .reward-title {
+        margin: 15px auto;
+        padding-bottom: 5px;
+    }
+
+    #rewardModal .modal-content {
+        padding: 10px;
+    }
+
+    #rewardModal .close {
+        position: absolute;
+        right: 15px;
+        top: 15px;
+        color: rgba(0, 0, 0, 0.5);
+        font-size: 1.3rem;
+        line-height: 20px;
+        cursor: pointer;
+    }
+
+    #rewardModal .close:hover {
+        color: #ef5350;
+        transform: scale(1.3);
+        -moz-transform:scale(1.3);
+        -webkit-transform:scale(1.3);
+        -o-transform:scale(1.3);
+    }
+
+    #rewardModal .reward-tabs {
+        margin: 0 auto;
+        width: 210px;
+    }
+
+    .reward-tabs .tabs {
+        height: 38px;
+        margin: 10px auto;
+        padding-left: 0;
+    }
+
+    .reward-content ul {
+        padding-left: 0 !important;
+    }
+
+    .reward-tabs .tabs .tab {
+        height: 38px;
+        line-height: 38px;
+    }
+
+    .reward-tabs .tab a {
+        color: #fff;
+        background-color: #ccc;
+    }
+
+    .reward-tabs .tab a:hover {
+        background-color: #ccc;
+        color: #fff;
+    }
+
+    .reward-tabs .wechat-tab .active {
+        color: #fff !important;
+        background-color: #22AB38 !important;
+    }
+
+    .reward-tabs .alipay-tab .active {
+        color: #fff !important;
+        background-color: #019FE8 !important;
+    }
+
+    .reward-tabs .reward-img {
+        width: 210px;
+        height: 210px;
+    }
+</style>
+
+<div id="reward">
+    <a href="#rewardModal" class="reward-link modal-trigger btn-floating btn-medium waves-effect waves-light red">赏</a>
+
+    <!-- Modal Structure -->
+    <div id="rewardModal" class="modal">
+        <div class="modal-content">
+            <a class="close modal-close"><i class="fas fa-times"></i></a>
+            <h4 class="reward-title">Thanks for your donation!</h4>
+            <div class="reward-content">
+                <div class="reward-tabs">
+                    <ul class="tabs row">
+                        <li class="tab col s6 alipay-tab waves-effect waves-light"><a href="#alipay">支付宝</a></li>
+                        <li class="tab col s6 wechat-tab waves-effect waves-light"><a href="#wechat">微 信</a></li>
+                    </ul>
+                    <div id="alipay">
+                        <img src="/medias/reward/alipay.jpg" class="reward-img" alt="支付宝打赏二维码">
+                    </div>
+                    <div id="wechat">
+                        <img src="/medias/reward/wechat.png" class="reward-img" alt="微信打赏二维码">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script>
+    $(function () {
+        $('.tabs').tabs();
+    });
+</script>
+
+            
+        </div>
+    </div>
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+<article id="prenext-posts" class="prev-next articles">
+    <div class="row article-row">
+        
+        <div class="article col s12 m6" data-aos="fade-up">
+            <div class="article-badge left-badge text-color">
+                <i class="fas fa-chevron-left"></i>&nbsp;Previous</div>
+            <div class="card">
+                <a href="/2019/05/14/20190515-Sardinia/">
+                    <div class="card-image">
+                        
+                        <img src="/medias/images/09.jpg" class="responsive-img" alt="20190515 Sardinia">
+                        
+                        <span class="card-title">20190515 Sardinia</span>
+                    </div>
+                </a>
+                <div class="card-content article-content">
+                    <div class="summary block-with-text">
+                        
+                            The slides presented at EPTA meeting hold in Sardina on May 2019.
+                        
+                    </div>
+                    <div class="publish-info">
+                        <span class="publish-date">
+                            <i class="far fa-clock fa-fw icon-date"></i>2019-05-14
+                        </span>
+                        <span class="publish-author">
+                            
+                            <i class="fas fa-bookmark fa-fw icon-category"></i>
+                            
+                            <a href="/categories/Research/" class="post-category">
+                                    Research
+                                </a>
+                            
+                            
+                        </span>
+                    </div>
+                </div>
+                
+                <div class="card-action article-tags">
+                    
+                    <a href="/tags/PPT/">
+                        <span class="chip bg-color">PPT</span>
+                    </a>
+                    
+                    <a href="/tags/Meeting/">
+                        <span class="chip bg-color">Meeting</span>
+                    </a>
+                    
+                </div>
+                
+            </div>
+        </div>
+        
+        
+        <div class="article col s12 m6" data-aos="fade-up">
+            <div class="article-badge right-badge text-color">
+                Next&nbsp;<i class="fas fa-chevron-right"></i>
+            </div>
+            <div class="card">
+                <a href="/2019/03/29/20190329-hexo-usage/">
+                    <div class="card-image">
+                        
+                        <img src="/medias/images/07.jpg" class="responsive-img" alt="Hexo Usage and Theme Beautify">
+                        
+                        <span class="card-title">Hexo Usage and Theme Beautify</span>
+                    </div>
+                </a>
+                <div class="card-content article-content">
+                    <div class="summary block-with-text">
+                        
+                            This article illustrates the steps to built hexo blog.
+                        
+                    </div>
+                    <div class="publish-info">
+                            <span class="publish-date">
+                                <i class="far fa-clock fa-fw icon-date"></i>2019-03-29
+                            </span>
+                        <span class="publish-author">
+                            
+                            <i class="fas fa-bookmark fa-fw icon-category"></i>
+                            
+                            <a href="/categories/Learn/" class="post-category">
+                                    Learn
+                                </a>
+                            
+                            
+                        </span>
+                    </div>
+                </div>
+                
+                <div class="card-action article-tags">
+                    
+                    <a href="/tags/Blog/">
+                        <span class="chip bg-color">Blog</span>
+                    </a>
+                    
+                </div>
+                
+            </div>
+        </div>
+        
+    </div>
+</article>
+
+</div>
+
+
+
+<!-- 代码块功能依赖 -->
+<script type="text/javascript" src="/libs/codeBlock/codeBlockFuction.js"></script>
+
+<!-- 代码语言 -->
+
+<script type="text/javascript" src="/libs/codeBlock/codeLang.js"></script>
+
+
+<!-- 代码块复制 -->
+
+<script type="text/javascript" src="/libs/codeBlock/codeCopy.js"></script>
+
+
+<!-- 代码块收缩 -->
+
+<script type="text/javascript" src="/libs/codeBlock/codeShrink.js"></script>
+
+
+<!-- 代码块折行 -->
+
+<style type="text/css">
+code[class*="language-"], pre[class*="language-"] { white-space: pre !important; }
+</style>
+
+
+    
+
+</main>
+
+
+<script src="https://cdn.bootcss.com/mathjax/2.7.5/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+<script>
+    MathJax.Hub.Config({
+        tex2jax: {inlineMath: [['$', '$'], ['\(', '\)']]}
+    });
+</script>
+
+
+
+    <footer class="page-footer bg-color">
+    
+        <link rel="stylesheet" href="/libs/aplayer/APlayer.min.css">
+<style>
+    .aplayer .aplayer-lrc p {
+        
+        display: none;
+        
+        font-size: 12px;
+        font-weight: 700;
+        line-height: 16px !important;
+    }
+
+    .aplayer .aplayer-lrc p.aplayer-lrc-current {
+        
+        display: none;
+        
+        font-size: 15px;
+        color: #42b983;
+    }
+
+    
+    .aplayer.aplayer-fixed.aplayer-narrow .aplayer-body {
+        left: -66px !important;
+    }
+
+    .aplayer.aplayer-fixed.aplayer-narrow .aplayer-body:hover {
+        left: 0px !important;
+    }
+
+    
+</style>
+<div class="">
+    
+    <div class="row">
+        <meting-js class="col l8 offset-l2 m10 offset-m1 s12"
+                   server="netease"
+                   type="playlist"
+                   id="503838841"
+                   fixed='true'
+                   autoplay='false'
+                   theme='#42b983'
+                   loop='all'
+                   order='random'
+                   preload='auto'
+                   volume='0.7'
+                   list-folded='true'
+        >
+        </meting-js>
+    </div>
+</div>
+
+<script src="/libs/aplayer/APlayer.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/meting@2/dist/Meting.min.js"></script>
+
+    
+    <div class="container row center-align" style="margin-bottom: 0px !important;">
+        <div class="col s12 m8 l8 copy-right">
+            Copyright&nbsp;&copy;
+            <span id="year">2019</span>
+            <a href="/about" target="_blank">Jun Wang</a>
+            |&nbsp;Powered by&nbsp;<a href="https://github.com/" target="_blank">GitHub</a>
+            |&nbsp;Theme&nbsp;<a href="https://www.astrondog.com" target="_blank">AstronDog</a>
+            <br>
+            
+            
+            
+            
+            
+            
+            <span id="busuanzi_container_site_pv">
+                |&nbsp;<i class="far fa-eye"></i>&nbsp;总访问量:&nbsp;<span id="busuanzi_value_site_pv"
+                    class="white-color"></span>&nbsp;次
+            </span>
+            
+            
+            <span id="busuanzi_container_site_uv">
+                |&nbsp;<i class="fas fa-users"></i>&nbsp;总访问人数:&nbsp;<span id="busuanzi_value_site_uv"
+                    class="white-color"></span>&nbsp;人
+            </span>
+            
+            <br>
+            
+            <br>
+            
+        </div>
+        <div class="col s12 m4 l4 social-link social-statis">
+    <a href="https://github.com/astrondog" class="tooltipped" target="_blank" data-tooltip="Vist GitHub" data-position="top" data-delay="50">
+        <i class="fab fa-github"></i>
+    </a>
+
+
+
+    <a href="mailto:junwang@drjun.wang" class="tooltipped" target="_blank" data-tooltip="Contact me via Email" data-position="top" data-delay="50">
+        <i class="fas fa-envelope-open"></i>
+    </a>
+
+
+
+
+
+
+
+    <a href="tencent://AddContact/?fromId=50&fromSubId=1&subcmd=all&uin=454450168" class="tooltipped" target="_blank" data-tooltip="Contact me via QQ: 454450168" data-position="top" data-delay="50">
+        <i class="fab fa-qq"></i>
+    </a>
+
+
+
+
+
+
+
+    <a href="/atom.xml" class="tooltipped" target="_blank" data-tooltip="RSS subscribe" data-position="top" data-delay="50">
+        <i class="fas fa-rss"></i>
+    </a>
+
+</div>
+    </div>
+</footer>
+
+<div class="progress-bar"></div>
+
+
+    <!-- 搜索遮罩框 -->
+<div id="searchModal" class="modal">
+    <div class="modal-content">
+        <div class="search-header">
+            <span class="title"><i class="fas fa-search"></i>&nbsp;&nbsp;Search</span>
+            <input type="search" id="searchInput" name="s" placeholder="Please enter a search keyword"
+                   class="search-input">
+        </div>
+        <div id="searchResult"></div>
+    </div>
+</div>
+
+<script src="/js/search.js"></script>
+<script type="text/javascript">
+$(function () {
+    searchFunc("/search.xml", 'searchInput', 'searchResult');
+});
+</script>
+
+    <!-- 回到顶部按钮 -->
+<div id="backTop" class="top-scroll">
+    <a class="btn-floating btn-large waves-effect waves-light" href="#!">
+        <i class="fas fa-arrow-up"></i>
+    </a>
+</div>
+
+
+    <script src="/libs/materialize/materialize.min.js"></script>
+    <script src="/libs/masonry/masonry.pkgd.min.js"></script>
+    <script src="/libs/aos/aos.js"></script>
+    <script src="/libs/scrollprogress/scrollProgress.min.js"></script>
+    <script src="/libs/lightGallery/js/lightgallery-all.min.js"></script>
+    <script src="/js/matery.js"></script>
+
+    <!-- Baidu Analytics -->
+
+    <!-- Baidu Push -->
+
+<script>
+    (function () {
+        var bp = document.createElement('script');
+        var curProtocol = window.location.protocol.split(':')[0];
+        if (curProtocol === 'https') {
+            bp.src = 'https://zz.bdstatic.com/linksubmit/push.js';
+        } else {
+            bp.src = 'http://push.zhanzhang.baidu.com/push.js';
+        }
+        var s = document.getElementsByTagName("script")[0];
+        s.parentNode.insertBefore(bp, s);
+    })();
+</script>
+
+    
+    <script src="/libs/others/clicklove.js" async="async"></script>
+    
+    
+    <script async src="/libs/others/busuanzi.pure.mini.js"></script>
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+    <script src="/libs/instantpage/instantpage.js" type="module"></script>
+    
+
+</body>
+
+</html>
+
+
+<!-- weather -->
+<script type="text/javascript">
+WIDGET = {FID: 'YWKH0s75Vi'}
+</script>
+<script type="text/javascript" src="https://apip.weatherdt.com/float/static/js/r.js?v=1111"></script>

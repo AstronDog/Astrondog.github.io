@@ -1,0 +1,1372 @@
+<!DOCTYPE HTML>
+<html lang="en">
+
+
+<head>
+    <meta charset="utf-8">
+    <meta name="keywords" content="Pulsar Data Analysis, Dr. JunWang">
+    <meta name="description" content="">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+    <meta name="renderer" content="webkit|ie-stand|ie-comp">
+    <meta name="mobile-web-app-capable" content="yes">
+    <meta name="format-detection" content="telephone=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+
+
+    <title>Pulsar Data Analysis | Dr. JunWang</title>
+    <link rel="icon" type="image/png" href="/favicon.png">
+
+    <link rel="stylesheet" type="text/css" href="/libs/awesome/css/all.min.css">
+    <link rel="stylesheet" type="text/css" href="/libs/materialize/materialize.min.css">
+    <link rel="stylesheet" type="text/css" href="/libs/aos/aos.css">
+    <link rel="stylesheet" type="text/css" href="/libs/animate/animate.min.css">
+    <link rel="stylesheet" type="text/css" href="/libs/lightGallery/css/lightgallery.min.css">
+    <link rel="stylesheet" type="text/css" href="/css/matery.css">
+    <link rel="stylesheet" type="text/css" href="/css/my.css">
+
+    <script src="/libs/jquery/jquery-3.6.0.min.js"></script>
+
+<meta name="generator" content="Hexo 5.4.2"><link rel="alternate" href="/atom.xml" title="Dr. JunWang" type="application/atom+xml">
+<link rel="stylesheet" href="/css/prism-tomorrow.css" type="text/css">
+<link rel="stylesheet" href="/css/prism-line-numbers.css" type="text/css"></head>
+
+
+<body>
+    <header class="navbar-fixed">
+    <nav id="headNav" class="bg-color nav-transparent">
+        <div id="navContainer" class="nav-wrapper container">
+            <div class="brand-logo">
+                <a href="/" class="waves-effect waves-light">
+                    
+                    <img src="/medias/logo.png" class="logo-img" alt="LOGO">
+                    
+                    <span class="logo-span">Dr. JunWang</span>
+                </a>
+            </div>
+            
+
+<a href="#" data-target="mobile-nav" class="sidenav-trigger button-collapse"><i class="fas fa-bars"></i></a>
+<ul class="right nav-menu">
+  
+  <li class="hide-on-med-and-down nav-item">
+    
+    <a href="/" class="waves-effect waves-light">
+      
+      <i class="fas fa-home" style="zoom: 0.6;"></i>
+      
+      <span>Index</span>
+    </a>
+    
+  </li>
+  
+  <li class="hide-on-med-and-down nav-item">
+    
+    <a href="/tags" class="waves-effect waves-light">
+      
+      <i class="fas fa-tags" style="zoom: 0.6;"></i>
+      
+      <span>Tags</span>
+    </a>
+    
+  </li>
+  
+  <li class="hide-on-med-and-down nav-item">
+    
+    <a href="/categories" class="waves-effect waves-light">
+      
+      <i class="fas fa-bookmark" style="zoom: 0.6;"></i>
+      
+      <span>Categories</span>
+    </a>
+    
+  </li>
+  
+  <li class="hide-on-med-and-down nav-item">
+    
+    <a href="/archives" class="waves-effect waves-light">
+      
+      <i class="fas fa-archive" style="zoom: 0.6;"></i>
+      
+      <span>Archives</span>
+    </a>
+    
+  </li>
+  
+  <li class="hide-on-med-and-down nav-item">
+    
+    <a href="/about" class="waves-effect waves-light">
+      
+      <i class="fas fa-user-circle" style="zoom: 0.6;"></i>
+      
+      <span>About</span>
+    </a>
+    
+  </li>
+  
+  <li class="hide-on-med-and-down nav-item">
+    
+    <a href="/cv" class="waves-effect waves-light">
+      
+      <i class="fas fa-user-tie" style="zoom: 0.6;"></i>
+      
+      <span>CV</span>
+    </a>
+    
+  </li>
+  
+  <li>
+    <a href="#searchModal" class="modal-trigger waves-effect waves-light">
+      <i id="searchIcon" class="fas fa-search" title="Search" style="zoom: 0.85;"></i>
+    </a>
+  </li>
+</ul>
+
+
+<div id="mobile-nav" class="side-nav sidenav">
+
+    <div class="mobile-head bg-color">
+        
+        <img src="/medias/logo.png" class="logo-img circle responsive-img">
+        
+        <div class="logo-name">Dr. JunWang</div>
+        <div class="logo-desc">
+            
+            Never really desperate, only the lost of the soul.
+            
+        </div>
+    </div>
+
+    
+
+    <ul class="menu-list mobile-menu-list">
+        
+        <li class="m-nav-item">
+	  
+		<a href="/" class="waves-effect waves-light">
+			
+			    <i class="fa-fw fas fa-home"></i>
+			
+			Index
+		</a>
+          
+        </li>
+        
+        <li class="m-nav-item">
+	  
+		<a href="/tags" class="waves-effect waves-light">
+			
+			    <i class="fa-fw fas fa-tags"></i>
+			
+			Tags
+		</a>
+          
+        </li>
+        
+        <li class="m-nav-item">
+	  
+		<a href="/categories" class="waves-effect waves-light">
+			
+			    <i class="fa-fw fas fa-bookmark"></i>
+			
+			Categories
+		</a>
+          
+        </li>
+        
+        <li class="m-nav-item">
+	  
+		<a href="/archives" class="waves-effect waves-light">
+			
+			    <i class="fa-fw fas fa-archive"></i>
+			
+			Archives
+		</a>
+          
+        </li>
+        
+        <li class="m-nav-item">
+	  
+		<a href="/about" class="waves-effect waves-light">
+			
+			    <i class="fa-fw fas fa-user-circle"></i>
+			
+			About
+		</a>
+          
+        </li>
+        
+        <li class="m-nav-item">
+	  
+		<a href="/cv" class="waves-effect waves-light">
+			
+			    <i class="fa-fw fas fa-user-tie"></i>
+			
+			CV
+		</a>
+          
+        </li>
+        
+        
+        <li><div class="divider"></div></li>
+        <li>
+            <a href="https://github.com/blinkfox/hexo-theme-matery" class="waves-effect waves-light" target="_blank">
+                <i class="fab fa-github-square fa-fw"></i>Fork Me
+            </a>
+        </li>
+        
+    </ul>
+</div>
+
+
+        </div>
+
+        
+            <style>
+    .nav-transparent .github-corner {
+        display: none !important;
+    }
+
+    .github-corner {
+        position: absolute;
+        z-index: 10;
+        top: 0;
+        right: 0;
+        border: 0;
+        transform: scale(1.1);
+    }
+
+    .github-corner svg {
+        color: #0f9d58;
+        fill: #fff;
+        height: 64px;
+        width: 64px;
+    }
+
+    .github-corner:hover .octo-arm {
+        animation: a 0.56s ease-in-out;
+    }
+
+    .github-corner .octo-arm {
+        animation: none;
+    }
+
+    @keyframes a {
+        0%,
+        to {
+            transform: rotate(0);
+        }
+        20%,
+        60% {
+            transform: rotate(-25deg);
+        }
+        40%,
+        80% {
+            transform: rotate(10deg);
+        }
+    }
+</style>
+
+<a href="https://github.com/blinkfox/hexo-theme-matery" class="github-corner tooltipped hide-on-med-and-down" target="_blank"
+   data-tooltip="Fork Me" data-position="left" data-delay="50">
+    <svg viewBox="0 0 250 250" aria-hidden="true">
+        <path d="M0,0 L115,115 L130,115 L142,142 L250,250 L250,0 Z"></path>
+        <path d="M128.3,109.0 C113.8,99.7 119.0,89.6 119.0,89.6 C122.0,82.7 120.5,78.6 120.5,78.6 C119.2,72.0 123.4,76.3 123.4,76.3 C127.3,80.9 125.5,87.3 125.5,87.3 C122.9,97.6 130.6,101.9 134.4,103.2"
+              fill="currentColor" style="transform-origin: 130px 106px;" class="octo-arm"></path>
+        <path d="M115.0,115.0 C114.9,115.1 118.7,116.5 119.8,115.4 L133.7,101.6 C136.9,99.2 139.9,98.4 142.2,98.6 C133.8,88.0 127.5,74.4 143.8,58.0 C148.5,53.4 154.0,51.2 159.7,51.0 C160.3,49.4 163.2,43.6 171.4,40.1 C171.4,40.1 176.1,42.5 178.8,56.2 C183.1,58.6 187.2,61.8 190.9,65.4 C194.5,69.0 197.7,73.2 200.1,77.6 C213.8,80.2 216.3,84.9 216.3,84.9 C212.7,93.1 206.9,96.0 205.4,96.6 C205.1,102.4 203.0,107.8 198.3,112.5 C181.9,128.9 168.3,122.5 157.7,114.1 C157.9,116.9 156.7,120.9 152.7,124.9 L141.0,136.5 C139.8,137.7 141.6,141.9 141.8,141.8 Z"
+              fill="currentColor" class="octo-body"></path>
+    </svg>
+</a>
+        
+    </nav>
+
+</header>
+
+    
+<script src="/libs/cryptojs/crypto-js.min.js"></script>
+<script>
+    (function() {
+        let pwd = '8362076b85f6fcda42e082995752c23af30e617dc662ccc68607bb3560e7ef2c';
+        if (pwd && pwd.length > 0) {
+            if (pwd !== CryptoJS.SHA256(prompt('Please enter password to read this article.')).toString(CryptoJS.enc.Hex)) {
+                alert('Incorrect password, back to the index!');
+                location.href = '/';
+            }
+        }
+    })();
+</script>
+
+
+
+
+<div class="bg-cover pd-header post-cover" style="background-image: url('/medias/images/29.jpg')">
+    <div class="container" style="right: 0px;left: 0px;">
+        <div class="row">
+            <div class="col s12 m12 l12">
+                <div class="brand">
+                    <h1 class="description center-align post-title">Pulsar Data Analysis</h1>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+
+<main class="container content">
+
+    
+    <!-- 文章内容详情 -->
+<div id="artDetail">
+    <div class="card">
+        <div class="card-content article-info">
+            <div class="row tag-cate">
+                <div class="col s7">
+                    
+                    <div class="article-tag">
+                        
+                            <a href="/tags/Pulsar/">
+                                <span class="chip bg-color">Pulsar</span>
+                            </a>
+                        
+                            <a href="/tags/Software/">
+                                <span class="chip bg-color">Software</span>
+                            </a>
+                        
+                            <a href="/tags/Python/">
+                                <span class="chip bg-color">Python</span>
+                            </a>
+                        
+                    </div>
+                    
+                </div>
+                <div class="col s5 right-align">
+                    
+                    <div class="post-cate">
+                        <i class="fas fa-bookmark fa-fw icon-category"></i>
+                        
+                            <a href="/categories/Research/" class="post-category">
+                                Research
+                            </a>
+                        
+                    </div>
+                    
+                </div>
+            </div>
+
+            <div class="post-info">
+                
+                <div class="post-date info-break-policy">
+                    <i class="far fa-calendar-minus fa-fw"></i>Publish Date:&nbsp;&nbsp;
+                    2021-03-07
+                </div>
+                
+
+                
+
+                
+
+                
+
+                
+            </div>
+        </div>
+        <hr class="clearfix">
+        <div class="card-content article-card-content">
+            <div id="articleContent">
+                <script src="/assets/js/APlayer.min.js"> </script><h2 id="Data-format"><a href="#Data-format" class="headerlink" title="Data format"></a>Data format</h2><h3 id="Baseband"><a href="#Baseband" class="headerlink" title="Baseband"></a>Baseband</h3><h3 id="EPN"><a href="#EPN" class="headerlink" title="EPN"></a>EPN</h3><h3 id="PSRFITS"><a href="#PSRFITS" class="headerlink" title="PSRFITS"></a>PSRFITS</h3><p>The “PSRFITS” format supports mean pulse profile (‘fold-mode’) and streamed (‘search-mode’) multi-channel full-polarisation data. A PSRFITS format file consists of a primary header-data unit (HDU) followed by a series of binary extension HDUs, in which are stored specific information about an observation. </p>
+<p>Usually, there are three types of pulsar data products are available:</p>
+<h4 id="Fold-mode-observations"><a href="#Fold-mode-observations" class="headerlink" title="Fold-mode observations"></a>Fold-mode observations</h4><p>Fold-mode observations are recorded at the telescope for a particular known pulsar, where the data are stacked or ‘folded’ at the rotation period of the pulsar, to form a pulse profile averaged over the length of the observation.</p>
+<p>Files of this type have the extension ‘.rf’. All fold-mode files are also processed by averaging over frequency channels, polarisation and time - files of this type have the extension ‘.FTp’.</p>
+<h4 id="Search-mode-observations"><a href="#Search-mode-observations" class="headerlink" title="Search-mode observations"></a>Search-mode observations</h4><p>Search-mode observations are essentially comprised of a multi-channel full-polarisation data stream for the length of the observation.</p>
+<p>Files of this type have the extension ‘.sf’.</p>
+<h4 id="Calibration-files"><a href="#Calibration-files" class="headerlink" title="Calibration files"></a>Calibration files</h4><p>Before and after an observation, a signal from a linear noise diode is injected into the feed. This allows the associated pulsar observation to be polarimetrically calibrated.</p>
+<p>Files of this type have the extension ‘.cf’. </p>
+<h2 id="Psrchive"><a href="#Psrchive" class="headerlink" title="Psrchive"></a>Psrchive</h2><p>Checking that it’s working:</p>
+<pre class="line-numbers language-python"><code class="language-python"><span class="token keyword">import</span> psrchive <span class="token keyword">as</span> pr
+<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
+<h3 id="Fundamental-data-classes"><a href="#Fundamental-data-classes" class="headerlink" title="Fundamental data classes:"></a>Fundamental data classes:</h3><blockquote>
+<p><strong>Profile</strong> is a single pulse profile – data as a function of pulse phase only.</p>
+</blockquote>
+<blockquote>
+<p><strong>Integration</strong> is a set of pulse profiles recorded simultaneously – usually<br>profiles as a function of frequency channel and/or polarization.</p>
+</blockquote>
+<blockquote>
+<p><strong>Archive</strong> is a set of Integration as a function of time. Represents a<br>single data file.</p>
+</blockquote>
+<table>
+    <tbody><tr>
+        <td>
+            <center>
+                <img src="https://github.com/AstronDog/blog-pic/raw/master/20200110psrpy/profile.png" width="400"> Fig 1, Profile
+            </center>
+        </td>
+        <td>
+            <center>
+                <img src="https://github.com/AstronDog/blog-pic/raw/master/20200110psrpy/integration.png" width="400"> Fig 2, Integration
+            </center>
+        </td>
+        <td>
+            <center>
+                <img src="https://github.com/AstronDog/blog-pic/raw/master/20200110psrpy/archive.png" width="400"> Fig 3, Archive
+            </center>
+        </td>
+    </tr>
+</tbody></table>
+
+
+
+
+<h3 id="Accessing-data-with-these-classes"><a href="#Accessing-data-with-these-classes" class="headerlink" title="Accessing data with these classes"></a>Accessing data with these classes</h3><h4 id="Archive"><a href="#Archive" class="headerlink" title="Archive:"></a>Archive:</h4><p>An Archive object represents a single data file, and contains a collection of Integration objects, also known as subintegrations. </p>
+<pre><code>arch = pr.Archive_load('file.fits')
+
+arch.get_source()
+# '1744-1134'
+</code></pre>
+<p>The <strong>get_data()</strong> method is an extra Python function that returns the raw data from the file as a NumPy array: </p>
+<pre><code>data = arch.get_data()
+
+data.shape
+# (10, 4, 2048, 256)
+</code></pre>
+<p>The dimensions of the data array are subintegration, polarization, channel, and profile bin. Important note: The get_data() function returns a copy of the Archive data. So changes made to the returned array will not be reflected in the Archive, and vice-versa.</p>
+<p>Integrations within an Archive can be accessed in Python by indexing the Archive object use <strong>archive.get_Integration(isub)</strong> or <strong>archive[isub]</strong> methods. So the following two lines are equivalent: </p>
+<pre><code>subint = arch.get_Integration(0)
+#等价
+subint = arch[0]
+</code></pre>
+<h4 id="Integration"><a href="#Integration" class="headerlink" title="Integration:"></a>Integration:</h4><p>An Integration object represents a collection of pulse profiles recorded simultaneously, typically from a number of frequency channels and polarization states (Stokes parameters): </p>
+<pre><code>subint.get_duration()
+# 60.230205439999999
+
+subint.get_nchan()
+# 2048
+</code></pre>
+<p>The existing <strong>baseline_stats()</strong> and <strong>cal_levels()</strong> methods have been modified for Python to return tuples of arrays, for example: </p>
+<pre><code>(b_mean, b_var) = subint.baseline_stats()
+
+b_mean.shape
+# (4, 2048)
+</code></pre>
+<p>An Integration object contains a number of pulse profiles that can be accessed via  <strong>integration.get_Profile(ipol,ichan)</strong>: </p>
+<pre><code>prof = subint.get_Profile(0,0)
+</code></pre>
+<h4 id="Profile"><a href="#Profile" class="headerlink" title="Profile:"></a>Profile:</h4><p>A Profile object represents a single pulse profile. The <strong>profile.get_amps()</strong> method returns the profile data as a NumPy array: </p>
+<pre><code>pdata = prof.get_amps()
+
+pdata.shape
+# (256,)
+</code></pre>
+<p>In contrast to the <strong>arch.get_data()</strong> example above, the pdata array here points into the actual C++ data structure. So changes made to the array values will be reflected in the underlying Profile object.</p>
+<p>The profile data values can also be read and/or altered by indexing the Profile object directly, for example: </p>
+<pre><code>pdata[16]
+# 91.366058
+
+prof[16]
+#91.366058349609375
+
+prof[16] = 500.0
+
+pdata[16]
+# 500.0
+</code></pre>
+<h4 id="Shortcut-to-get-all-data"><a href="#Shortcut-to-get-all-data" class="headerlink" title="Shortcut to get all data:"></a>Shortcut to get all data:</h4><p>Use <strong>archive.get_data()</strong> to return entire <strong>(Nsub, Npol, Nchan, Nbin)</strong> data cube as a NumPy array.</p>
+<p>Examples:</p>
+<pre><code>import psrchive as pr
+import matplotlib.pyplot as plt
+
+arch = psrchive.Archive_load('file.fits') 
+data = arch[0].get_Profile(0,200).get_amps()
+print(data.shape)
+# (1024,)
+plt.plot(data)
+</code></pre>
+<div align="center"><img src="https://github.com/AstronDog/blog-pic/raw/master/20200110psrpy/profile_example1.png" alt="" width="550"></div>
+```
+import psrchive as pr
+import matplotlib.pyplot as plt
+
+<p>arch = psrchive.Archive_load(‘file.fits’)<br>data = arch.get_data()<br>print(data.shape)</p>
+<h1 id="64-4-25-1024"><a href="#64-4-25-1024" class="headerlink" title="(64,4.25,1024)"></a>(64,4.25,1024)</h1><p>plt.plot(data[0,0,200:],’g’)</p>
+<pre><code>
+&lt;div align="center"&gt;&lt;img src="https://github.com/AstronDog/blog-pic/raw/master/20200110psrpy/profile_example2.png" alt="" width="550"&gt;&lt;/div&gt;
+
+####  Important: view and copy
+
+One data access subtlety / gotcha:
+    **profile.get_amps()** returns a **view** of the original data
+    **archive.get_data()** returns a **copy** of the original data
+This means that if you want to modify the data in a file you need to change  the values in the results of profile.get_amps()
+Modified data files can be saved to disk using
+    **archive.unload(“new_filename”)**
+
+#### Plot profile
+
+Archive has a large number of methods (functions) for performing  common data processing steps.
+Common examples: dedisperse(), remove_baseline(), fscrunch(),  tscrunch(), pscrunch(), convert_state(), …
+archive.execute(“[psrsh code…]”) will run any psrsh command on  the archive.
+</code></pre>
+<p>import psrchive as pr<br>import matplotlib.pyplot as plt</p>
+<p>arch = psrchive.Archive_load(‘file.fits’)<br>arch.dedisperse()<br>arch.fscrunch()<br>arch.pscrunch()<br>arch.remove_baseline()<br>data = a[0].get_Profiel(0,0).get_amps()<br>plt.plot(data)</p>
+<pre><code>&lt;div align="center"&gt;&lt;img src="https://github.com/AstronDog/blog-pic/raw/master/20200110psrpy/preprocess.png" alt="" width="550"&gt;&lt;/div&gt;
+
+
+Looping over profiles, extracting data:
+</code></pre>
+<p>import psrchive as pr</p>
+<p>arch = psrchive.Archive_load(‘file.fits’) </p>
+<p>for isub in range(a.get_nsubint())<br>    i = a[isub]<br>        for ichan in range(a.get_nchan()):<br>            print isub,ichan,i.get_Profiel(0,ichan).get_amps()[0]</p>
+<pre><code>
+####  MJD
+
+The MJD class is also now available in Python to deal with high-precision date/time values. Return values for date/time functions such as **Integration.get_epoch()** were previously converted to doubles for convenience.  To reproduce the old behavior and get a double-precision MJD value, use the **MJD.in_days()** method, for example:
+</code></pre>
+<p>mjd_dbl = arch.get_Integration(0).get_start_time().in_days()</p>
+<pre><code>
+####  Generating TOAs with Arrival Time
+
+The ArrivalTime class can be used to generate pulse times of arrival (TOAs) directly in Python, as an alternative to using the command-line utility pat.  Here is an example illustrating the basic usage:
+</code></pre>
+<p>import psrchive</p>
+<p>arrtim = psrchive.ArrivalTime()<br>arrtim.set_shift_estimator(‘PGS’)        # Set algorithm (see ‘pat -A’ help)<br>arrtim.set_format(‘Tempo2’)              # set TOA format<br>arrtim.set_format_flags(‘IPTA’)          # set some TOA flags<br>arrtim.set_attributes([‘chan’,’subint’]) # More TOA flags</p>
+<h1 id="Load-template-profile"><a href="#Load-template-profile" class="headerlink" title="Load template profile"></a>Load template profile</h1><p>std = psrchive.Archive_load(‘J1713+0747.Rcvr1_2.GUPPI.9y.x.sum.sm’)<br>std.pscrunch()<br>arrtim.set_standard(std)</p>
+<h1 id="Load-observation-profiles"><a href="#Load-observation-profiles" class="headerlink" title="Load observation profiles"></a>Load observation profiles</h1><p>obs = psrchive.Archive_load(‘guppi_55616_J1713+0747_0009.12y.x.ff’)<br>obs.pscrunch()<br>arrtim.set_observation(obs)</p>
+<h1 id="Result-is-a-tuple-of-TOA-strings"><a href="#Result-is-a-tuple-of-TOA-strings" class="headerlink" title="Result is a tuple of TOA strings:"></a>Result is a tuple of TOA strings:</h1><p>toas = arrtim.get_toas()</p>
+<pre><code>
+####  Simple Example
+
+In this example, we recreate the helpful "pav -GTdp" plot using python, and demonstrate some common psrchive functionality:
+</code></pre>
+<p>#! /usr/bin/env python<br>import pylab<br>import psrchive<br>arch = psrchive.Archive_load(‘1744_0001_0001.fits’)<br>arch.bscrunch_to_nbin(256)<br>arch.dedisperse()<br>arch.fscrunch_to_nchan(512)<br>arch.remove_baseline()<br>arch.convert_state(‘Stokes’)<br>data = arch.get_data()<br>freq_lo = arch.get_centre_frequency() - arch.get_bandwidth()/2.0<br>freq_hi = arch.get_centre_frequency() + arch.get_bandwidth()/2.0<br>pylab.imshow(data[:,0,:,:].mean(0),extent=(0,1,freq_lo,freq_hi))<br>pylab.xlabel(‘Pulse phase’)<br>pylab.ylabel(‘Frequency (MHz)’)<br>pylab.savefig(‘python_plot_example.png’)</p>
+<pre><code>This results in the following plot: 
+
+&lt;div align="center"&gt;&lt;img src="https://github.com/AstronDog/blog-pic/raw/master/20200110psrpy/frequency.png" alt="" width="550"&gt;&lt;/div&gt;
+
+#### 3 Timing
+
+Most use cases only need  Archive, Integration,  and Profile classes.
+
+But some of the PSRCHIVE  algorithm classes are also  included in the Python  interface.
+
+For example,  ProfileShiftFit for doing  template-matching:
+
+No very comprehesive list of  these unfortunately.	Browse  the C++ class docs, let me  know if you want something  added.
+</code></pre>
+<p>import psrchive as pr<br>import matplotlib.pyplot as plt</p>
+<p>a = psrchive.Archive_load(‘file.fits’).total()<br>s = psrchive.Archive_load(‘file.std’)<br>aprof = a[0].get_Profile(0,0)<br>sprof = s[0].get_Profile(0,0)</p>
+<p>psf = pr.ProfileShiftFit()<br>psf.set_standard(sprof)<br>psr.set_Profile(aprof)<br>psr.get_shifts()</p>
+<p>subplot(211); plot(aprof.get_a,ps())<br>subplot(212); plot(sprof.get_a,ps())</p>
+<pre><code>
+&lt;div align="center"&gt;&lt;img src="https://github.com/AstronDog/blog-pic/raw/master/20200110psrpy/advance.png" alt="" width="550"&gt;&lt;/div&gt;
+
+
+### Archive Functions
+#### Public Member Functions
+##### Archive
+
+void 	**bscrunch** (unsigned nscrunch)
+     Integrate pulse profiles in phase. More...
+     
+void 	**pscrunch** ()
+     Integrate profiles in polarization. More...
+
+void 	**fscrunch** (unsigned nscrunch=0)
+     Integrate profiles in frequency. More...
+
+void 	**tscrunch** (unsigned nscrunch=0)
+     Integrate profiles in time. More...
+     
+void 	**remove_chan** (unsigned first, unsigned last)
+     Delete the specified inclusive channel range from the Archive. 
+     
+#### Signal::Basis 	
+void	**get_basis** () const
+     Convenience interface to Receiver::get_basis.
+
+void 	**dedisperse** ()
+     Rotate the Profiles to remove dispersion delays b/w chans. More...
+     
+void 	defaraday ()
+     Correct the Faraday rotation of Q into U. More...
+
+#### PhaseWeight 	
+void 	**baseline** () const
+     Return a new PhaseWeight instance with the baseline phase bins masked.
+
+void 	**remove_baseline** ()
+     Remove the baseline from all profiles.
+
+void 	**uniform_weight** (float new_weight=1.0)
+     Set the weight of each profile to the given number. 
+     
+void 	**bscrunch_to_nbin** (unsigned new_nbin)
+     Call bscrunch with the appropriate value. More...
+
+void 	**fscrunch_to_nchan** (unsigned new_nchan)
+     Call fscrunch with the appropriate value. More...
+
+void 	**tscrunch_to_nsub** (unsigned new_nsub)
+     Call tscrunch with the appropriate value. More...
+
+MJD 	**start_time** () const
+     Return the MJD at the start of the first sub-integration.
+
+MJD 	**end_time** () const
+     Return the MJD at the end of the last sub-integration.
+
+double 	**integration_length** () const
+     Returns the total time integrated into all Integrations (in seconds) 
+
+
+
+### Common Attributes
+
+These pure virtual methods provide access to the common attributes stored by all derived classes.
+virtual std::string 	**get_telescope** () const =0
+     Get the name of the telescope used.
+
+virtual void 	**set_telescope** (const std::string &amp;code)=0
+     Set the name of the telescope used.
+
+virtual Signal::State 	**get_state** () const =0
+     Get the state of the profile data.
+
+virtual void 	**set_state** (Signal::State state)=0
+     Set the state of the profile data.
+
+virtual Signal::Scale 	**get_scale** () const =0
+     Get the scale in which flux density is measured.
+
+virtual void 	**set_scale** (Signal::Scale scale)=0
+     Set the scale in which flux density is measured.
+
+virtual Signal::Source 	**get_type** () const =0
+     Get the observation type (psr, cal)
+
+virtual void 	**set_type** (Signal::Source type)=0
+     Set the observation type (psr, cal)
+
+virtual std::string 	**get_source** () const =0
+     Get the source name.
+
+virtual void 	**set_source** (const std::string &amp;source)=0
+     Set the source name.
+
+virtual sky_coord 	**get_coordinates** () const =0
+     Get the coordinates of the source.
+
+virtual void 	**set_coordinates** (const sky_coord &amp;coordinates)=0
+     Set the coordinates of the source.
+
+virtual double 	**get_centre_frequency** () const =0
+     Get the centre frequency of the observation.
+
+virtual void 	**set_centre_frequency** (double cf)=0
+     Set the centre frequency of the observation.
+
+virtual double 	**get_bandwidth** () const =0
+     Get the overall bandwidth of the observation.
+
+virtual void 	**set_bandwidth** (double bw)=0
+     Set the overall bandwidth of the observation.
+
+virtual double 	**get_dispersion_measure** () const =0
+     Get the dispersion measure (in ${\rm pc\, cm}^{-3}$)
+
+virtual void 	**set_dispersion_measure** (double dm)=0
+     Set the dispersion measure (in ${\rm pc\, cm}^{-3}$)
+
+virtual bool 	**get_dedispersed** () const =0
+     Inter-channel dispersion delay has been removed.
+
+virtual void 	**set_dedispersed** (bool done=true)=0
+     Set the value to be returned by get_dedispersed.
+
+virtual double 	**get_rotation_measure** () const =0
+     Get the rotation measure (in ${\rm rad\, m}^{-2}$)
+
+virtual void 	**set_rotation_measure** (double rm)=0
+     Set the rotation measure (in ${\rm rad\, m}^{-2}$)
+
+virtual bool 	**get_faraday_corrected** () const =0
+     Data has been corrected for ISM faraday rotation.
+
+virtual void 	**set_faraday_corrected** (bool done=true)=0
+     Set the value to be returned by get_ism_rm_corrected.
+
+virtual bool 	**get_poln_calibrated** () const =0
+     Data has been calibrated for polarimetric response of instrument.
+
+virtual void 	**set_poln_calibrated** (bool done=true)=0
+     Set the value to be returned by get_poln_calibrated.
+
+
+
+
+#### Dimension Attributes
+
+These pure virtual methods are used by the Archive class to set the dimension attributes stored by the derived classes.
+virtual unsigned 	**get_nbin** () const =0
+     Get the number of pulsar phase bins used.
+
+virtual unsigned 	**get_nchan** () const =0
+     Get the number of frequency channels used.
+
+virtual unsigned 	**get_npol** () const =0
+     Get the number of polarizations.
+
+virtual void 	**set_nbin** (unsigned numbins)=0
+     Set the number of pulsar phase bins.
+
+virtual void 	**set_nchan** (unsigned numchan)=0
+     Set the number of frequency channels.
+
+virtual void 	**set_npol** (unsigned numpol)=0
+     Set the number of polarization measurements. 
+
+virtual void 	**resize** (unsigned nsubint, unsigned npol=0, unsigned nchan=0, unsigned nbin=0)
+     Resize the Integration vector with new_Integration instances. More...
+
+virtual void 	**erase** (unsigned isubint)
+     Remove the specified sub-integration.
+
+
+
+
+
+## Astropy
+
+
+## Pypulse
+
+
+## pdat
+
+## Pint
+
+
+
+## References
+
+[ANTF](https://www.atnf.csiro.au/observers/data/ppdu_guide.html)
+
+
+
+
+
+
+
+
+
+
+
+</code></pre>
+<script>
+        document.querySelectorAll('.github-emoji')
+          .forEach(el => {
+            if (!el.dataset.src) { return; }
+            const img = document.createElement('img');
+            img.style = 'display:none !important;';
+            img.src = el.dataset.src;
+            img.addEventListener('error', () => {
+              img.remove();
+              el.style.color = 'inherit';
+              el.style.backgroundImage = 'none';
+              el.style.background = 'none';
+            });
+            img.addEventListener('load', () => {
+              img.remove();
+            });
+            document.body.appendChild(img);
+          });
+      </script>
+            </div>
+            <hr/>
+
+            
+
+    <div class="reprint" id="reprint-statement">
+        
+            <div class="reprint__author">
+                <span class="reprint-meta" style="font-weight: bold;">
+                    <i class="fas fa-user">
+                        Author:
+                    </i>
+                </span>
+                <span class="reprint-info">
+                    <a href="/about" rel="external nofollow noreferrer">Jun Wang</a>
+                </span>
+            </div>
+            <div class="reprint__type">
+                <span class="reprint-meta" style="font-weight: bold;">
+                    <i class="fas fa-link">
+                        Link:
+                    </i>
+                </span>
+                <span class="reprint-info">
+                    <a href="http://www.drjun.wang/2021/03/07/20210307-pulsar-data-analysis/">http://www.drjun.wang/2021/03/07/20210307-pulsar-data-analysis/</a>
+                </span>
+            </div>
+            <div class="reprint__notice">
+                <span class="reprint-meta" style="font-weight: bold;">
+                    <i class="fas fa-copyright">
+                        Reprint policy:
+                    </i>
+                </span>
+                <span class="reprint-info">
+                    All articles in this blog are used except for special statements
+                    <a href="https://creativecommons.org/licenses/by/4.0/deed.zh" rel="external nofollow noreferrer" target="_blank">CC BY 4.0</a>
+                    reprint policy. If reproduced, please indicate source
+                    <a href="/about" target="_blank">Jun Wang</a>
+                    !
+                </span>
+            </div>
+        
+    </div>
+
+    <script async defer>
+      document.addEventListener("copy", function (e) {
+        let toastHTML = '<span>Copied successfully, please follow the reprint policy of this article</span><button class="btn-flat toast-action" onclick="navToReprintStatement()" style="font-size: smaller">more</a>';
+        M.toast({html: toastHTML})
+      });
+
+      function navToReprintStatement() {
+        $("html, body").animate({scrollTop: $("#reprint-statement").offset().top - 80}, 800);
+      }
+    </script>
+
+
+
+            <div class="tag_share" style="display: block;">
+                <div class="post-meta__tag-list" style="display: inline-block;">
+                    
+                        <div class="article-tag">
+                            
+                                <a href="/tags/Pulsar/">
+                                    <span class="chip bg-color">Pulsar</span>
+                                </a>
+                            
+                                <a href="/tags/Software/">
+                                    <span class="chip bg-color">Software</span>
+                                </a>
+                            
+                                <a href="/tags/Python/">
+                                    <span class="chip bg-color">Python</span>
+                                </a>
+                            
+                        </div>
+                    
+                </div>
+                <div class="post_share" style="zoom: 80%; width: fit-content; display: inline-block; float: right; margin: -0.15rem 0;">
+                    <link rel="stylesheet" type="text/css" href="/libs/share/css/share.min.css">
+<div id="article-share">
+
+    
+    <div class="social-share" data-sites="twitter,facebook,google,qq,qzone,wechat,weibo,douban,linkedin" data-wechat-qrcode-helper="<p>微信扫一扫即可分享！</p>"></div>
+    <script src="/libs/share/js/social-share.min.js"></script>
+    
+
+    
+
+</div>
+
+                </div>
+            </div>
+            
+                <style>
+    #reward {
+        margin: 40px 0;
+        text-align: center;
+    }
+
+    #reward .reward-link {
+        font-size: 1.4rem;
+        line-height: 38px;
+    }
+
+    #reward .btn-floating:hover {
+        box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2), 0 5px 15px rgba(0, 0, 0, 0.2);
+    }
+
+    #rewardModal {
+        width: 320px;
+        height: 350px;
+    }
+
+    #rewardModal .reward-title {
+        margin: 15px auto;
+        padding-bottom: 5px;
+    }
+
+    #rewardModal .modal-content {
+        padding: 10px;
+    }
+
+    #rewardModal .close {
+        position: absolute;
+        right: 15px;
+        top: 15px;
+        color: rgba(0, 0, 0, 0.5);
+        font-size: 1.3rem;
+        line-height: 20px;
+        cursor: pointer;
+    }
+
+    #rewardModal .close:hover {
+        color: #ef5350;
+        transform: scale(1.3);
+        -moz-transform:scale(1.3);
+        -webkit-transform:scale(1.3);
+        -o-transform:scale(1.3);
+    }
+
+    #rewardModal .reward-tabs {
+        margin: 0 auto;
+        width: 210px;
+    }
+
+    .reward-tabs .tabs {
+        height: 38px;
+        margin: 10px auto;
+        padding-left: 0;
+    }
+
+    .reward-content ul {
+        padding-left: 0 !important;
+    }
+
+    .reward-tabs .tabs .tab {
+        height: 38px;
+        line-height: 38px;
+    }
+
+    .reward-tabs .tab a {
+        color: #fff;
+        background-color: #ccc;
+    }
+
+    .reward-tabs .tab a:hover {
+        background-color: #ccc;
+        color: #fff;
+    }
+
+    .reward-tabs .wechat-tab .active {
+        color: #fff !important;
+        background-color: #22AB38 !important;
+    }
+
+    .reward-tabs .alipay-tab .active {
+        color: #fff !important;
+        background-color: #019FE8 !important;
+    }
+
+    .reward-tabs .reward-img {
+        width: 210px;
+        height: 210px;
+    }
+</style>
+
+<div id="reward">
+    <a href="#rewardModal" class="reward-link modal-trigger btn-floating btn-medium waves-effect waves-light red">赏</a>
+
+    <!-- Modal Structure -->
+    <div id="rewardModal" class="modal">
+        <div class="modal-content">
+            <a class="close modal-close"><i class="fas fa-times"></i></a>
+            <h4 class="reward-title">Thanks for your donation!</h4>
+            <div class="reward-content">
+                <div class="reward-tabs">
+                    <ul class="tabs row">
+                        <li class="tab col s6 alipay-tab waves-effect waves-light"><a href="#alipay">支付宝</a></li>
+                        <li class="tab col s6 wechat-tab waves-effect waves-light"><a href="#wechat">微 信</a></li>
+                    </ul>
+                    <div id="alipay">
+                        <img src="/medias/reward/alipay.jpg" class="reward-img" alt="支付宝打赏二维码">
+                    </div>
+                    <div id="wechat">
+                        <img src="/medias/reward/wechat.png" class="reward-img" alt="微信打赏二维码">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script>
+    $(function () {
+        $('.tabs').tabs();
+    });
+</script>
+
+            
+        </div>
+    </div>
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+<article id="prenext-posts" class="prev-next articles">
+    <div class="row article-row">
+        
+        <div class="article col s12 m6" data-aos="fade-up">
+            <div class="article-badge left-badge text-color">
+                <i class="fas fa-chevron-left"></i>&nbsp;Previous</div>
+            <div class="card">
+                <a href="/2021/03/08/20210308-jupyter-notebook/">
+                    <div class="card-image">
+                        
+                        <img src="/medias/images/30.jpg" class="responsive-img" alt="Jupyter Notebook">
+                        
+                        <span class="card-title">Jupyter Notebook</span>
+                    </div>
+                </a>
+                <div class="card-content article-content">
+                    <div class="summary block-with-text">
+                        
+                            Jupyter Notebook Usage
+                        
+                    </div>
+                    <div class="publish-info">
+                        <span class="publish-date">
+                            <i class="far fa-clock fa-fw icon-date"></i>2021-03-08
+                        </span>
+                        <span class="publish-author">
+                            
+                            <i class="fas fa-bookmark fa-fw icon-category"></i>
+                            
+                            <a href="/categories/Learn/" class="post-category">
+                                    Learn
+                                </a>
+                            
+                            
+                        </span>
+                    </div>
+                </div>
+                
+                <div class="card-action article-tags">
+                    
+                    <a href="/tags/Software/">
+                        <span class="chip bg-color">Software</span>
+                    </a>
+                    
+                    <a href="/tags/Python/">
+                        <span class="chip bg-color">Python</span>
+                    </a>
+                    
+                </div>
+                
+            </div>
+        </div>
+        
+        
+        <div class="article col s12 m6" data-aos="fade-up">
+            <div class="article-badge right-badge text-color">
+                Next&nbsp;<i class="fas fa-chevron-right"></i>
+            </div>
+            <div class="card">
+                <a href="/2021/03/06/20210306-gnuplot/">
+                    <div class="card-image">
+                        
+                        <img src="/medias/images/28.jpg" class="responsive-img" alt="Gnuplot">
+                        
+                        <span class="card-title">Gnuplot</span>
+                    </div>
+                </a>
+                <div class="card-content article-content">
+                    <div class="summary block-with-text">
+                        
+                            Gnuplot usage
+                        
+                    </div>
+                    <div class="publish-info">
+                            <span class="publish-date">
+                                <i class="far fa-clock fa-fw icon-date"></i>2021-03-06
+                            </span>
+                        <span class="publish-author">
+                            
+                            <i class="fas fa-bookmark fa-fw icon-category"></i>
+                            
+                            <a href="/categories/Learn/" class="post-category">
+                                    Learn
+                                </a>
+                            
+                            
+                        </span>
+                    </div>
+                </div>
+                
+                <div class="card-action article-tags">
+                    
+                    <a href="/tags/Software/">
+                        <span class="chip bg-color">Software</span>
+                    </a>
+                    
+                    <a href="/tags/Linux/">
+                        <span class="chip bg-color">Linux</span>
+                    </a>
+                    
+                </div>
+                
+            </div>
+        </div>
+        
+    </div>
+</article>
+
+</div>
+
+
+
+<!-- 代码块功能依赖 -->
+<script type="text/javascript" src="/libs/codeBlock/codeBlockFuction.js"></script>
+
+<!-- 代码语言 -->
+
+<script type="text/javascript" src="/libs/codeBlock/codeLang.js"></script>
+
+
+<!-- 代码块复制 -->
+
+<script type="text/javascript" src="/libs/codeBlock/codeCopy.js"></script>
+
+
+<!-- 代码块收缩 -->
+
+<script type="text/javascript" src="/libs/codeBlock/codeShrink.js"></script>
+
+
+<!-- 代码块折行 -->
+
+<style type="text/css">
+code[class*="language-"], pre[class*="language-"] { white-space: pre !important; }
+</style>
+
+
+    
+
+</main>
+
+
+
+
+    <footer class="page-footer bg-color">
+    
+        <link rel="stylesheet" href="/libs/aplayer/APlayer.min.css">
+<style>
+    .aplayer .aplayer-lrc p {
+        
+        display: none;
+        
+        font-size: 12px;
+        font-weight: 700;
+        line-height: 16px !important;
+    }
+
+    .aplayer .aplayer-lrc p.aplayer-lrc-current {
+        
+        display: none;
+        
+        font-size: 15px;
+        color: #42b983;
+    }
+
+    
+    .aplayer.aplayer-fixed.aplayer-narrow .aplayer-body {
+        left: -66px !important;
+    }
+
+    .aplayer.aplayer-fixed.aplayer-narrow .aplayer-body:hover {
+        left: 0px !important;
+    }
+
+    
+</style>
+<div class="">
+    
+    <div class="row">
+        <meting-js class="col l8 offset-l2 m10 offset-m1 s12"
+                   server="netease"
+                   type="playlist"
+                   id="503838841"
+                   fixed='true'
+                   autoplay='false'
+                   theme='#42b983'
+                   loop='all'
+                   order='random'
+                   preload='auto'
+                   volume='0.7'
+                   list-folded='true'
+        >
+        </meting-js>
+    </div>
+</div>
+
+<script src="/libs/aplayer/APlayer.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/meting@2/dist/Meting.min.js"></script>
+
+    
+    <div class="container row center-align" style="margin-bottom: 0px !important;">
+        <div class="col s12 m8 l8 copy-right">
+            Copyright&nbsp;&copy;
+            <span id="year">2019</span>
+            <a href="/about" target="_blank">Jun Wang</a>
+            |&nbsp;Powered by&nbsp;<a href="https://github.com/" target="_blank">GitHub</a>
+            |&nbsp;Theme&nbsp;<a href="https://www.astrondog.com" target="_blank">AstronDog</a>
+            <br>
+            
+            
+            
+            
+            
+            
+            <span id="busuanzi_container_site_pv">
+                |&nbsp;<i class="far fa-eye"></i>&nbsp;总访问量:&nbsp;<span id="busuanzi_value_site_pv"
+                    class="white-color"></span>&nbsp;次
+            </span>
+            
+            
+            <span id="busuanzi_container_site_uv">
+                |&nbsp;<i class="fas fa-users"></i>&nbsp;总访问人数:&nbsp;<span id="busuanzi_value_site_uv"
+                    class="white-color"></span>&nbsp;人
+            </span>
+            
+            <br>
+            
+            <br>
+            
+        </div>
+        <div class="col s12 m4 l4 social-link social-statis">
+    <a href="https://github.com/astrondog" class="tooltipped" target="_blank" data-tooltip="Vist GitHub" data-position="top" data-delay="50">
+        <i class="fab fa-github"></i>
+    </a>
+
+
+
+    <a href="mailto:junwang@drjun.wang" class="tooltipped" target="_blank" data-tooltip="Contact me via Email" data-position="top" data-delay="50">
+        <i class="fas fa-envelope-open"></i>
+    </a>
+
+
+
+
+
+
+
+    <a href="tencent://AddContact/?fromId=50&fromSubId=1&subcmd=all&uin=454450168" class="tooltipped" target="_blank" data-tooltip="Contact me via QQ: 454450168" data-position="top" data-delay="50">
+        <i class="fab fa-qq"></i>
+    </a>
+
+
+
+
+
+
+
+    <a href="/atom.xml" class="tooltipped" target="_blank" data-tooltip="RSS subscribe" data-position="top" data-delay="50">
+        <i class="fas fa-rss"></i>
+    </a>
+
+</div>
+    </div>
+</footer>
+
+<div class="progress-bar"></div>
+
+
+    <!-- 搜索遮罩框 -->
+<div id="searchModal" class="modal">
+    <div class="modal-content">
+        <div class="search-header">
+            <span class="title"><i class="fas fa-search"></i>&nbsp;&nbsp;Search</span>
+            <input type="search" id="searchInput" name="s" placeholder="Please enter a search keyword"
+                   class="search-input">
+        </div>
+        <div id="searchResult"></div>
+    </div>
+</div>
+
+<script src="/js/search.js"></script>
+<script type="text/javascript">
+$(function () {
+    searchFunc("/search.xml", 'searchInput', 'searchResult');
+});
+</script>
+
+    <!-- 回到顶部按钮 -->
+<div id="backTop" class="top-scroll">
+    <a class="btn-floating btn-large waves-effect waves-light" href="#!">
+        <i class="fas fa-arrow-up"></i>
+    </a>
+</div>
+
+
+    <script src="/libs/materialize/materialize.min.js"></script>
+    <script src="/libs/masonry/masonry.pkgd.min.js"></script>
+    <script src="/libs/aos/aos.js"></script>
+    <script src="/libs/scrollprogress/scrollProgress.min.js"></script>
+    <script src="/libs/lightGallery/js/lightgallery-all.min.js"></script>
+    <script src="/js/matery.js"></script>
+
+    <!-- Baidu Analytics -->
+
+    <!-- Baidu Push -->
+
+<script>
+    (function () {
+        var bp = document.createElement('script');
+        var curProtocol = window.location.protocol.split(':')[0];
+        if (curProtocol === 'https') {
+            bp.src = 'https://zz.bdstatic.com/linksubmit/push.js';
+        } else {
+            bp.src = 'http://push.zhanzhang.baidu.com/push.js';
+        }
+        var s = document.getElementsByTagName("script")[0];
+        s.parentNode.insertBefore(bp, s);
+    })();
+</script>
+
+    
+    <script src="/libs/others/clicklove.js" async="async"></script>
+    
+    
+    <script async src="/libs/others/busuanzi.pure.mini.js"></script>
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+    <script src="/libs/instantpage/instantpage.js" type="module"></script>
+    
+
+</body>
+
+</html>
+
+
+<!-- weather -->
+<script type="text/javascript">
+WIDGET = {FID: 'YWKH0s75Vi'}
+</script>
+<script type="text/javascript" src="https://apip.weatherdt.com/float/static/js/r.js?v=1111"></script>

@@ -1,0 +1,1219 @@
+<!DOCTYPE HTML>
+<html lang="en">
+
+
+<head>
+    <meta charset="utf-8">
+    <meta name="keywords" content="Calibration, Dr. JunWang">
+    <meta name="description" content="">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+    <meta name="renderer" content="webkit|ie-stand|ie-comp">
+    <meta name="mobile-web-app-capable" content="yes">
+    <meta name="format-detection" content="telephone=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+
+
+    <title>Calibration | Dr. JunWang</title>
+    <link rel="icon" type="image/png" href="/favicon.png">
+
+    <link rel="stylesheet" type="text/css" href="/libs/awesome/css/all.min.css">
+    <link rel="stylesheet" type="text/css" href="/libs/materialize/materialize.min.css">
+    <link rel="stylesheet" type="text/css" href="/libs/aos/aos.css">
+    <link rel="stylesheet" type="text/css" href="/libs/animate/animate.min.css">
+    <link rel="stylesheet" type="text/css" href="/libs/lightGallery/css/lightgallery.min.css">
+    <link rel="stylesheet" type="text/css" href="/css/matery.css">
+    <link rel="stylesheet" type="text/css" href="/css/my.css">
+
+    <script src="/libs/jquery/jquery-3.6.0.min.js"></script>
+
+<meta name="generator" content="Hexo 5.4.2"><link rel="alternate" href="/atom.xml" title="Dr. JunWang" type="application/atom+xml">
+<link rel="stylesheet" href="/css/prism-tomorrow.css" type="text/css">
+<link rel="stylesheet" href="/css/prism-line-numbers.css" type="text/css"></head>
+
+
+<body>
+    <header class="navbar-fixed">
+    <nav id="headNav" class="bg-color nav-transparent">
+        <div id="navContainer" class="nav-wrapper container">
+            <div class="brand-logo">
+                <a href="/" class="waves-effect waves-light">
+                    
+                    <img src="/medias/logo.png" class="logo-img" alt="LOGO">
+                    
+                    <span class="logo-span">Dr. JunWang</span>
+                </a>
+            </div>
+            
+
+<a href="#" data-target="mobile-nav" class="sidenav-trigger button-collapse"><i class="fas fa-bars"></i></a>
+<ul class="right nav-menu">
+  
+  <li class="hide-on-med-and-down nav-item">
+    
+    <a href="/" class="waves-effect waves-light">
+      
+      <i class="fas fa-home" style="zoom: 0.6;"></i>
+      
+      <span>Index</span>
+    </a>
+    
+  </li>
+  
+  <li class="hide-on-med-and-down nav-item">
+    
+    <a href="/tags" class="waves-effect waves-light">
+      
+      <i class="fas fa-tags" style="zoom: 0.6;"></i>
+      
+      <span>Tags</span>
+    </a>
+    
+  </li>
+  
+  <li class="hide-on-med-and-down nav-item">
+    
+    <a href="/categories" class="waves-effect waves-light">
+      
+      <i class="fas fa-bookmark" style="zoom: 0.6;"></i>
+      
+      <span>Categories</span>
+    </a>
+    
+  </li>
+  
+  <li class="hide-on-med-and-down nav-item">
+    
+    <a href="/archives" class="waves-effect waves-light">
+      
+      <i class="fas fa-archive" style="zoom: 0.6;"></i>
+      
+      <span>Archives</span>
+    </a>
+    
+  </li>
+  
+  <li class="hide-on-med-and-down nav-item">
+    
+    <a href="/about" class="waves-effect waves-light">
+      
+      <i class="fas fa-user-circle" style="zoom: 0.6;"></i>
+      
+      <span>About</span>
+    </a>
+    
+  </li>
+  
+  <li class="hide-on-med-and-down nav-item">
+    
+    <a href="/cv" class="waves-effect waves-light">
+      
+      <i class="fas fa-user-tie" style="zoom: 0.6;"></i>
+      
+      <span>CV</span>
+    </a>
+    
+  </li>
+  
+  <li>
+    <a href="#searchModal" class="modal-trigger waves-effect waves-light">
+      <i id="searchIcon" class="fas fa-search" title="Search" style="zoom: 0.85;"></i>
+    </a>
+  </li>
+</ul>
+
+
+<div id="mobile-nav" class="side-nav sidenav">
+
+    <div class="mobile-head bg-color">
+        
+        <img src="/medias/logo.png" class="logo-img circle responsive-img">
+        
+        <div class="logo-name">Dr. JunWang</div>
+        <div class="logo-desc">
+            
+            Never really desperate, only the lost of the soul.
+            
+        </div>
+    </div>
+
+    
+
+    <ul class="menu-list mobile-menu-list">
+        
+        <li class="m-nav-item">
+	  
+		<a href="/" class="waves-effect waves-light">
+			
+			    <i class="fa-fw fas fa-home"></i>
+			
+			Index
+		</a>
+          
+        </li>
+        
+        <li class="m-nav-item">
+	  
+		<a href="/tags" class="waves-effect waves-light">
+			
+			    <i class="fa-fw fas fa-tags"></i>
+			
+			Tags
+		</a>
+          
+        </li>
+        
+        <li class="m-nav-item">
+	  
+		<a href="/categories" class="waves-effect waves-light">
+			
+			    <i class="fa-fw fas fa-bookmark"></i>
+			
+			Categories
+		</a>
+          
+        </li>
+        
+        <li class="m-nav-item">
+	  
+		<a href="/archives" class="waves-effect waves-light">
+			
+			    <i class="fa-fw fas fa-archive"></i>
+			
+			Archives
+		</a>
+          
+        </li>
+        
+        <li class="m-nav-item">
+	  
+		<a href="/about" class="waves-effect waves-light">
+			
+			    <i class="fa-fw fas fa-user-circle"></i>
+			
+			About
+		</a>
+          
+        </li>
+        
+        <li class="m-nav-item">
+	  
+		<a href="/cv" class="waves-effect waves-light">
+			
+			    <i class="fa-fw fas fa-user-tie"></i>
+			
+			CV
+		</a>
+          
+        </li>
+        
+        
+        <li><div class="divider"></div></li>
+        <li>
+            <a href="https://github.com/blinkfox/hexo-theme-matery" class="waves-effect waves-light" target="_blank">
+                <i class="fab fa-github-square fa-fw"></i>Fork Me
+            </a>
+        </li>
+        
+    </ul>
+</div>
+
+
+        </div>
+
+        
+            <style>
+    .nav-transparent .github-corner {
+        display: none !important;
+    }
+
+    .github-corner {
+        position: absolute;
+        z-index: 10;
+        top: 0;
+        right: 0;
+        border: 0;
+        transform: scale(1.1);
+    }
+
+    .github-corner svg {
+        color: #0f9d58;
+        fill: #fff;
+        height: 64px;
+        width: 64px;
+    }
+
+    .github-corner:hover .octo-arm {
+        animation: a 0.56s ease-in-out;
+    }
+
+    .github-corner .octo-arm {
+        animation: none;
+    }
+
+    @keyframes a {
+        0%,
+        to {
+            transform: rotate(0);
+        }
+        20%,
+        60% {
+            transform: rotate(-25deg);
+        }
+        40%,
+        80% {
+            transform: rotate(10deg);
+        }
+    }
+</style>
+
+<a href="https://github.com/blinkfox/hexo-theme-matery" class="github-corner tooltipped hide-on-med-and-down" target="_blank"
+   data-tooltip="Fork Me" data-position="left" data-delay="50">
+    <svg viewBox="0 0 250 250" aria-hidden="true">
+        <path d="M0,0 L115,115 L130,115 L142,142 L250,250 L250,0 Z"></path>
+        <path d="M128.3,109.0 C113.8,99.7 119.0,89.6 119.0,89.6 C122.0,82.7 120.5,78.6 120.5,78.6 C119.2,72.0 123.4,76.3 123.4,76.3 C127.3,80.9 125.5,87.3 125.5,87.3 C122.9,97.6 130.6,101.9 134.4,103.2"
+              fill="currentColor" style="transform-origin: 130px 106px;" class="octo-arm"></path>
+        <path d="M115.0,115.0 C114.9,115.1 118.7,116.5 119.8,115.4 L133.7,101.6 C136.9,99.2 139.9,98.4 142.2,98.6 C133.8,88.0 127.5,74.4 143.8,58.0 C148.5,53.4 154.0,51.2 159.7,51.0 C160.3,49.4 163.2,43.6 171.4,40.1 C171.4,40.1 176.1,42.5 178.8,56.2 C183.1,58.6 187.2,61.8 190.9,65.4 C194.5,69.0 197.7,73.2 200.1,77.6 C213.8,80.2 216.3,84.9 216.3,84.9 C212.7,93.1 206.9,96.0 205.4,96.6 C205.1,102.4 203.0,107.8 198.3,112.5 C181.9,128.9 168.3,122.5 157.7,114.1 C157.9,116.9 156.7,120.9 152.7,124.9 L141.0,136.5 C139.8,137.7 141.6,141.9 141.8,141.8 Z"
+              fill="currentColor" class="octo-body"></path>
+    </svg>
+</a>
+        
+    </nav>
+
+</header>
+
+    
+<script src="/libs/cryptojs/crypto-js.min.js"></script>
+<script>
+    (function() {
+        let pwd = '7afb36156222623cc0d9e4af14ece7cedec7d76810a46926e0f2afee0deccb29';
+        if (pwd && pwd.length > 0) {
+            if (pwd !== CryptoJS.SHA256(prompt('Please enter password to read this article.')).toString(CryptoJS.enc.Hex)) {
+                alert('Incorrect password, back to the index!');
+                location.href = '/';
+            }
+        }
+    })();
+</script>
+
+
+
+
+<div class="bg-cover pd-header post-cover" style="background-image: url('/medias/images/23.jpg')">
+    <div class="container" style="right: 0px;left: 0px;">
+        <div class="row">
+            <div class="col s12 m12 l12">
+                <div class="brand">
+                    <h1 class="description center-align post-title">Calibration</h1>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+
+<main class="container content">
+
+    
+    <!-- 文章内容详情 -->
+<div id="artDetail">
+    <div class="card">
+        <div class="card-content article-info">
+            <div class="row tag-cate">
+                <div class="col s7">
+                    
+                    <div class="article-tag">
+                        
+                            <a href="/tags/Pulsar/">
+                                <span class="chip bg-color">Pulsar</span>
+                            </a>
+                        
+                    </div>
+                    
+                </div>
+                <div class="col s5 right-align">
+                    
+                    <div class="post-cate">
+                        <i class="fas fa-bookmark fa-fw icon-category"></i>
+                        
+                            <a href="/categories/Research/" class="post-category">
+                                Research
+                            </a>
+                        
+                    </div>
+                    
+                </div>
+            </div>
+
+            <div class="post-info">
+                
+                <div class="post-date info-break-policy">
+                    <i class="far fa-calendar-minus fa-fw"></i>Publish Date:&nbsp;&nbsp;
+                    2020-03-27
+                </div>
+                
+
+                
+
+                
+
+                
+
+                
+            </div>
+        </div>
+        <hr class="clearfix">
+        <div class="card-content article-card-content">
+            <div id="articleContent">
+                <script src="/assets/js/APlayer.min.js"> </script><p>This section discusses general calibration and calibration strategies when preparing for VLA observations. Specific calibration during  post-processing—not depending on data taken during the observations—such as improved antenna positions, opacity and ionospheric corrections, are not discussed here. Note, however, that there is specific guidance with respect to the <a target="_blank" rel="noopener" href="https://science.nrao.edu/facilities/vla/docs/manuals/obsguide/set-up">8/3-Bit Attenuation and Setup Scans</a> that are required in observing scripts (scheduling blocks).</p>
+<p>If you are looking for the listing of VLA calibrators, go to the <a target="_blank" rel="noopener" href="https://science.nrao.edu/facilities/vla/observing/callist">VLA Calibrator List</a>.</p>
+<h2 id="Calibration-Basics"><a href="#Calibration-Basics" class="headerlink" title="Calibration Basics"></a>Calibration Basics</h2><p><strong>What is calibration?</strong></p>
+<p>The main goal of calibration is to be able to correct for effects  that may interfere with the scientific outcome of a measurement (an  observation) due to the instrument and/or local temporary conditions so  that these measurements can be compared to other measurements (at other  times, other instruments, other frequencies, etc.) and theoretical  predictions.</p>
+<p>Calibration starts in the device design stage and ends in the final  data presentation. Calibration can refer not only to calibration of the  data, but also to the instrument as a whole or its separate components.  The amount of calibration typically depends on the observing program and the science goal. Some calibrations need to be done once as their  solution is fairly constant over time, while other calibrations need to  be repeated regularly to capture changing properties over time. For  radio astronomy, and in particular interferometry, the following general calibration steps can be identified: calibration of the instrument by  observatory staff, calibration of the current observing conditions by  the observer, and calibration of scientific results by the data  analyzer. Some common calibration examples:</p>
+<ul>
+<li>Calibration of the antenna (receiver frequencies, receiver system  temperatures, optics), antenna positions, timing, and correlator  visibilities is done by observatory staff.</li>
+<li>Calibration of instrumental delay, instrumental polarization,  spectral bandpass response, absolute flux density scale, and other  possible properties—assumed to be constant during the observation—should be taken by the observer, typically once or twice during the entire  observation for each observed frequency and correlator configuration.</li>
+<li>Calibration of antenna pointing, delay, attenuator and requantizer  settings, and other possible properties assumed to be only slowly  varying during the observation should be performed by the observer,  typically once every hour or so during the observation, or, for example, when switching frequency bands.</li>
+<li>Calibration of antenna gains, atmospheric phase fluctuations, and  other possible properties expected to vary more rapidly with observing  conditions and geometry during the observation should be performed more  frequently than the time scale over which the property changes.</li>
+<li>Calibration of the position of a source with respect to another  source, calibration of a frequency to a line-of-sight velocity,  calibration of a polarization angle to a reference angle, calibration of the flux density scale of a single source in one observation to another observation of the same source, etc.</li>
+</ul>
+<p>The taking of calibration data to be evaluated in the online system  or in post-processing happens before, during, and after the observation  and also may be applied before, during, and after the observation. Note  that most calibration applied before and during the observation, e.g.,  antenna pointing, take effect during the observation and the calibration must be correct as it cannot be adjusted after acquisition.</p>
+<p>It should be understood that calibration is an important part of the  observation and must be thoughtfully included in the observation  preparation and time request in the proposal. The key point of planning  and including calibration is that if the observations are not properly  calibrated, the science goal will not be achieved.</p>
+<p><strong>When to calibrate?</strong></p>
+<p>Calibration should be performed, at the very least, more frequently than the time scale over which the property changes <em>and</em> before that change becomes too large to be compensated for. Nearly  constant properties should be calibrated at the start of an observation, when changes from a previous observation by another observer are to be  expected. If the constant property can be applied in post-processing,  this calibration can also be taken at the end of the observation. Time  or geometry dependent changes should be monitored at regular intervals  so that the change can unambiguously be interpolated over the  observation. Planned, abrupt changes in the observation, such as a  frequency change or observing a different part of the sky, would trigger calibration. Last, but not least, a very specific science goal may need a calibration that is not among the standard calibrations described  here. The calibration strategy is the responsibility of the observer,  but NRAO staff is available for individual advice through the <a target="_blank" rel="noopener" href="https://science.nrao.edu/observing/helpdesk">NRAO Helpdesk</a>.</p>
+<p>Typical calibration intervals are once during the observation for flux density, bandpass/delay, and polarization angle (per frequency setting and per  correlator configuration). It is prudent to at least break up the flux  density calibration scan into two or more separate scans, as this is the only calibration for which there is no good alternative if it happens  to be corrupted.</p>
+<p>Typical intervals for complex gain (amplitude  and phase) calibration are dependent on the weather conditions and  baseline length. On longer baselines (i.e., on longer uv-distances and  therefore more important for high frequency observing), the phase change on the interferometer will be more rapid and requires more frequent  calibration than at the lower observing frequencies. An exception at low frequencies is when the Sun affects the ionosphere and rapid changes  can be expected near sunset and sunrise. Otherwise, the largest effect  on phase change is in the troposphere. The gain calibration uses the  assumption that the calibration toward the sky, in which the calibrator  source is observed, can be interpolated over time and viewing angle and  resembles the same atmospheric conditions toward the sky of the target  source. The further away the calibrator from the target, and the longer  the intervals of the calibration measurement, the less strict this  assumption will hold. It can happen that calibration consumes more than  half of the allocated observing time in order to achieve the scientific  goal. Fortunately, this may only be necessary at the highest  frequencies, in the largest array configurations, and in bad weather  conditions. With the introduction of dynamic scheduling at the VLA, this latter variable has been largely eliminated and gain calibration has  been easier to plan (see below).</p>
+<p>Typical calibration intervals for attenuator settings are at the  beginning of an observation. Requantizer gains need to be redetermined  after a change of tuning, including when returning to the original  observational setup.</p>
+<p>Calibration intervals for antenna pointing are largely dependent on  the geometry of the observation. As a rule-of-thumb, after tracking for  about an hour, the direction of the solutions of the antenna pointing  calibration will have changed significantly from where the target  position is now—on the order of 20°—warranting a new pointing solution.  During the day, because of temperature changes that affect antenna  optics, pointing should be repeated roughly every 30 to 40 minutes.  Also, when slewing a large distance from the target to a flux density or a bandpass calibrator (over 20° in AZ and/or EL), the antenna pointing will need an updated solution.</p>
+<p><strong>How to calibrate?</strong></p>
+<p>To ensure that the instrument is delivering the expected measure, the easiest method of calibration is to insert a known signal at the input  and analyze the resulting signal at the output. The calibration  measurement will yield, after some massaging, the corrections that need  to be applied to the output signal to obtain the true representation of  the input signal. The uncorrected output signal is also known as the  instrumental response for the given input signal. As determining the  response directly is not always possible, alternatives may be available. These alternatives require, however, certain trade-offs and choices to  be made by the observer depending on the science goals. Observatory  staff can advise, and a first attempt is made below. For very specific  questions, please ask the <a target="_blank" rel="noopener" href="https://science.nrao.edu/observing/helpdesk">NRAO Helpdesk</a>.</p>
+<p>A typical calibration signal for the instrumental response of an  individual antenna signal path is a pulse (the firing of a noise diode  in the receiver) and standard instrumental calibration procedures are  available. A typical calibration signal for the total observational  response of an interferometer is to observe a point source: a signal  that can be considered a simple, single, isolated object with a known  constant flux density, polarization as function of frequency, and  absolute sky position. As these objects are very rare for high-angular  resolution and high-sensitivity interferometers like the VLA,  alternatives that dominate the response (not necessarily constant in  flux density) and that are near point-like are common trade-offs for any radio interferometer. Many of these calibrator sources are given in the <a target="_blank" rel="noopener" href="https://science.nrao.edu/facilities/vla/observing/callist">VLA Calibrator List</a>.</p>
+<p>Then, depending on the signal property to calibrate, one would choose an  adequate calibrator source for the property and insert it at the  appropriate place in the observing schedule. This calibration is defined for a certain point in time for certain conditions and needs to be  redone when it starts to become invalid. Performing a calibration on the target field—a field where obtaining the measured properties are the  goal of the observation—generally is not a good idea. As a reasonable  approximation in general, therefore, it is assumed that for the  calibration performed near in time and near that field on the sky <em>also</em> holds for the target field and thus can be interpolated over the target observation. NRAO tries to provide guidance for when these assumptions  hold for different sets of observations, but the observer should always  be aware that certain conditions for successful interpolation of  calibration may not apply.</p>
+<p>Specific suggestions for different VLA calibrations and how to schedule them are listed elsewhere in the Guide to Observing (<a target="_blank" rel="noopener" href="https://science.nrao.edu/facilities/vla/docs/manuals/obsguide/topical-guides/hifreq">High Frequency Strategy</a>, <a target="_blank" rel="noopener" href="https://science.nrao.edu/facilities/vla/docs/manuals/obsguide/topical-guides/lofreq">Low Frequency Strategy</a>, and <a target="_blank" rel="noopener" href="https://science.nrao.edu/facilities/vla/docs/manuals/obsguide/topical-guides/vlofreq">Very Low Frequency Strategy</a>), and the <a target="_blank" rel="noopener" href="https://science.nrao.edu/facilities/vla/docs/manuals/opt">OPT Manual</a>. In this section the focus is on general, non-frequency specific,  calibration during the observation by the observer. When making a  schedule, consider the hints given here and elsewhere in the  documentation. Do not hesitate to contact the <a target="_blank" rel="noopener" href="https://science.nrao.edu/observing/helpdesk">NRAO Helpdesk</a> for assistance or further information.</p>
+<h2 id="VLA-Calibration-by-the-Observer"><a href="#VLA-Calibration-by-the-Observer" class="headerlink" title="VLA Calibration by the Observer"></a>VLA Calibration by the Observer</h2><p>When seen from the observer’s perspective, for any standard  observation in each scheduling block, the observer is expected to  include calibration of the absolute (flux density) scale, calibration of the signals at different frequencies relative to each other over the  observing bandwitdh (bandpass), and calibration of the time dependent  effects (complex gain (phase and amplitude)) of changing conditions due  to the atmosphere and instrument. More sophisticated or challenging  experiments may include more specific calibrations as described below.</p>
+<h3 id="Flux-Density-Scale-Calibration"><a href="#Flux-Density-Scale-Calibration" class="headerlink" title="Flux Density Scale Calibration"></a>Flux Density Scale Calibration</h3><p>The correlator, where signals at specific frequencies from the  antennas are combined into visibilities, only processes what it gets fed from the electronics system in terms of relative signal strength and  relative phase. The correlator products, therefore, need to be  readjusted to represent the flux density as measured from the sky  visibilities. At the VLA this means that one observes a calibrator with a postulated (or assumed) known flux density at these frequencies along  with the other observations in the scheduling block. In post-processing, the visibilities are then rescaled for this calibrator to the flux  density for this frequency. Other visibilities in the same observation,  using the same setup, can simply be matched using the relative scale and the absolute flux density of the calibrator.</p>
+<p>The flux density scale adopted for the VLA between 1 and 50 GHz is based on the <a target="_blank" rel="noopener" href="http://iopscience.iop.org/article/10.3847/1538-4365/aa6df9">Perley and Butler (2017)</a> standard. This is very close to the traditional Baars et al. scale (<a target="_blank" rel="noopener" href="http://adsabs.harvard.edu/abs/1977A%26A....61...99B">1977 A&amp;A 61, 99</a>) between 1 and 15 GHz and includes the Scaife and Heald scale (<a target="_blank" rel="noopener" href="http://adsabs.harvard.edu/cgi-bin/nph-data_query?bibcode=2012MNRAS.423L..30S&amp;db_key=AST&amp;link_type=ABSTRACT&amp;high=570ff063fe13730">2012, MNRAS 423, L30</a>) for frequencies below 1 GHz. Distributed versions of AIPS and CASA apply the most recent scale in their SETJY tasks.</p>
+<p>Because of source variability, it is impossible to compile an  accurate and up to date listing of flux densities for all the VLA  calibrators. The values given in the <a target="_blank" rel="noopener" href="https://science.nrao.edu/facilities/vla/observing/callist">VLA Calibrator List</a>, therefore, are only approximate and for the epoch they were measured.  We strongly recommend, and some science objectives require,  bootstrapping the flux density of a calibrator by comparing the  calibrator observations with one or several observations of 3C286, 3C48*****, 3C147, or 3C138. Only in compact configurations <em>and</em> at low frequencies, i.e., typically at L- and P-band in C and D configuration, 3C295 or 3C196 may also be used.</p>
+<p>Both AIPS and CASA use model images for the standard flux density  calibration sources (see their respective SETJY documentation) to  account for their structures which are frequency and array configuration dependent. Alternatively, u,v restrictions, or limitations on the  number of antennas, can be used. When using models, the bootstrap  accuracy should be within a couple to a few percent. However, at  frequencies of about 15 GHz and above, there are appreciable changes in  the antenna gains and atmospheric opacity as a function of elevation. By calibrating the target source with a nearby calibrator, much of these  variations can be removed. If the primary flux density calibrator (e.g., 3C286) is observed at a different elevation from the secondary gain  calibrator, however, then the flux density bootstrapping will have a  considerable systematic error. For the higher frequencies, a typical  discrepancy in actual versus measured flux density scale of the order of 20-30% is not unlikely.</p>
+<p>Accurate models are available in both AIPS and CASA for various frequency bands for the calibrators 3C286, 3C48*****, 3C147, and 3C138. However, neither 3C295 nor 3C196 has such models and the VLA CASA  calibration pipeline will fail if these two calibrators are used. Also,  the bright source 3C84 (J0319+4130, not to be confused with 3C48) cannot be used as an absolute flux density calibrator as it is variable, but  it serves well for bandpass and delay calibration.</p>
+<p>See also the flux density scale discussion in the <a target="_blank" rel="noopener" href="https://science.nrao.edu/facilities/vla/docs/manuals/oss/performance/fdscale">VLA Observational Status Summary (OSS)</a>.</p>
+<p>*** The flux density  scale calibrator 3C48 has been undergoing a flare since January 2018 or  so. While we have not fully characterized this with the VLA, other  instruments have measured it at some frequencies. At Ku-band the  magnitude of the flare is of order 10%. The effect will be smaller at  lower frequencies (of order 5% at L-band), and might be larger at higher frequencies (of order 20% at Q-band). If you care about the flux  density scale of your observations at that level, you may want to  re-calibrate your data once new time-variable values have been put into  CASA and AIPS.**</p>
+<p> Bandpass and Delay Calibration</p>
+<p>Small impurities in the correlator model, such as an inaccurate  antenna position, timing, etc., cause small deviations from the model  that are noticeable as a time-constant linear phase slope as function of frequency in the correlated data for a single baseline. This phase  slope, known as a <em>delay</em>, is a property of the IF baseband and  the same for all subbands (spectral windows) in a baseband. If the  frequencies in an observation are averaged into a continuum image, an  uncorrected delay causes decorrelation of the continuum signal and is  not a correct representation of the sky. The delay calibration is  determined on a short time interval on a strong source in order to  achieve high signal to noise for the solution without including the time dependent variations.</p>
+<p>Small impurities in the frequency amplitude and phase response as  function of frequency, independent of the delay, also occur and have to  be corrected. These corrections are a property of the passband on top of the response of the baseband, and are a property of the subband and the location of the subband in a baseband. Leaving the <em>bandpass</em>  uncorrected causes incorrect relative amplitudes and phases and does not deliver the correct spectral representation of the sky. Averaging these uncorrected impurities over frequency into a continuum image limits the achievable signal to noise and dynamic range. As for the delay,  bandpass calibration is usually determined on a short time interval on a strong source to achieve high signal to noise for the solution without  including the time dependent variations. Delay and bandpass calibration, therefore, is usually performed using the same calibrator. Hereafter in the text, delay calibration is implicitly included in the bandpass  calibrator or bandpass calibration scan.</p>
+<p>To achieve good results in both spectral line and continuum  observations, the baseband delay and subband bandpass shapes have to be  calibrated for each frequency setup. If very high dynamic range is not  the aim (in many cases for continuum observations, the standard flux  density calibrators are relatively convenient bandpass and delay  calibrators), using flux density calibrators has the big advantage that, for these sources, the known spectral index can be included in the  bandpass amplitude solution. At high frequencies, however, for which the flux density calibrators are weak, other calibrators might provide a  better alternative.</p>
+<p>The typical requirement for bandpass calibration is that it does not  add to the phase or amplitude noise in the image cube, i.e, that the  signal to noise of the bandpass calibration solution is comparable—or  better—than the signal to noise of the flux density of the target. The  requirements, however, are dependent on your science goals and type of  observation. For very bright spectral lines on the order of tens of Jy  in a single spectral channel, this might not be feasible; for other  spectral line cases it is a good rule of thumb. As the noise is  proportional to the inverse of the root of bandwidth times observing  time, and with the channel bandwidth a constant between the scans, the  time spent on the bandpass calibrator (<em>tcal</em>) should be larger than the time spent on the target (<em>tobj</em>) multiplied by the square of the ratio of the target (<em>Sobj</em>) over the flux density calibrator (<em>Scal</em>): tcal &gt; tobj × (Sobj / Scal)2. That is, the brighter the calibrator, the shorter the scan needs to be. Note that instead of a bright bandpass calibrator, it is also possible  to sum all scans of a gain calibrator to obtain sufficient signal to  noise for a bandpass determination. For plain continuum observations  this requirement can be somewhat relaxed to a good solution of a  representation of the bandpass, as the data are averaged over frequency, using a minimum signal to noise at least 5 to approximately 10. If one  is interested in high dynamic range or accurate polarization imaging,  however, this solution typically is not enough and one would have to  adopt the spectral line approach.</p>
+<p>The <a target="_blank" rel="noopener" href="https://science.nrao.edu/facilities/vla/docs/manuals/obsguide/modes/line">Spectral Line</a> guide describes more details. For further information or other questions contact the <a target="_blank" rel="noopener" href="https://science.nrao.edu/observing/helpdesk">NRAO Helpdesk</a>.</p>
+<h3 id="Complex-Gain-Calibration"><a href="#Complex-Gain-Calibration" class="headerlink" title="Complex Gain Calibration"></a>Complex Gain Calibration</h3><p>Where the absolute flux density scale calibration is a static  multiplier, and the bandpass/delay calibration a one-off determination  of the signal path properties assumed to be largely constant for the  observation, the antenna gain calibration (also known as complex gain)  is anticipated to track time variable properties due to changing  conditions of the instrument. Complex gain calibration also tracks  changes with the environment except for antenna pointing (see below),  that, if not corrected for, will be absorbed. Examples of variable  instrumental properties are: receiver power level settings, corruption  of baseband samplers, technicians removing receivers, etc.. The largest  time variable contribution is from the environment and atmosphere:  mostly the ionosphere at low frequencies, the troposphere at high  frequencies, water content/opacity on cloudy days, elevation/opacity due to observing geometry and other occasional phenomena like solar flares, broadcasting satellites, tourist cell phones, digital cameras, etc.  Some of these can be calibrated and corrected for using proper gain  calibration while others, referred to as Radio Frequency Interference  (RFI), cannot and need to be removed (flagged) from the data.</p>
+<p>Gain calibration is normally considered antenna based and assumes  that fluctuations in the antenna gain are due to slowly varying  amplitudes and phases. Slowly here means that the interval of the gain  calibration scans are short enough that the variations can be  interpolated by a relative smooth function which would represent the  true variation at the antenna. Gain phase varies much, much faster than  gain amplitude as most of the time dependent effects affect phase more  than amplitude. Additionally, phase variations scale with baseline  length with more rapid changes on longer projected baselines. The  typical time for such changes to become large enough to require  calibration is referred to as the <em>coherence time</em>, i.e., when  the visibility phase has changed by a radian. This coherence time may be some tens of minutes at short baselines and low frequencies or, in some realistic cases, sub-minute on long baselines for high frequency  observations in non-optimal weather. Because of this huge range and  frequency specific dependence, consult the Cycle Time section at the end of this document.</p>
+<p>Gain calibration is performed as regularly repeated scans on the  complex gain calibrator to measure the change in visibility amplitude  and phase on the gain calibrator. These changes are then interpolated  over the target field scan. Removing the large fluctuations, in effect,  increases the coherence time of the observation; ultimately to longer  than the total target observation duration. All data on the target field scan can then be coherently combined into a single image, which  supposedly would be the goal of the observation. Note that the  calibration solutions sometimes show deviant points with respect to the  solutions of other times for the same antenna. Recall that these are the solutions (or corrections) needed to obtain the point-like input signal and are not necessarily wrong. It is a good indication that something  is happening in the data and, only upon investigation, should one decide whether or not using that point in the interpolation to the target  field. That is, will it improve or destroy the target data, or be  irrelevant in the case of self-calibration (see below)? The discrepant  solution can be deleted to prevent interpolation and thus causes target  data flagging, or be kept for subsequent calibration and imaging.</p>
+<p>Calibration can be considered for three different cases:</p>
+<ul>
+<li>To only capture the slowly varying amplitude fluctuations. The  coherence time to track and interpolate phase over the target field is  irrelevant because the target field contains sufficiently bright  emission to recover the phase fluctuations on time scales shorter than  the coherence time. Typical cases are a targeted, not necessarily  point-like, strong continuum source; a bright maser line at any  observing band; or, e.g., the background continuum field for the large  field of view (primary beam) of the lower frequency bands. As the  information to perform this phase calibration (next to the amplitude  gain calibration) is contained in the target field, this additional  target field calibration is known as <strong>self-calibration</strong> or <strong>selfcal</strong>. Care should be taken in the self-calibration model as, in principle,  absolute phase—and therefore absolute position—is lost in the process.</li>
+<li>To capture the rapid phase variations in addition to the amplitude  variations. Here it is attempted to extend the effective coherence time  as self-calibration is not an option for faint targets or detection  experiments. Also, very extended or complicated source structures, when a selfcal model is not easily obtained, are typical cases for this  traditional gain calibration strategy where the calibrator and target  are observed in alternating scans. The target field phases are tied or  referenced to those of the calibrator, which is known as <strong>phas****e</strong> <strong>referencing</strong>. The cycle times for alternating the scans are dependent on observing  frequency, baseline length, field separation, weather, and elevation.  Suggested times are given in table 4.3.1 (below), where cycle times are  discussed. If, after such calibration, it appears that the target field  matches the requirements for self-calibration, then self-calibration may be applied to further improve the calibration.</li>
+<li>To obtain astrometry. For this one should avoid applying selfcal and utilize a much more careful phase calibration scheme. Some hints on  phase-referencing for astrometry are given below.</li>
+</ul>
+<h3 id="Specialized-Calibration"><a href="#Specialized-Calibration" class="headerlink" title="Specialized Calibration"></a>Specialized Calibration</h3><h4 id="Antenna-Reference-Pointing-Calibration"><a href="#Antenna-Reference-Pointing-Calibration" class="headerlink" title="Antenna Reference Pointing Calibration"></a>Antenna Reference Pointing Calibration</h4><p>When directed to a position in the sky, the individual antennas are commanded to move in azimuth (AZ) and elevation (EL) until they report that they have arrived. The <em>a priori</em> accuracy of pointing at the actual position in the sky is typically  within about 10 arcseconds; but individual antennas may differ up to an  arcminute in AZ and/or EL. and the  deviation depends on many non-constant factors. At the higher  frequencies (above ~15 GHz), this intrinsic pointing error may be a  large fraction of the primary beam (which is one arcminute at 45 GHz,  two arcminutes at 22 GHz, etc.), potentially considerably degrading the  sensitivity of the antenna at the position of interest. It is therefore  important to correct for this possible mechanical error before observing the calibrators (complex gain, bandpass, etc.) and the target field.  Antenna pointing calibration is essential for high-frequency observing  but, as the beam sizes at lower frequencies quickly become many  arcminutes, pointing calibration is typically skipped for the lower  frequencies. One exception is high-dynamic range imaging of large fields where differing antenna beam patterns on the sky will hinder obtaining  accurate source flux densities in the entire field of view and pointing  calibration also at low frequencies may be imperative.</p>
+<p>Simple procedures, referred to as <strong>reference pointing</strong>, are in place to determine the AZ and EL position offsets during the observing program using X-band. Once  determined, these offsets should be applied to the scans following to  take effect immediately; this is an on-line calibration. Pointing  calibration sources (see about choosing one below) can be your default  calibrator sources (for flux density, bandpass and/or complex gain), as  well as your target source if your science goal and target source would  allow that. A pointing calibration scan needs an on-source time of 2m30s to be able to perform a five-point observation around the calibrator to derive solutions.</p>
+<p>The antenna pointing offset will change after some time due to  changes in the dish structure (optics) or because the target field is  being tracked from rise in the East to set in the West. The reference  pointing solution needs to be repeated before the pointing has degraded  to yield less sensitivity. NRAO recommends that pointing be repeated  when the difference from the last pointing calibration direction in AZ or EL coordinate has changed by 20° on the sky, i.e., after about an hour  when tracking a source at the celestial equator assuming nighttime  observing. During daytime observing reference pointing may need to be  repeated every 30-40 minutes due to the thermal deformation of the  dish structure. The recommendation noted earlier also implies that the  pointing calibrator source should be closer than that range from the  target field; NRAO recommends that the pointing calibrator be within of  10° of the target if at all possible. Hence, large slews to a bandpass  or a flux density calibrator, or a different target patch on the sky,  will require a new pointing scan regardless of how long it has been  since the last one was done.</p>
+<h4 id="Polarization-Calibration"><a href="#Polarization-Calibration" class="headerlink" title="Polarization Calibration"></a>Polarization Calibration</h4><p>The VLA observes with two orthogonal receivers. These are right and  left circular polarization (RCP and LCP) for all bands except below 1  GHz where they are X and Y linear polarization. For the total intensity  Stokes parameter <em><strong>I</strong></em>, the correlator produces  the parallel hand correlations (RR and LL or XX and YY) from the signals of the two antennas of each interferometer. They are combined in the  imaging to produce the total intensity <em><strong>I</strong></em> image of the sky; Stokes <em><strong>V</strong></em> may be created from the RCP and LCP difference. Using the default  continuum modes, the cross hand polarization products (RL and LR or XY  and YX) are also produced which allow to map the other Stokes parameters <em><strong>Q</strong></em> and <em><strong>U</strong></em> and combine all data into an image of the polarized sky.</p>
+<p>In order to obtain the correct polarization characteristics, two  calibrations have to be performed. First, because the receivers are  independent and orthogonal but not completely free of impurity, the  leakage (<em><strong>D</strong></em>-term) and relative signal between  the receivers as function of frequency need to be determined in order to properly combine the signals (compare it with the frequency dependence  of amplitude and phase over a bandpass). The polarization vectors should then be tied to an absolute reference with a polarization angle  calibration (compare it with fixing the absolute flux density) using a  source with known polarization characteristics, like 3C286.</p>
+<p>Typical impurities of the receiver feeds are a few percent for the  center of most VLA bands and degrade toward the band edges and away from the pointing center in the image plane. Without any polarization  calibration, an unpolarized source will appear to be polarized at a few  percent level. Without calibration of the R-L phase difference, the  polarization angle is undetermined. It is not difficult to obtain a  reasonably good polarization calibration under most circumstances and,  with the leakage terms being fairly constant over weeks to months, they  can be transferred to other observations with the same spectral setup.  With a modest investment of time spent on calibrators, and a little  effort, the instrumental polarization can be reduced to less than 0.1%.</p>
+<p>More information on polarization, including the most common calibrators, can be found in the <a target="_blank" rel="noopener" href="https://science.nrao.edu/facilities/vla/docs/manuals/obsguide/modes/pol">Polarimetry</a> section.</p>
+<h4 id="Astrometry"><a href="#Astrometry" class="headerlink" title="Astrometry"></a>Astrometry</h4><p>Calibration for astrometry is a bit different with respect to the above, as one does not calibrate the instrument <em>per se</em> but instead calibrates the sky. The usual complex gain calibration  makes use of calibrator sources and, when interpolating the phase  information for the calibrators over the target field scans, one ties  the position of any source in the target field to the assumed (measured) position of the calibrator source. Apart from the peculiar errors  introduced by the interpolation of the calibrator phase to the target,  there is an <em>additional systematic error</em> due to the position  measurement of the calibrator. Unfortunately, this additional systematic error is typically ignored in the literature but is certainly not  negligible if one attempts to do astrometry; proper motions and/or  comparisons with other data that may have used different calibrator  sources.</p>
+<p>To improve on astrometric accuracy, two types of calibration should  be considered. First, one would try to improve on the systematic error  of the calibrator position. An updated position from, e.g., a VLBI  detection, can always be included in post- processing. The <a target="_blank" rel="noopener" href="https://science.nrao.edu/facilities/vla/observing/callist">VLA Calibrator List</a> contains a position accuracy indicator of A, B, C or T, where A is the  most accurate (positional accuracy &lt; 0.002 arcseconds or 2 mas) and T should probably be avoided (positional accuracy worse than 0.15  arcseconds) for most science goals. If there is a choice in nearby  calibrator sources—suitable for the array configuration and frequency  band of the observation—it would be prudent to select the source with  the best known position and thus the smallest systematic error.</p>
+<p>The second place of improvement is in the actual interpolation.  Typical gain phase calibration uses repeated observations of a single  nearby calibrator and transfers the interpolated phases to the target  field. One can improve on this interpolation by using a calibrator  closer to the target field or by sampling the interpolated phases more  densely via shorter cycle times or faster switching. Strictly speaking,  even if the interpolation is perfect, it is derived for the direction of the calibrator position and not for the direction of the target field.  There may be a constant residual phase, or a phase wedge that is not  accounted for, introducing an unknown positional offset that, at best,  is only a single time constant vector perpendicular to the unknown  direction of the wind aloft. A possible solution would be to include  more repeated calibrator scans toward suitable calibrators in other  directions with respect to the target field. In post-processing, one may be able to make a more detailed interpolation of the phase and phase  behavior of the target field, provided that the observations are set up  to anticipate such a procedure. It is also useful to include another  calibrator source with a known position and exclude it from the  calibration steps by treating it as a target (also known as the  phase-check source); the position derived as for a normal target field  would yield an indication of the magnitude of remaining errors when  compared to the known position of that phase-check calibrator.</p>
+<h4 id="Observing-the-Sun"><a href="#Observing-the-Sun" class="headerlink" title="Observing the Sun"></a>Observing the Sun</h4><p>As the Sun is very bright, observing the Sun requires special considerations, so please consult the <a target="_blank" rel="noopener" href="https://science.nrao.edu/facilities/vla/docs/manuals/oss/performance/solar-observing">Observatory Status Summary</a>, the <a target="_blank" rel="noopener" href="https://science.nrao.edu/facilities/vla/docs/manuals/opt/solar-observing">OPT manual</a> and <a target="_blank" rel="noopener" href="https://science.nrao.edu/observing/helpdesk">NRAO Helpdesk</a> if observing the Sun is part of your intentions.</p>
+<h4 id="Tipping-scans"><a href="#Tipping-scans" class="headerlink" title="Tipping scans"></a>Tipping scans</h4><p>The atmospheric opacity can be measured by performing so-called <em>Tipping scans</em> during the observation. Tipping scans can be set up for the VLA using  the OPT, but at this moment there is no general way of processing the  measurements and applying the opacity corrections to the data in CASA or AIPS.</p>
+<h2 id="Calibration-Recommendations"><a href="#Calibration-Recommendations" class="headerlink" title="Calibration Recommendations"></a>Calibration Recommendations</h2><p>The main objective of calibration scans in the observation is to  correct for effects, instrumental and observational, that distort the  object or field of interest. The method is to measure the response of  the instrument to a known calibration signal to determine the  corrections needed to retrieve or reconstruct the known signal from the  data. The corrections are then applied with the assumption that the  effects that distort the calibration signal also apply, whether or not  interpolated, to the observations toward the object or field of  interest. As previously mentioned, the different calibrators—flux  density, bandpass, complex gain, and reference pointing—are selected to  optimally perform the measurement requested by the observer. Each of  these calibrations needs a specific property of the calibrator source  that will enable a good calibration. A good pointing calibrator may not  be a good bandpass calibrator and <em>vice versa</em>; a good complex gain calibrator may not be a good flux density calibrator, etc.</p>
+<p>A technique of good calibration sometimes relies on finding the right trade-offs: one calibrator versus the other (e.g. flux density or  source structure versus angular distance), a longer on source time  versus better sampling, etc. The selection of which trade-off to use is a function of the science goal and in general cannot be answered with a  straight single solution by NRAO staff without knowing all the details  of the observing program. Some tips given here, however, might be  helpful in making an informed decision.</p>
+<p>Requirements for good calibration are that it yields sufficient  signal-to-noise to derive an unambiguous and valid calibration solution. The aim is for a signal-to-noise of over 10–20 at the observing  frequency during the solution interval (scan, part of a scan, or total  observing period) for a single (longest) baseline, single polarization,  and relevant spectral coverage. Spectral coverage can range from the  total observing bandwidth, to the individual spectral chunks known as  basebands/IFs or subbands/spectral windows, down to the narrowest  spectral channel (see below about scan length).</p>
+<h3 id="Calibrator-Summary"><a href="#Calibrator-Summary" class="headerlink" title="Calibrator Summary"></a>Calibrator Summary</h3><p>To minimize the impact on the actual observing, consider the  following general statements and descriptions of known (calibration)  signals:</p>
+<ul>
+<li><p>Absolute Flux Density:</p>
+</li>
+<li><ul>
+<li>Select one of the very few standard flux density calibrators: 3C286 if you can, or alternatively 3C48*****, 3C138, or 3C147. Note that for the very low frequencies other sources  may be used and it is therefore wise to check up on the specific  frequency guides listed below for any observation.</li>
+<li>The best flux density calibrator is the one that fits best in the observing schedule and may not be 3C286; 3C48***** and 3C147 in general are good alternatives but 3C138 should be avoided  as it has shown variability (!). Note that 3C295 may be used <em>only</em> for low frequency (P and L band) observations in the more compact array configurations for flux density calibration in the northern part of the sky, i.e., where all other source Declinations are more than 34°.  Similar restrictions hold for 3C196.</li>
+<li>*** The flux density  scale calibrator 3C48 has been undergoing a flare since January 2018 or  so. While we have not fully characterized this with the VLA, other  instruments have measured it at some frequencies. At Ku-band the  magnitude of the flare is of order 10%. The effect will be smaller at  lower frequencies (of order 5% at L-band), and might be larger at higher frequencies (of order 20% at Q-band). If you care about the flux  density scale of your observations at that level, you may want to  re-calibrate your data once new time-variable values have been put into  CASA and AIPS.**</li>
+</ul>
+</li>
+<li><p>Delay and Bandpass:</p>
+</li>
+<li><ul>
+<li>In general, the delay and bandpass calibrator need the same  properties; they just need to be bright at the observing frequency to  obtain calibration solutions with a very high signal-to-noise ratio. The bandpass calibration scan typically can be used for the delay  calibration (where the delay is calibrated and applied before  determining the bandpass corrections).</li>
+<li>One chooses a strong calibrator, not necessarily point-like or near  the target fields, which can be your flux density or pointing calibrator (below). In that case make sure there is an additional bandpass intent  in the flux density calibration scan, or an additional bandpass scan  with appropriate intent directly after the pointing scan.</li>
+</ul>
+</li>
+<li><p>Complex Gain (amplitude and phase):</p>
+</li>
+<li><ul>
+<li>The best complex gain calibrator sources are bright (over a couple  hundred mJy/beam), have a known structure (preferably point-like, with  calibrator codes P or S), and are seen through the same atmosphere as  the target (i.e., are nearby, within less than 10° for high frequency  observations, or within about 15° for low frequency observations).</li>
+<li>If the <a target="_blank" rel="noopener" href="https://science.nrao.edu/facilities/vla/observing/callist">VLA Calibrator List</a> does not provide a flux density for the frequency band, which is a  common problem for observing in S, K or Ka-bands, you may be able to use an interpolation from the bordering frequency flux density information: if a calibrator has a flux density in Ku and Q-bands, the Ka and  K-bands flux densities can be interpolated and judged for suitability,  etc. Calibrators at Q-band are typically flat spectrum sources and can  be assumed, if no other information is available at lower frequency  bands, to have approximately a similar flux density at Ka and K-bands  (assuming they are not too variable, which is not necessarily the case).</li>
+<li>If there is no bright complex gain calibrator within a few degrees,  use one that is weaker but closer over one that is brighter but further  away if observing using the higher frequency bands. If observing at the  low and very low frequency bands, where bright sources in the field of  view may be confused, a different source that dominates its field may be a better choice, even if it is located further away.</li>
+</ul>
+</li>
+<li><p>Reference Pointing:</p>
+</li>
+<li><ul>
+<li>Choose a point-like (calibrator code P or S, never a W, X or “?”)  and bright (0.3 Jy/bm or brighter at X-band, the pointing scan observing band) calibrator near the field of interest as pointing corrections are needed for the azimuth and elevation near the target. Pointing sources  should always be near the target field(s), so for the entire observing  run more than one might be needed. Antenna pointing calibration is  recommended at the four highest observing frequencies (Ku, K, Ka, and  Q-bands) as well as for very high dynamic range imaging in the lower  frequencies. A pointing calibration scan needs an on-source time of 2m30s, i.e., this should be the remaining length of the scan  after slewing to the source from the previous scan.</li>
+</ul>
+</li>
+<li><p>Polarimetry:</p>
+</li>
+<li><ul>
+<li>For polarimetry, one either chooses a strongly polarized source from the list of known polarized calibrators, or an unpolarized calibrator  to calibrate the D-terms. For polarization angle one observes a well  known polarization calibrator such as 3C286; see the section on <a target="_blank" rel="noopener" href="https://science.nrao.edu/facilities/vla/docs/manuals/obsguide/modes/pol">Polarimetry</a> for more details.</li>
+</ul>
+</li>
+<li><p>Astrometry:</p>
+</li>
+<li><ul>
+<li>If the science goal includes astrometry for the target, the best  positional information is obtained with complex gain calibrators that  are near the target source carrying code P in the array configuration of the observation and, in addition, have a positional uncertainty code of A (positional accuracy better than 2 mas).</li>
+</ul>
+</li>
+</ul>
+<h3 id="About-Calibrator-Scans"><a href="#About-Calibrator-Scans" class="headerlink" title="About Calibrator Scans"></a>About Calibrator Scans</h3><p>One will notice that in many cases, the ideal calibration sequence  and ideal calibrator sources cannot be implemented in the schedule  perfectly. Here are some logistical issues that may impact an observing  session and the necessary calibrations:</p>
+<ul>
+<li>If the target and calibrator are on opposite sides of the zenith (on either side of Declination 34), the antenna cable unwrapping can be a  problem. For more information, see the <a target="_blank" rel="noopener" href="https://science.nrao.edu/facilities/vla/docs/manuals/obsguide/dynsched/antenna-wraps">Antenna Wraps</a> section.</li>
+<li>If a bandpass or flux density calibrator is not available at the  start of an observation, choose another calibrator or place these scans  at the end of the observation.</li>
+<li>If the bandpass calibration is corrupted by RFI or missed by some  event during the observation, use the accumulated data on the strongest  complex gain calibrator or any other calibrator for which the  accumulated data gives sufficient signal-to-noise. Alternatively, if the flux density calibrator is strong enough at the given frequency, it can be used as the bandpass calibrator.</li>
+<li>If the complex gain calibrator turns out to be resolved or extended, and not point-like, self-calibrate and image the structure of the  calibrator and use the image—not a point-source approximation—for  complex gain calibration. Alternatively, use the suggested (u,v)-ranges  in the calibration task (which can be found in the calibrator list).</li>
+<li>If the complex gain calibrator source is weak, or the accumulated  scan time was too short, combine the data over all frequencies to obtain sufficient signal-to-noise to derive a complex gain solution.</li>
+</ul>
+<h3 id="Calibrator-Scan-Length"><a href="#Calibrator-Scan-Length" class="headerlink" title="Calibrator Scan Length"></a>Calibrator Scan Length</h3><p>The calibrator scans should be long enough to derive the desired  correction with sufficient accuracy. To ensure a good solution, be  conservative and account for possible loss of data due to flagging  operations (scan start slewing, band edges, RFI).</p>
+<p>The standard way to determine the approximate length of a complex  gain calibrator scan, as well as scans for bandpass and flux density, is first to find the approximate flux density of the calibrator which can  be extracted from the source properties in the Source Catalog Tool (SCT) in the OPT, or from the <a target="_blank" rel="noopener" href="https://science.nrao.edu/facilities/vla/observing/callist">list of VLA calibrators</a>. As flux densities may vary over time (except for the standard  calibrators), assume a conservative 10–15% less in flux density for each of the calibrators to be used (e.g., not 2.4 but about 2.1 Jy/beam),  maybe even ~40% less for the higher frequencies. A conservative  signal-to-noise goal of 10 will always yield good calibration solutions. Divide this conservative flux density by 10 (5–10 for bandpass) for  each of the calibrators to estimate the RMS noise to aim for in the  calibration scan. Then bring up the <a target="_blank" rel="noopener" href="https://science.nrao.edu/facilities/vla/docs/manuals/propvla/determining">VLA Exposure Calculator</a> and enter in the following items:</p>
+<ul>
+<li><p>Baseband observing frequency center</p>
+</li>
+<li><p>Relevant bandwidth:</p>
+</li>
+<li><ul>
+<li>narrowest subband for gain,</li>
+<li>narrowest single channel for bandpass,</li>
+<li>total baseband width for flux density</li>
+</ul>
+</li>
+<li><p>Number of antennas: <strong>2 (two!)†</strong></p>
+</li>
+<li><p>Number of Polarizations: <strong>Single!</strong></p>
+</li>
+<li><p>Type of Weighting: Robust</p>
+</li>
+<li><p>Elevation and Average Weather as relevant to the scheduling block details</p>
+</li>
+<li><p>Calculation type: Time</p>
+</li>
+<li><p>And for each calibrator RMS Noise: the conservative flux density divided by 10 or down to 5 as derived above</p>
+</li>
+</ul>
+<p>The exposure calculator will reveal the conservative minimum length  of on-source time to spend on a source needed to obtain good  calibration. This time does not account for data loss due to flagging of unusable data, so it is wise to add another 10 seconds or so to make up for this loss. Also realize that scans shorter than about 20 seconds  are not very effective after long slews as it takes upwards of 10  seconds for the antennas to settle down from the motion. For complex  gain calibration the scan has to last for at least 20 seconds after any  necessary slew and while flux density or bandpass calibrator scans  should be at least 40 seconds long, also after any necessary slew.</p>
+<p>Do not skimp on calibration scans since they are important for  adequate calibration. Note that trading in some time on the target to  benefit calibration only results in a small increase in RMS noise in the final image (see the calibration cycle example below).</p>
+<p>**<em>*†*<em>Note:</em></em> The use of 2 antennas in  the exposure calculator should not be interpreted as determining  baseline-based calibration solutions. Standard calibration tasks (e.g.,  CALIB and BPASS in AIPS, <em>gaincal</em> and <em>bandpass</em> in CASA) provide antenna based solutions, and the signal-to-noise of the  solutions will improve with the square root of the number of antennas in the array. However, flux densities of calibrators can vary  significantly over time (sometimes by large amounts). Also, some  calibrators may have structure, or may be resolved, requiring uv-range  limits during calibration, which in turn will impose constraints on the  available antennas to contribute to the calibration solutions.  Therefore, in the above calculation, the most conservative approach is  demonstrated in order to secure a successful calibration for your  observations.</p>
+<h3 id="Calibration-Cycles"><a href="#Calibration-Cycles" class="headerlink" title="Calibration Cycles"></a>Calibration Cycles</h3><p>If the target source is not bright, or has a lot of structure in the  field, self-calibration usually cannot be used. In these common cases,  one typically observes each target source that is bracketed between two  complex gain calibrator scans in order to interpolate the calibration  over the target observations. Most of the time the scan length needed to achieve the required sensitivity on the target is much longer than the  useful interval between the two calibration scans. The sampling needed  to capture the temporal changes due to the atmosphere (etc.) is shorter  than the total observing time on the target. The target scan is  therefore interspersed with calibrator scans and the observing pattern  cycles through the sequence  calibrator—target(s)—calibrator—target(s)—calibrator,etc. This is most  easily achieved by using a repetitive loop containing target scan(s)  bracketed by complex gain calibrator scans (i.e., phase-referencing).</p>
+<p>The sequence of calibrator scan—slew to target(s)—target(s) scan(s)—slew to calibrator is known as <em>cycle time</em> and should be less than the <em>coherence time</em> for the observations. The coherence time depends on observing  frequency, array configuration, angular separation between calibrator  and target and scheduling constraints (minimum elevation/LST start  range, maximum wind speed, and maximum Atmospheric Phase Interferometer  noise). Cycle time should not be confused with bracketing, which is  where the target(s) scan(s) are encapsulated by calibrator scans.  Bracketing of the target source(s) is required for high frequency  observations, and very strongly recommended for low frequency  observations.</p>
+<p>The maximum cycle time should not exceed the coherence time of the  observations. The minimum cycle time is the sum of slew time between  calibrator and target and back (two slews) plus the minimum calibrator  scan length plus <em>epsilon</em> (any duration that this minimum cycle time is shorter than the coherence time). <em>Epsilon</em> in the previous sentence can be used to accumulate observing time on the target.</p>
+<p>Using the default weather constraints for the highest frequency band  in the scheduling block, typical recommended cycle times in minutes are  given in table 3.1 (below). Note that individual scans can be up to 30  minutes, however, it is recommended to split up long scans into 10-15  minutes; e.g., for a cycle time of 30 minutes, use three consecutive 9  minute scans on the target field between the calibrator scans and use  the other 3 minutes for slew, calibrator scan, and slew back. More  information can be found in the <a target="_blank" rel="noopener" href="https://science.nrao.edu/facilities/vla/docs/manuals/obsguide/topical-guides/hifreq">High Frequency Strategy</a> section as for high frequencies, the cycle time is most important to  improve the coherence time because self-calibration on the field in  general is not possible.</p>
+<table>
+<thead>
+<tr>
+<th align="center">**Table 3.1: Cycle times in minutes by configuration and frequency band **</th>
+<th align="center"></th>
+<th align="center"></th>
+<th align="center"></th>
+<th align="center"></th>
+<th align="center"></th>
+<th align="center"></th>
+</tr>
+</thead>
+<tbody><tr>
+<td align="center">VLA Array Configuration</td>
+<td align="center">&lt; 1 GHz</td>
+<td align="center">1–12 GHz</td>
+<td align="center">Ku  (12–18 GHz)</td>
+<td align="center">K  (18–26.5 GHz)</td>
+<td align="center">Ka  (26.5–40 GHz)</td>
+<td align="center">Q  (40–50 GHz)</td>
+</tr>
+<tr>
+<td align="center">A</td>
+<td align="center">30–60</td>
+<td align="center">10–15</td>
+<td align="center">5</td>
+<td align="center">3</td>
+<td align="center">2.2</td>
+<td align="center">1.5</td>
+</tr>
+<tr>
+<td align="center">B</td>
+<td align="center">30–60</td>
+<td align="center">20–25</td>
+<td align="center">7</td>
+<td align="center">4</td>
+<td align="center">3</td>
+<td align="center">2</td>
+</tr>
+<tr>
+<td align="center">C</td>
+<td align="center">30–60</td>
+<td align="center">30–40</td>
+<td align="center">15</td>
+<td align="center">10</td>
+<td align="center">7</td>
+<td align="center">5</td>
+</tr>
+<tr>
+<td align="center">D</td>
+<td align="center">30–60</td>
+<td align="center">50–60</td>
+<td align="center">20</td>
+<td align="center">12</td>
+<td align="center">9</td>
+<td align="center">6</td>
+</tr>
+</tbody></table>
+<p>If the time needed to ensure a good calibration (calibrator scan  length plus two slews) is a considerable fraction (over ~40%) of the  cycle time, the overhead becomes prohibitively expensive. Either look  for a closer bright source (shorter slew), or tighten the weather  constraints (longer coherence time) in the scheduling block information  tab.</p>
+<p><strong>Calibration Cycle Example</strong></p>
+<p>Data that cannot be calibrated is a waste of the entire observation.  Therefore, care must be taken to make sure that the data can be  calibrated. Also, the easier the calibration solutions can be  determined, the easier the data reduction becomes. As an eye-opener to  those who want to squeeze out the maximum on-source time on a target,  and cut the calibrator scan time or lengthen the cycle time, consider  the following example: observe a single target in a 2-hour loop, 512 MHz total bandwidth centered at 5 GHz, a 200 mJy/beam calibrator, and  without further flagging (which is unrealistic).</p>
+<ul>
+<li><p>calibrator scan length 40sec, cycle time of 24min (target 22min per cycle) uses 5 cycles, 110 minutes on-source</p>
+</li>
+<li><ul>
+<li><strong>12.3</strong> for the expected calibrator signal-to-noise ratio in a calibration scan</li>
+<li><strong>6.5</strong> uJy/bm expected RMS image noise on the target</li>
+</ul>
+</li>
+<li><p>calibrator scan length 100sec, cycle time of 15min (target 12min per cycle) uses 8 cycles, 96min on-source</p>
+</li>
+<li><ul>
+<li><strong>21.3</strong> for the expected calibrator signal-to-noise ratio in a calibration scan</li>
+<li><strong>6.8</strong> uJy/bm expected RMS image noise on the target</li>
+</ul>
+</li>
+</ul>
+<p>In the second case, the RMS image noise is only about 5% more than in the first case; but it is more likely that after flagging of band edges and otherwise bad data—or less careful but much quicker or automated  flagging of the calibrator data—that the second yields better  calibration solutions. Data can still be calibrated in the second case  if a fraction of the data needs to be flagged for whatever reason (as  this additional flagging will not drive the signal-to-noise below 10),  or still yield better interpolations under deteriorating weather  conditions as the cycle time is shorter.</p>
+<h2 id="Further-Information"><a href="#Further-Information" class="headerlink" title="Further Information"></a>Further Information</h2><ul>
+<li><p>More information about the VLA in general can be found in the <a target="_blank" rel="noopener" href="https://science.nrao.edu/facilities/vla/docs/manuals/oss">VLA Observational Status Summary</a>.</p>
+</li>
+<li><p>Guidelines at the proposal stage about calibration should be obtained from the <a target="_blank" rel="noopener" href="https://science.nrao.edu/facilities/vla/docs/manuals/propvla">Guide to Proposing</a> and the <a target="_blank" rel="noopener" href="https://science.nrao.edu/facilities/vla/docs/manuals/proposal-guide">PST Manual</a>.</p>
+</li>
+<li><p>For information on how to use the Observation Preparation Tool, refer to the <a target="_blank" rel="noopener" href="https://science.nrao.edu/facilities/vla/docs/manuals/opt">OPT Manual</a>.</p>
+</li>
+<li><p>Refer to the data reduction package manuals, <a target="_blank" rel="noopener" href="http://www.aips.nrao.edu/index.shtml">AIPS</a> and <a target="_blank" rel="noopener" href="https://casa.nrao.edu/">CASA</a>, for how to calibrate the data.</p>
+</li>
+<li><p>For polarization calibration strategy and techniques, please see the <a target="_blank" rel="noopener" href="https://science.nrao.edu/facilities/vla/docs/manuals/obsguide/modes/pol">Polarimetry</a> section.</p>
+</li>
+<li><p><a target="_blank" rel="noopener" href="https://science.nrao.edu/facilities/vla/docs/manuals/obsguide/topical-guides/hifreq">High Frequency Strategy</a></p>
+</li>
+<li><p><a target="_blank" rel="noopener" href="https://science.nrao.edu/facilities/vla/docs/manuals/obsguide/topical-guides/lofreq">Low Frequency Strategy</a></p>
+</li>
+<li><p><a target="_blank" rel="noopener" href="https://science.nrao.edu/facilities/vla/docs/manuals/obsguide/topical-guides/vlofreq">Very Low Frequency Strategy</a></p>
+</li>
+</ul>
+<blockquote>
+<p>Content Source: <a target="_blank" rel="noopener" href="https://science.nrao.edu/facilities/vla/docs/manuals/obsguide/calibration">NRAO</a> </p>
+</blockquote>
+<script>
+        document.querySelectorAll('.github-emoji')
+          .forEach(el => {
+            if (!el.dataset.src) { return; }
+            const img = document.createElement('img');
+            img.style = 'display:none !important;';
+            img.src = el.dataset.src;
+            img.addEventListener('error', () => {
+              img.remove();
+              el.style.color = 'inherit';
+              el.style.backgroundImage = 'none';
+              el.style.background = 'none';
+            });
+            img.addEventListener('load', () => {
+              img.remove();
+            });
+            document.body.appendChild(img);
+          });
+      </script>
+            </div>
+            <hr/>
+
+            
+
+    <div class="reprint" id="reprint-statement">
+        
+            <div class="reprint__author">
+                <span class="reprint-meta" style="font-weight: bold;">
+                    <i class="fas fa-user">
+                        Author:
+                    </i>
+                </span>
+                <span class="reprint-info">
+                    <a href="/about" rel="external nofollow noreferrer">Jun Wang</a>
+                </span>
+            </div>
+            <div class="reprint__type">
+                <span class="reprint-meta" style="font-weight: bold;">
+                    <i class="fas fa-link">
+                        Link:
+                    </i>
+                </span>
+                <span class="reprint-info">
+                    <a href="http://www.drjun.wang/2020/03/27/20200327-calibration/">http://www.drjun.wang/2020/03/27/20200327-calibration/</a>
+                </span>
+            </div>
+            <div class="reprint__notice">
+                <span class="reprint-meta" style="font-weight: bold;">
+                    <i class="fas fa-copyright">
+                        Reprint policy:
+                    </i>
+                </span>
+                <span class="reprint-info">
+                    All articles in this blog are used except for special statements
+                    <a href="https://creativecommons.org/licenses/by/4.0/deed.zh" rel="external nofollow noreferrer" target="_blank">CC BY 4.0</a>
+                    reprint policy. If reproduced, please indicate source
+                    <a href="/about" target="_blank">Jun Wang</a>
+                    !
+                </span>
+            </div>
+        
+    </div>
+
+    <script async defer>
+      document.addEventListener("copy", function (e) {
+        let toastHTML = '<span>Copied successfully, please follow the reprint policy of this article</span><button class="btn-flat toast-action" onclick="navToReprintStatement()" style="font-size: smaller">more</a>';
+        M.toast({html: toastHTML})
+      });
+
+      function navToReprintStatement() {
+        $("html, body").animate({scrollTop: $("#reprint-statement").offset().top - 80}, 800);
+      }
+    </script>
+
+
+
+            <div class="tag_share" style="display: block;">
+                <div class="post-meta__tag-list" style="display: inline-block;">
+                    
+                        <div class="article-tag">
+                            
+                                <a href="/tags/Pulsar/">
+                                    <span class="chip bg-color">Pulsar</span>
+                                </a>
+                            
+                        </div>
+                    
+                </div>
+                <div class="post_share" style="zoom: 80%; width: fit-content; display: inline-block; float: right; margin: -0.15rem 0;">
+                    <link rel="stylesheet" type="text/css" href="/libs/share/css/share.min.css">
+<div id="article-share">
+
+    
+    <div class="social-share" data-sites="twitter,facebook,google,qq,qzone,wechat,weibo,douban,linkedin" data-wechat-qrcode-helper="<p>微信扫一扫即可分享！</p>"></div>
+    <script src="/libs/share/js/social-share.min.js"></script>
+    
+
+    
+
+</div>
+
+                </div>
+            </div>
+            
+                <style>
+    #reward {
+        margin: 40px 0;
+        text-align: center;
+    }
+
+    #reward .reward-link {
+        font-size: 1.4rem;
+        line-height: 38px;
+    }
+
+    #reward .btn-floating:hover {
+        box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2), 0 5px 15px rgba(0, 0, 0, 0.2);
+    }
+
+    #rewardModal {
+        width: 320px;
+        height: 350px;
+    }
+
+    #rewardModal .reward-title {
+        margin: 15px auto;
+        padding-bottom: 5px;
+    }
+
+    #rewardModal .modal-content {
+        padding: 10px;
+    }
+
+    #rewardModal .close {
+        position: absolute;
+        right: 15px;
+        top: 15px;
+        color: rgba(0, 0, 0, 0.5);
+        font-size: 1.3rem;
+        line-height: 20px;
+        cursor: pointer;
+    }
+
+    #rewardModal .close:hover {
+        color: #ef5350;
+        transform: scale(1.3);
+        -moz-transform:scale(1.3);
+        -webkit-transform:scale(1.3);
+        -o-transform:scale(1.3);
+    }
+
+    #rewardModal .reward-tabs {
+        margin: 0 auto;
+        width: 210px;
+    }
+
+    .reward-tabs .tabs {
+        height: 38px;
+        margin: 10px auto;
+        padding-left: 0;
+    }
+
+    .reward-content ul {
+        padding-left: 0 !important;
+    }
+
+    .reward-tabs .tabs .tab {
+        height: 38px;
+        line-height: 38px;
+    }
+
+    .reward-tabs .tab a {
+        color: #fff;
+        background-color: #ccc;
+    }
+
+    .reward-tabs .tab a:hover {
+        background-color: #ccc;
+        color: #fff;
+    }
+
+    .reward-tabs .wechat-tab .active {
+        color: #fff !important;
+        background-color: #22AB38 !important;
+    }
+
+    .reward-tabs .alipay-tab .active {
+        color: #fff !important;
+        background-color: #019FE8 !important;
+    }
+
+    .reward-tabs .reward-img {
+        width: 210px;
+        height: 210px;
+    }
+</style>
+
+<div id="reward">
+    <a href="#rewardModal" class="reward-link modal-trigger btn-floating btn-medium waves-effect waves-light red">赏</a>
+
+    <!-- Modal Structure -->
+    <div id="rewardModal" class="modal">
+        <div class="modal-content">
+            <a class="close modal-close"><i class="fas fa-times"></i></a>
+            <h4 class="reward-title">Thanks for your donation!</h4>
+            <div class="reward-content">
+                <div class="reward-tabs">
+                    <ul class="tabs row">
+                        <li class="tab col s6 alipay-tab waves-effect waves-light"><a href="#alipay">支付宝</a></li>
+                        <li class="tab col s6 wechat-tab waves-effect waves-light"><a href="#wechat">微 信</a></li>
+                    </ul>
+                    <div id="alipay">
+                        <img src="/medias/reward/alipay.jpg" class="reward-img" alt="支付宝打赏二维码">
+                    </div>
+                    <div id="wechat">
+                        <img src="/medias/reward/wechat.png" class="reward-img" alt="微信打赏二维码">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script>
+    $(function () {
+        $('.tabs').tabs();
+    });
+</script>
+
+            
+        </div>
+    </div>
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+<article id="prenext-posts" class="prev-next articles">
+    <div class="row article-row">
+        
+        <div class="article col s12 m6" data-aos="fade-up">
+            <div class="article-badge left-badge text-color">
+                <i class="fas fa-chevron-left"></i>&nbsp;Previous</div>
+            <div class="card">
+                <a href="/2020/04/30/20200430-formula/">
+                    <div class="card-image">
+                        
+                        <img src="/medias/images/24.jpg" class="responsive-img" alt="Latex Formula">
+                        
+                        <span class="card-title">Latex Formula</span>
+                    </div>
+                </a>
+                <div class="card-content article-content">
+                    <div class="summary block-with-text">
+                        
+                            This article illustrates the usage of LaTeX formula.
+                        
+                    </div>
+                    <div class="publish-info">
+                        <span class="publish-date">
+                            <i class="far fa-clock fa-fw icon-date"></i>2020-04-30
+                        </span>
+                        <span class="publish-author">
+                            
+                            <i class="fas fa-bookmark fa-fw icon-category"></i>
+                            
+                            <a href="/categories/Learn/" class="post-category">
+                                    Learn
+                                </a>
+                            
+                            
+                        </span>
+                    </div>
+                </div>
+                
+                <div class="card-action article-tags">
+                    
+                    <a href="/tags/Latex/">
+                        <span class="chip bg-color">Latex</span>
+                    </a>
+                    
+                    <a href="/tags/Formula/">
+                        <span class="chip bg-color">Formula</span>
+                    </a>
+                    
+                </div>
+                
+            </div>
+        </div>
+        
+        
+        <div class="article col s12 m6" data-aos="fade-up">
+            <div class="article-badge right-badge text-color">
+                Next&nbsp;<i class="fas fa-chevron-right"></i>
+            </div>
+            <div class="card">
+                <a href="/2020/01/20/20200120-waveband/">
+                    <div class="card-image">
+                        
+                        <img src="/medias/images/22.jpg" class="responsive-img" alt="Wave Band">
+                        
+                        <span class="card-title">Wave Band</span>
+                    </div>
+                </a>
+                <div class="card-content article-content">
+                    <div class="summary block-with-text">
+                        
+                            This article illustrates the usage of Wave band.
+                        
+                    </div>
+                    <div class="publish-info">
+                            <span class="publish-date">
+                                <i class="far fa-clock fa-fw icon-date"></i>2020-01-20
+                            </span>
+                        <span class="publish-author">
+                            
+                            <i class="fas fa-bookmark fa-fw icon-category"></i>
+                            
+                            <a href="/categories/Research/" class="post-category">
+                                    Research
+                                </a>
+                            
+                            
+                        </span>
+                    </div>
+                </div>
+                
+                <div class="card-action article-tags">
+                    
+                    <a href="/tags/Pulsar/">
+                        <span class="chip bg-color">Pulsar</span>
+                    </a>
+                    
+                </div>
+                
+            </div>
+        </div>
+        
+    </div>
+</article>
+
+</div>
+
+
+
+<!-- 代码块功能依赖 -->
+<script type="text/javascript" src="/libs/codeBlock/codeBlockFuction.js"></script>
+
+<!-- 代码语言 -->
+
+<script type="text/javascript" src="/libs/codeBlock/codeLang.js"></script>
+
+
+<!-- 代码块复制 -->
+
+<script type="text/javascript" src="/libs/codeBlock/codeCopy.js"></script>
+
+
+<!-- 代码块收缩 -->
+
+<script type="text/javascript" src="/libs/codeBlock/codeShrink.js"></script>
+
+
+<!-- 代码块折行 -->
+
+<style type="text/css">
+code[class*="language-"], pre[class*="language-"] { white-space: pre !important; }
+</style>
+
+
+    
+
+</main>
+
+
+<script src="https://cdn.bootcss.com/mathjax/2.7.5/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+<script>
+    MathJax.Hub.Config({
+        tex2jax: {inlineMath: [['$', '$'], ['\(', '\)']]}
+    });
+</script>
+
+
+
+    <footer class="page-footer bg-color">
+    
+        <link rel="stylesheet" href="/libs/aplayer/APlayer.min.css">
+<style>
+    .aplayer .aplayer-lrc p {
+        
+        display: none;
+        
+        font-size: 12px;
+        font-weight: 700;
+        line-height: 16px !important;
+    }
+
+    .aplayer .aplayer-lrc p.aplayer-lrc-current {
+        
+        display: none;
+        
+        font-size: 15px;
+        color: #42b983;
+    }
+
+    
+    .aplayer.aplayer-fixed.aplayer-narrow .aplayer-body {
+        left: -66px !important;
+    }
+
+    .aplayer.aplayer-fixed.aplayer-narrow .aplayer-body:hover {
+        left: 0px !important;
+    }
+
+    
+</style>
+<div class="">
+    
+    <div class="row">
+        <meting-js class="col l8 offset-l2 m10 offset-m1 s12"
+                   server="netease"
+                   type="playlist"
+                   id="503838841"
+                   fixed='true'
+                   autoplay='false'
+                   theme='#42b983'
+                   loop='all'
+                   order='random'
+                   preload='auto'
+                   volume='0.7'
+                   list-folded='true'
+        >
+        </meting-js>
+    </div>
+</div>
+
+<script src="/libs/aplayer/APlayer.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/meting@2/dist/Meting.min.js"></script>
+
+    
+    <div class="container row center-align" style="margin-bottom: 0px !important;">
+        <div class="col s12 m8 l8 copy-right">
+            Copyright&nbsp;&copy;
+            <span id="year">2019</span>
+            <a href="/about" target="_blank">Jun Wang</a>
+            |&nbsp;Powered by&nbsp;<a href="https://github.com/" target="_blank">GitHub</a>
+            |&nbsp;Theme&nbsp;<a href="https://www.astrondog.com" target="_blank">AstronDog</a>
+            <br>
+            
+            
+            
+            
+            
+            
+            <span id="busuanzi_container_site_pv">
+                |&nbsp;<i class="far fa-eye"></i>&nbsp;总访问量:&nbsp;<span id="busuanzi_value_site_pv"
+                    class="white-color"></span>&nbsp;次
+            </span>
+            
+            
+            <span id="busuanzi_container_site_uv">
+                |&nbsp;<i class="fas fa-users"></i>&nbsp;总访问人数:&nbsp;<span id="busuanzi_value_site_uv"
+                    class="white-color"></span>&nbsp;人
+            </span>
+            
+            <br>
+            
+            <br>
+            
+        </div>
+        <div class="col s12 m4 l4 social-link social-statis">
+    <a href="https://github.com/astrondog" class="tooltipped" target="_blank" data-tooltip="Vist GitHub" data-position="top" data-delay="50">
+        <i class="fab fa-github"></i>
+    </a>
+
+
+
+    <a href="mailto:junwang@drjun.wang" class="tooltipped" target="_blank" data-tooltip="Contact me via Email" data-position="top" data-delay="50">
+        <i class="fas fa-envelope-open"></i>
+    </a>
+
+
+
+
+
+
+
+    <a href="tencent://AddContact/?fromId=50&fromSubId=1&subcmd=all&uin=454450168" class="tooltipped" target="_blank" data-tooltip="Contact me via QQ: 454450168" data-position="top" data-delay="50">
+        <i class="fab fa-qq"></i>
+    </a>
+
+
+
+
+
+
+
+    <a href="/atom.xml" class="tooltipped" target="_blank" data-tooltip="RSS subscribe" data-position="top" data-delay="50">
+        <i class="fas fa-rss"></i>
+    </a>
+
+</div>
+    </div>
+</footer>
+
+<div class="progress-bar"></div>
+
+
+    <!-- 搜索遮罩框 -->
+<div id="searchModal" class="modal">
+    <div class="modal-content">
+        <div class="search-header">
+            <span class="title"><i class="fas fa-search"></i>&nbsp;&nbsp;Search</span>
+            <input type="search" id="searchInput" name="s" placeholder="Please enter a search keyword"
+                   class="search-input">
+        </div>
+        <div id="searchResult"></div>
+    </div>
+</div>
+
+<script src="/js/search.js"></script>
+<script type="text/javascript">
+$(function () {
+    searchFunc("/search.xml", 'searchInput', 'searchResult');
+});
+</script>
+
+    <!-- 回到顶部按钮 -->
+<div id="backTop" class="top-scroll">
+    <a class="btn-floating btn-large waves-effect waves-light" href="#!">
+        <i class="fas fa-arrow-up"></i>
+    </a>
+</div>
+
+
+    <script src="/libs/materialize/materialize.min.js"></script>
+    <script src="/libs/masonry/masonry.pkgd.min.js"></script>
+    <script src="/libs/aos/aos.js"></script>
+    <script src="/libs/scrollprogress/scrollProgress.min.js"></script>
+    <script src="/libs/lightGallery/js/lightgallery-all.min.js"></script>
+    <script src="/js/matery.js"></script>
+
+    <!-- Baidu Analytics -->
+
+    <!-- Baidu Push -->
+
+<script>
+    (function () {
+        var bp = document.createElement('script');
+        var curProtocol = window.location.protocol.split(':')[0];
+        if (curProtocol === 'https') {
+            bp.src = 'https://zz.bdstatic.com/linksubmit/push.js';
+        } else {
+            bp.src = 'http://push.zhanzhang.baidu.com/push.js';
+        }
+        var s = document.getElementsByTagName("script")[0];
+        s.parentNode.insertBefore(bp, s);
+    })();
+</script>
+
+    
+    <script src="/libs/others/clicklove.js" async="async"></script>
+    
+    
+    <script async src="/libs/others/busuanzi.pure.mini.js"></script>
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+    <script src="/libs/instantpage/instantpage.js" type="module"></script>
+    
+
+</body>
+
+</html>
+
+
+<!-- weather -->
+<script type="text/javascript">
+WIDGET = {FID: 'YWKH0s75Vi'}
+</script>
+<script type="text/javascript" src="https://apip.weatherdt.com/float/static/js/r.js?v=1111"></script>

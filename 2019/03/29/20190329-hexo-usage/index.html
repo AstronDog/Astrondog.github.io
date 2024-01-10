@@ -1,0 +1,1378 @@
+<!DOCTYPE HTML>
+<html lang="en">
+
+
+<head>
+    <meta charset="utf-8">
+    <meta name="keywords" content="Hexo Usage and Theme Beautify, Dr. JunWang">
+    <meta name="description" content="">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+    <meta name="renderer" content="webkit|ie-stand|ie-comp">
+    <meta name="mobile-web-app-capable" content="yes">
+    <meta name="format-detection" content="telephone=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+
+
+    <title>Hexo Usage and Theme Beautify | Dr. JunWang</title>
+    <link rel="icon" type="image/png" href="/favicon.png">
+
+    <link rel="stylesheet" type="text/css" href="/libs/awesome/css/all.min.css">
+    <link rel="stylesheet" type="text/css" href="/libs/materialize/materialize.min.css">
+    <link rel="stylesheet" type="text/css" href="/libs/aos/aos.css">
+    <link rel="stylesheet" type="text/css" href="/libs/animate/animate.min.css">
+    <link rel="stylesheet" type="text/css" href="/libs/lightGallery/css/lightgallery.min.css">
+    <link rel="stylesheet" type="text/css" href="/css/matery.css">
+    <link rel="stylesheet" type="text/css" href="/css/my.css">
+
+    <script src="/libs/jquery/jquery-3.6.0.min.js"></script>
+
+<meta name="generator" content="Hexo 5.4.2"><link rel="alternate" href="/atom.xml" title="Dr. JunWang" type="application/atom+xml">
+<link rel="stylesheet" href="/css/prism-tomorrow.css" type="text/css">
+<link rel="stylesheet" href="/css/prism-line-numbers.css" type="text/css"></head>
+
+
+<body>
+    <header class="navbar-fixed">
+    <nav id="headNav" class="bg-color nav-transparent">
+        <div id="navContainer" class="nav-wrapper container">
+            <div class="brand-logo">
+                <a href="/" class="waves-effect waves-light">
+                    
+                    <img src="/medias/logo.png" class="logo-img" alt="LOGO">
+                    
+                    <span class="logo-span">Dr. JunWang</span>
+                </a>
+            </div>
+            
+
+<a href="#" data-target="mobile-nav" class="sidenav-trigger button-collapse"><i class="fas fa-bars"></i></a>
+<ul class="right nav-menu">
+  
+  <li class="hide-on-med-and-down nav-item">
+    
+    <a href="/" class="waves-effect waves-light">
+      
+      <i class="fas fa-home" style="zoom: 0.6;"></i>
+      
+      <span>Index</span>
+    </a>
+    
+  </li>
+  
+  <li class="hide-on-med-and-down nav-item">
+    
+    <a href="/tags" class="waves-effect waves-light">
+      
+      <i class="fas fa-tags" style="zoom: 0.6;"></i>
+      
+      <span>Tags</span>
+    </a>
+    
+  </li>
+  
+  <li class="hide-on-med-and-down nav-item">
+    
+    <a href="/categories" class="waves-effect waves-light">
+      
+      <i class="fas fa-bookmark" style="zoom: 0.6;"></i>
+      
+      <span>Categories</span>
+    </a>
+    
+  </li>
+  
+  <li class="hide-on-med-and-down nav-item">
+    
+    <a href="/archives" class="waves-effect waves-light">
+      
+      <i class="fas fa-archive" style="zoom: 0.6;"></i>
+      
+      <span>Archives</span>
+    </a>
+    
+  </li>
+  
+  <li class="hide-on-med-and-down nav-item">
+    
+    <a href="/about" class="waves-effect waves-light">
+      
+      <i class="fas fa-user-circle" style="zoom: 0.6;"></i>
+      
+      <span>About</span>
+    </a>
+    
+  </li>
+  
+  <li class="hide-on-med-and-down nav-item">
+    
+    <a href="/cv" class="waves-effect waves-light">
+      
+      <i class="fas fa-user-tie" style="zoom: 0.6;"></i>
+      
+      <span>CV</span>
+    </a>
+    
+  </li>
+  
+  <li>
+    <a href="#searchModal" class="modal-trigger waves-effect waves-light">
+      <i id="searchIcon" class="fas fa-search" title="Search" style="zoom: 0.85;"></i>
+    </a>
+  </li>
+</ul>
+
+
+<div id="mobile-nav" class="side-nav sidenav">
+
+    <div class="mobile-head bg-color">
+        
+        <img src="/medias/logo.png" class="logo-img circle responsive-img">
+        
+        <div class="logo-name">Dr. JunWang</div>
+        <div class="logo-desc">
+            
+            Never really desperate, only the lost of the soul.
+            
+        </div>
+    </div>
+
+    
+
+    <ul class="menu-list mobile-menu-list">
+        
+        <li class="m-nav-item">
+	  
+		<a href="/" class="waves-effect waves-light">
+			
+			    <i class="fa-fw fas fa-home"></i>
+			
+			Index
+		</a>
+          
+        </li>
+        
+        <li class="m-nav-item">
+	  
+		<a href="/tags" class="waves-effect waves-light">
+			
+			    <i class="fa-fw fas fa-tags"></i>
+			
+			Tags
+		</a>
+          
+        </li>
+        
+        <li class="m-nav-item">
+	  
+		<a href="/categories" class="waves-effect waves-light">
+			
+			    <i class="fa-fw fas fa-bookmark"></i>
+			
+			Categories
+		</a>
+          
+        </li>
+        
+        <li class="m-nav-item">
+	  
+		<a href="/archives" class="waves-effect waves-light">
+			
+			    <i class="fa-fw fas fa-archive"></i>
+			
+			Archives
+		</a>
+          
+        </li>
+        
+        <li class="m-nav-item">
+	  
+		<a href="/about" class="waves-effect waves-light">
+			
+			    <i class="fa-fw fas fa-user-circle"></i>
+			
+			About
+		</a>
+          
+        </li>
+        
+        <li class="m-nav-item">
+	  
+		<a href="/cv" class="waves-effect waves-light">
+			
+			    <i class="fa-fw fas fa-user-tie"></i>
+			
+			CV
+		</a>
+          
+        </li>
+        
+        
+        <li><div class="divider"></div></li>
+        <li>
+            <a href="https://github.com/blinkfox/hexo-theme-matery" class="waves-effect waves-light" target="_blank">
+                <i class="fab fa-github-square fa-fw"></i>Fork Me
+            </a>
+        </li>
+        
+    </ul>
+</div>
+
+
+        </div>
+
+        
+            <style>
+    .nav-transparent .github-corner {
+        display: none !important;
+    }
+
+    .github-corner {
+        position: absolute;
+        z-index: 10;
+        top: 0;
+        right: 0;
+        border: 0;
+        transform: scale(1.1);
+    }
+
+    .github-corner svg {
+        color: #0f9d58;
+        fill: #fff;
+        height: 64px;
+        width: 64px;
+    }
+
+    .github-corner:hover .octo-arm {
+        animation: a 0.56s ease-in-out;
+    }
+
+    .github-corner .octo-arm {
+        animation: none;
+    }
+
+    @keyframes a {
+        0%,
+        to {
+            transform: rotate(0);
+        }
+        20%,
+        60% {
+            transform: rotate(-25deg);
+        }
+        40%,
+        80% {
+            transform: rotate(10deg);
+        }
+    }
+</style>
+
+<a href="https://github.com/blinkfox/hexo-theme-matery" class="github-corner tooltipped hide-on-med-and-down" target="_blank"
+   data-tooltip="Fork Me" data-position="left" data-delay="50">
+    <svg viewBox="0 0 250 250" aria-hidden="true">
+        <path d="M0,0 L115,115 L130,115 L142,142 L250,250 L250,0 Z"></path>
+        <path d="M128.3,109.0 C113.8,99.7 119.0,89.6 119.0,89.6 C122.0,82.7 120.5,78.6 120.5,78.6 C119.2,72.0 123.4,76.3 123.4,76.3 C127.3,80.9 125.5,87.3 125.5,87.3 C122.9,97.6 130.6,101.9 134.4,103.2"
+              fill="currentColor" style="transform-origin: 130px 106px;" class="octo-arm"></path>
+        <path d="M115.0,115.0 C114.9,115.1 118.7,116.5 119.8,115.4 L133.7,101.6 C136.9,99.2 139.9,98.4 142.2,98.6 C133.8,88.0 127.5,74.4 143.8,58.0 C148.5,53.4 154.0,51.2 159.7,51.0 C160.3,49.4 163.2,43.6 171.4,40.1 C171.4,40.1 176.1,42.5 178.8,56.2 C183.1,58.6 187.2,61.8 190.9,65.4 C194.5,69.0 197.7,73.2 200.1,77.6 C213.8,80.2 216.3,84.9 216.3,84.9 C212.7,93.1 206.9,96.0 205.4,96.6 C205.1,102.4 203.0,107.8 198.3,112.5 C181.9,128.9 168.3,122.5 157.7,114.1 C157.9,116.9 156.7,120.9 152.7,124.9 L141.0,136.5 C139.8,137.7 141.6,141.9 141.8,141.8 Z"
+              fill="currentColor" class="octo-body"></path>
+    </svg>
+</a>
+        
+    </nav>
+
+</header>
+
+    
+<script src="/libs/cryptojs/crypto-js.min.js"></script>
+<script>
+    (function() {
+        let pwd = '17b0578a232f9445f1d4cf47109648757ae4a4108e8d94f51094d8c38b84d14d';
+        if (pwd && pwd.length > 0) {
+            if (pwd !== CryptoJS.SHA256(prompt('Please enter password to read this article.')).toString(CryptoJS.enc.Hex)) {
+                alert('Incorrect password, back to the index!');
+                location.href = '/';
+            }
+        }
+    })();
+</script>
+
+
+
+
+<div class="bg-cover pd-header post-cover" style="background-image: url('/medias/images/07.jpg')">
+    <div class="container" style="right: 0px;left: 0px;">
+        <div class="row">
+            <div class="col s12 m12 l12">
+                <div class="brand">
+                    <h1 class="description center-align post-title">Hexo Usage and Theme Beautify</h1>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+
+<main class="container content">
+
+    
+    <!-- 文章内容详情 -->
+<div id="artDetail">
+    <div class="card">
+        <div class="card-content article-info">
+            <div class="row tag-cate">
+                <div class="col s7">
+                    
+                    <div class="article-tag">
+                        
+                            <a href="/tags/Blog/">
+                                <span class="chip bg-color">Blog</span>
+                            </a>
+                        
+                    </div>
+                    
+                </div>
+                <div class="col s5 right-align">
+                    
+                    <div class="post-cate">
+                        <i class="fas fa-bookmark fa-fw icon-category"></i>
+                        
+                            <a href="/categories/Learn/" class="post-category">
+                                Learn
+                            </a>
+                        
+                    </div>
+                    
+                </div>
+            </div>
+
+            <div class="post-info">
+                
+                <div class="post-date info-break-policy">
+                    <i class="far fa-calendar-minus fa-fw"></i>Publish Date:&nbsp;&nbsp;
+                    2019-03-29
+                </div>
+                
+
+                
+
+                
+
+                
+
+                
+            </div>
+        </div>
+        <hr class="clearfix">
+        <div class="card-content article-card-content">
+            <div id="articleContent">
+                <script src="/assets/js/APlayer.min.js"> </script><h3 id="Hexo-搭建"><a href="#Hexo-搭建" class="headerlink" title="Hexo 搭建"></a>Hexo 搭建</h3><p>Hexo 是一个基于 Node.js 的静态站点生成框架，快速、简洁且高效。Hexo 使用 Markdown 解析文章，在几秒内，即可利用靓丽的主题生成静态网页。</p>
+<h4 id="安装Git"><a href="#安装Git" class="headerlink" title="安装Git"></a>安装Git</h4><ul>
+<li>首先需要在系统中安装git并进行基本配置</li>
+</ul>
+<pre class="line-numbers language-bash"><code class="language-bash"><span class="token function">sudo</span> apt <span class="token function">install</span> <span class="token function">git</span>
+<span class="token function">git</span> config --global user.name <span class="token string">"username"</span>
+<span class="token function">git</span> config --global user.email <span class="token string">"youremail"</span>
+<span class="token function">git</span> clone repo_url
+<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span></span></code></pre>
+<h4 id="安装Node-js-和-nvm"><a href="#安装Node-js-和-nvm" class="headerlink" title="安装Node.js 和 nvm"></a>安装Node.js 和 nvm</h4><pre class="line-numbers language-bash"><code class="language-bash"><span class="token function">sudo</span> apt <span class="token function">install</span> nodejs
+<span class="token comment" spellcheck="true"># nodejs的管理工具</span>
+<span class="token function">sudo</span> apt <span class="token function">install</span> <span class="token function">npm</span>
+<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span></span></code></pre>
+<h4 id="安装Hexo-及初始化"><a href="#安装Hexo-及初始化" class="headerlink" title="安装Hexo 及初始化"></a>安装Hexo 及初始化</h4><pre class="line-numbers language-bash"><code class="language-bash"><span class="token function">npm</span> <span class="token function">install</span> hexo -g
+hexo init myblog
+<span class="token function">cd</span> myblog
+<span class="token function">npm</span> <span class="token function">install</span>
+hexo server
+<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span></span></code></pre>
+<p>如果报错执行代码,不报错忽略</p>
+<pre class="line-numbers language-bash"><code class="language-bash"><span class="token function">sudo</span> <span class="token function">npm</span> config <span class="token keyword">set</span> user 0
+<span class="token function">sudo</span> <span class="token function">npm</span> config <span class="token keyword">set</span> unsafe-perm <span class="token boolean">true</span>
+<span class="token function">sudo</span> <span class="token function">npm</span> <span class="token function">install</span> -g hexo-cli
+<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span></span></code></pre>
+<p>访问<a href="http://localhost:4000，会看到生成好的博客。">http://localhost:4000，会看到生成好的博客。</a></p>
+<h4 id="github-配置"><a href="#github-配置" class="headerlink" title="github 配置"></a>github 配置</h4><ol>
+<li><p>注册一个github账户，成为(re)poer。</p>
+</li>
+<li><p>打开个人的profile，点击右上角的+，new一个repository（新建一个仓库），注意，要将你的repository name设置为[username.github.io]，这一步很重要。然后其它的不用管，直接create repository。</p>
+</li>
+<li><p>配置ssh keys，在settings中打开SSH and GPG keys，new一个ssh key。在下面的输入框中填写的你本机的ssh公钥，使用ssh-keygen -t rsa -C “youremail”，在你的用户目录下找到.ssh目录中的id_rsa.pub的内容，也就是你本机ssh公钥，然后点击添加。可以使用cat id_rsa.pub查看其中的内容。</p>
+</li>
+<li><p>验证：ssh -T <a href="mailto:git@github.com">git@github.com</a>，看到successfully就说明配置完成了。</p>
+</li>
+<li><p>修改Hexo部分默认配置</p>
+</li>
+</ol>
+<pre class="line-numbers language-bash"><code class="language-bash"><span class="token function">cd</span> /opt/blog
+vim _config.yml
+<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span></span></code></pre>
+<pre class="line-numbers language-bash"><code class="language-bash"><span class="token comment" spellcheck="true">#启动Git部署，位于Deployment部分</span>
+deploy:
+    type: <span class="token function">git</span>
+    repo: git@github.com:BoView/BoView.github.io.git <span class="token comment" spellcheck="true">#换成自己的用户名和仓库名</span>
+    branch: master
+<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span></span></code></pre>
+<h4 id="Hexo-常用指令"><a href="#Hexo-常用指令" class="headerlink" title="Hexo 常用指令"></a>Hexo 常用指令</h4><ul>
+<li>新建博客项目，默认为指定的folder文件夹;</li>
+</ul>
+<pre class="line-numbers language-bash"><code class="language-bash">hexo init <span class="token punctuation">[</span>folder<span class="token punctuation">]</span>
+<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
+<ul>
+<li>新建文章，总共有post、draft、page三种layout，文章以你指定的title名创建，title中如果有空格请使用“”括起来;</li>
+</ul>
+<pre class="line-numbers language-bash"><code class="language-bash">hexo new <span class="token punctuation">[</span>layout<span class="token punctuation">]</span> <span class="token string">"title"</span>
+<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
+<ul>
+<li>生成静态文件，下面的代码为简写，可以添加-w参数监视文件的变动;</li>
+</ul>
+<pre class="line-numbers language-bash"><code class="language-bash">hexo generate
+hexo g
+<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span></span></code></pre>
+<ul>
+<li>启动本地服务器，可以添加参数-p指定服务器的端口，默认在端口4000</li>
+</ul>
+<pre class="line-numbers language-bash"><code class="language-bash">hexo server
+hexo s
+<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span></span></code></pre>
+<ul>
+<li>博客项目部署</li>
+</ul>
+<pre class="line-numbers language-bash"><code class="language-bash">hexo deploy
+hexo d
+<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span></span></code></pre>
+<ul>
+<li>一键静态文件生成与部署</li>
+</ul>
+<pre class="line-numbers language-bash"><code class="language-bash">hexo g -d
+hexo d -g
+<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span></span></code></pre>
+<ul>
+<li>清楚缓存和生成的静态文件，对应于db.json和public目录下的文件</li>
+</ul>
+<pre class="line-numbers language-bash"><code class="language-bash">hexo clean
+hexo cl
+<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span></span></code></pre>
+<ul>
+<li>列出博客文件树</li>
+</ul>
+<pre class="line-numbers language-bash"><code class="language-bash">hexo list route
+<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
+<h4 id="绑定域名（阿里云上申请的域名，解析到服务器）"><a href="#绑定域名（阿里云上申请的域名，解析到服务器）" class="headerlink" title="绑定域名（阿里云上申请的域名，解析到服务器）"></a>绑定域名（阿里云上申请的域名，解析到服务器）</h4><p>添加三条解析：<br>前两条选择A记录类型，主机记录设置为@，线路选择默认，TTL选择600，记录值分别为192.30.252.153、192.30.252.154；<br>后一条选择CNAME记录类型，主机记录设置为www，线路选择默认，TTL选择600，记录值为github的仓库名boview.github.io。</p>
+<p>在hexo里配置CNAME</p>
+<pre class="line-numbers language-bash"><code class="language-bash">vim /opt/blog/source/CNAME
+<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
+<pre class="line-numbers language-bash"><code class="language-bash">www.sunlinbo.com
+<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
+<p>注：这里加上www，那么浏览器里就只有加上www才能够访问;这里不加www，那么浏览器里加不加上www都能够访问。</p>
+<h3 id="Hexo-的Next主题美化"><a href="#Hexo-的Next主题美化" class="headerlink" title="Hexo 的Next主题美化"></a>Hexo 的Next主题美化</h3><h4 id="主题安装及基本配置："><a href="#主题安装及基本配置：" class="headerlink" title="主题安装及基本配置："></a>主题安装及基本配置：</h4><pre class="line-numbers language-bash"><code class="language-bash"><span class="token function">git</span> clone https://github.com/theme-next/hexo-theme-next themes/next
+<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
+<p>安装完成后，打开 站点配置文件,找到 theme 字段，并将其值更改为 next， 保存并依次执行git clean，git g,git s 然后查看运行结果。</p>
+<p>nexT主题有四种选择，上面这个只是最简洁的一种，我选择的是Muse布局</p>
+<h4 id=""><a href="#" class="headerlink" title=""></a></h4><ol>
+<li><p>顶部图片设置</p>
+</li>
+<li><p>设置头像及旋转<br>找一张你喜欢的头像图片放入 myblog/themes/next/source/images 目录中，例如我这里放了一张logo.jpg。然后打开 myblog/themes/next/_config.yml 主题配置文件。找到关键字 avatar, 在后面加入 logo.jpg 的路径地址（注意：是想相对路径）。</p>
+</li>
+</ol>
+<p>在~/hexo/themes/next/source/css/_custom文件夹下的costom.styl文件内添加以下代码：</p>
+<pre class="line-numbers language-bash"><code class="language-bash">// 侧栏头像圆形及旋转效果
+.site-author-image <span class="token punctuation">{</span>
+    border: 0px solid rgb<span class="token punctuation">(</span>255, 255, 255<span class="token punctuation">)</span><span class="token punctuation">;</span>
+    border-radius: 100%<span class="token punctuation">;</span>
+    transition: transform 1.0s ease-out<span class="token punctuation">;</span>
+<span class="token punctuation">}</span>
+img:hover <span class="token punctuation">{</span>
+    transform: rotateZ<span class="token punctuation">(</span>360deg<span class="token punctuation">)</span><span class="token punctuation">;</span>
+<span class="token punctuation">}</span>
+.posts-expand .post-body img:hover <span class="token punctuation">{</span>
+    transform: initial<span class="token punctuation">;</span>
+<span class="token punctuation">}</span>
+<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
+<ol start="3">
+<li>设置网站的图标Favicon</li>
+</ol>
+<p>下载一个32 * 32的图片，并改名为favicon.ico, 然后放到/blog/themes/next/source/images目录</p>
+<p>修改主题配置文件</p>
+<pre class="line-numbers language-bash"><code class="language-bash">    favicon:
+    　small: /images/favicon-16x16-next.png
+    　medium: /images/favicon.ico
+    　apple_touch_icon: /images/apple-touch-icon-next.png
+    　safari_pinned_tab: /images/logo.svg
+<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span></span></code></pre>
+<ol start="4">
+<li>文章加密访问</li>
+</ol>
+<p>在　/blog/themes/next/layout/_partials/head/head.swig 文件中添加：</p>
+<pre class="line-numbers language-bash"><code class="language-bash">  <span class="token operator">&lt;</span>script<span class="token operator">></span> 
+   <span class="token punctuation">(</span>function<span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">{</span>
+          if<span class="token punctuation">(</span><span class="token string">'{{ page.password }}'</span><span class="token punctuation">)</span><span class="token punctuation">{</span>
+              <span class="token keyword">if</span> <span class="token punctuation">(</span>prompt<span class="token punctuation">(</span><span class="token string">'请输入文章密码'</span><span class="token punctuation">)</span> <span class="token operator">!=</span><span class="token operator">=</span> <span class="token string">'{{ page.password }}'</span><span class="token punctuation">)</span><span class="token punctuation">{</span>
+                  alert<span class="token punctuation">(</span><span class="token string">'密码错误！'</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+                  history.back<span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+              <span class="token punctuation">}</span>
+          <span class="token punctuation">}</span>
+      <span class="token punctuation">}</span><span class="token punctuation">)</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+  <span class="token operator">&lt;</span>/script<span class="token operator">></span>
+<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
+<p>在需要加密的文章的页面顶部(Front matter区域)加入 “password : 设置密码值”</p>
+<ol start="6">
+<li><p>修改文章底部的那个带#号的标签<br>修改模板 /themes/next/layout/_macro/post.swig，搜索 rel=”tag”&gt;#，将 # 换成<i class="fa fa-tag"></i></p>
+</li>
+<li><p>隐藏网页底部powered By Hexo / 强力驱动<br>打开themes/next/layout/_partials/footer.swig,使用””隐藏之间的代码即可，或者直接删除。</p>
+</li>
+<li><p>侧边栏社交链接</p>
+</li>
+</ol>
+<p>修改主题配置文件: 链接放置在 social 字段下，一行一个链接。其键值格式是 显示文本: 链接地址</p>
+<pre class="line-numbers language-bash"><code class="language-bash">
+  <span class="token comment" spellcheck="true">#设置侧边栏社交链</span>
+  social:
+    GitHub: https://github.com/zzwwqq <span class="token operator">||</span> github
+    E-Mail: mailto:zwq13264860490@gmail.com <span class="token operator">||</span> envelope
+    Weibo: https://weibo.com/u/5564810309/home?wvr<span class="token operator">=</span>5 <span class="token operator">||</span> weibo
+    知乎: https://www.zhihu.com/people/shen-qiu-wu-hen-66/activities <span class="token operator">||</span> snapchat
+  ​
+  <span class="token comment" spellcheck="true">#这里键的值必须和上面social中的 "||" 后面指定的名称一致，在fontawesome官网找喜欢的小图标，将名字复制在如下位置，如E-Mail:对应的图标名称为envelope。</span>
+  ​
+  social_icons:
+    enable: <span class="token boolean">true</span>    <span class="token comment" spellcheck="true"># `enable` 选项用于控制是否显示图标</span>
+    icons_only: <span class="token boolean">false</span>
+    transition: <span class="token boolean">false</span> 
+    <span class="token comment" spellcheck="true">#图标</span>
+    GitHub: github
+    E-Mail: envelope
+    Weibo: weibo
+    知乎: snapchat
+<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
+<ol start="9">
+<li>封面模式</li>
+</ol>
+<p>需要安装一个小插件是：hexo-less，安装指令: $ npm install –save hexo-less</p>
+<p>该插件解决了什么问题呢？</p>
+<p>手动设置文章概要，但不影响章内䆟。只需在文章中写 <!-- less --> 作为分割线， <!-- less --> 上面的内容会作为摘要，但不作为文章内容的一部分。</p>
+<ol start="10">
+<li><p>菜单栏添加菜单选项<br>next默认菜单栏只有home和archives菜单，你可以添加更多的菜单，比如这里我们添加tags和categories。只需打开myblog/themes/next/_config.yml主题配置文件，搜索关键字Menu Settings找到如下图代码块，然后将tags和categories选项前的注释符号#去掉就能启用这两个菜单。</p>
+</li>
+<li><p>头像设置为圆形<br>打开站点下的	myblog/themes/next/source/css/_common/components/sidebar/sidebar-author.styl文件 ,在.site-author-image选择器的末尾（右括号前）添加</p>
+</li>
+</ol>
+<pre class="line-numbers language-bash"><code class="language-bash">border-radius: 50%<span class="token punctuation">;</span>
+transition: 2s all<span class="token punctuation">;</span>
+<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span></span></code></pre>
+<p>在.site-author-image选择器右括号后另起一行,加入以下代码：</p>
+<pre class="line-numbers language-bash"><code class="language-bash">.site-author-image:hover<span class="token punctuation">{</span>
+  transform: rotate<span class="token punctuation">(</span>360deg<span class="token punctuation">)</span><span class="token punctuation">;</span>
+<span class="token punctuation">}</span>
+<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span></span></code></pre>
+<p>或者你可以看下面的代码会更加直观。</p>
+<p>原来的：</p>
+<pre class="line-numbers language-bash"><code class="language-bash">   .site-author-image <span class="token punctuation">{</span>
+  display: block<span class="token punctuation">;</span>
+  margin: 0 auto<span class="token punctuation">;</span>
+  padding: <span class="token variable">$site</span>-author-image-padding<span class="token punctuation">;</span>
+  max-width: <span class="token variable">$site</span>-author-image-width<span class="token punctuation">;</span>
+  height: <span class="token variable">$site</span>-author-image-height<span class="token punctuation">;</span>
+  border: <span class="token variable">$site</span>-author-image-border-width solid <span class="token variable">$site</span>-author-image-border-color<span class="token punctuation">;</span>
+<span class="token punctuation">}</span>
+<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
+<p>修改后：</p>
+<pre class="line-numbers language-bash"><code class="language-bash">.site-author-image <span class="token punctuation">{</span>
+  display: block<span class="token punctuation">;</span>
+  margin: 0 auto<span class="token punctuation">;</span>
+  padding: <span class="token variable">$site</span>-author-image-padding<span class="token punctuation">;</span>
+  max-width: <span class="token variable">$site</span>-author-image-width<span class="token punctuation">;</span>
+  height: <span class="token variable">$site</span>-author-image-height<span class="token punctuation">;</span>
+  border: <span class="token variable">$site</span>-author-image-border-width solid <span class="token variable">$site</span>-author-image-border-color<span class="token punctuation">;</span>
+  opacity: hexo-config<span class="token punctuation">(</span><span class="token string">'avatar.opacity'</span><span class="token punctuation">)</span> is a <span class="token string">'unit'</span> ? hexo-config<span class="token punctuation">(</span><span class="token string">'avatar.opacity'</span><span class="token punctuation">)</span> <span class="token keyword">:</span> 1<span class="token punctuation">;</span>
+
+  border-radius: 50%<span class="token punctuation">;</span>
+  transition: 2s all<span class="token punctuation">;</span>
+<span class="token punctuation">}</span>
+.site-author-image:hover<span class="token punctuation">{</span>
+  transform: rotate<span class="token punctuation">(</span>360deg<span class="token punctuation">)</span><span class="token punctuation">;</span>
+<span class="token punctuation">}</span>
+<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
+<ol start="12">
+<li>添加动态背景<br>打开myblog/themes/next/_config.yml主题配置文件，搜索关键字canvas找到如下位置：</li>
+</ol>
+<pre class="line-numbers language-bash"><code class="language-bash"><span class="token comment" spellcheck="true"># Canvas-nest</span>
+<span class="token comment" spellcheck="true"># Dependencies: https://github.com/theme-next/theme-next-canvas-nest</span>
+canvas_nest: <span class="token boolean">false</span>
+
+<span class="token comment" spellcheck="true"># JavaScript 3D library.</span>
+<span class="token comment" spellcheck="true"># Dependencies: https://github.com/theme-next/theme-next-three</span>
+<span class="token comment" spellcheck="true"># three_waves</span>
+three_waves: <span class="token boolean">false</span>
+<span class="token comment" spellcheck="true"># canvas_lines</span>
+canvas_lines: <span class="token boolean">false</span>
+<span class="token comment" spellcheck="true"># canvas_sphere</span>
+canvas_sphere: <span class="token boolean">false</span>
+<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
+<p>看你喜欢哪种动态背景风格，分别有canvas_nest、three_waves、canvas_lines、canvas_sphere四种，选择一种然后将冒号后面的false改成true。这里我选择的是第一种canvas_nest，改成如下：</p>
+<pre class="line-numbers language-bash"><code class="language-bash"><span class="token comment" spellcheck="true">#Canvas-nest</span>
+<span class="token comment" spellcheck="true"># Dependencies: https://github.com/theme-next/theme-next-canvas-nest</span>
+canvas_nest: <span class="token boolean">true</span>
+
+<span class="token comment" spellcheck="true"># JavaScript 3D library.</span>
+<span class="token comment" spellcheck="true"># Dependencies: https://github.com/theme-next/theme-next-three</span>
+<span class="token comment" spellcheck="true"># three_waves</span>
+three_waves: <span class="token boolean">false</span>
+<span class="token comment" spellcheck="true"># canvas_lines</span>
+canvas_lines: <span class="token boolean">false</span>
+<span class="token comment" spellcheck="true"># canvas_sphere</span>
+canvas_sphere: <span class="token boolean">false</span>
+<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
+<ol start="13">
+<li>增加搜索功能</li>
+</ol>
+<p>需要安装 hexo-generator-searchdb插件来实现这个功能，在站点的根目录下执行以下命令：</p>
+<pre class="line-numbers language-bash"><code class="language-bash"><span class="token function">npm</span> <span class="token function">install</span> hexo-generator-searchdb --save
+<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
+<p>编辑myblog/_config.yml全局配置文件，新增以下内容到任意位置：</p>
+<pre class="line-numbers language-bash"><code class="language-bash">search:
+  path: search.xml
+  field: post
+  format: html
+  limit: 10000
+<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span></span></code></pre>
+<p>打开myblog/themes/next/_config.yml主题配置文件，搜索关键字local_search找到如下代码，enable默认是false，将enable设置为true，如下：</p>
+<pre class="line-numbers language-bash"><code class="language-bash">local_search:
+  enable: <span class="token boolean">true</span>
+<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span></span></code></pre>
+<ol start="14">
+<li>实现字数统计和阅读时长的功能<br>需要安装hexo-wordcount这个插件来实现这个功能，在站点根目录下打开git bash，输入：</li>
+</ol>
+<pre class="line-numbers language-bash"><code class="language-bash"><span class="token function">npm</span> <span class="token function">install</span> hexo-wordcount --save
+<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
+<p>打开myblog/themes/next/_config.yml主题配置文件，搜索关键字post_wordcount。<br>将其配置修改成以下代码：</p>
+<pre class="line-numbers language-bash"><code class="language-bash">post_wordcount:
+  item_text: <span class="token boolean">true</span>
+  wordcount: <span class="token boolean">true</span>
+  min2read: <span class="token boolean">true</span>
+  totalcount: <span class="token boolean">false</span>
+  separated_meta: <span class="token boolean">true</span>
+<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
+<ol start="15">
+<li><p>添加emoji</p>
+</li>
+<li><p>添加404</p>
+</li>
+<li><p>添加评论系统</p>
+</li>
+<li><p>添加看板娘</p>
+</li>
+</ol>
+<ul>
+<li>安装</li>
+</ul>
+<pre class="line-numbers language-bash"><code class="language-bash"><span class="token function">npm</span> <span class="token function">install</span> --save hexo-helper-live2d
+<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
+<ul>
+<li>在站点的 _config.yml 下配置</li>
+</ul>
+<pre class="line-numbers language-bash"><code class="language-bash">live2d:
+  enable: <span class="token boolean">true</span>
+  scriptFrom: local
+  model:
+    use: live2d-widget-model-miku
+  display:
+    position: right
+    width: 150
+    height: 300
+  mobile:
+    show: <span class="token boolean">true</span>
+<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
+<p>复制代码其中，live2d.model.use使用来配置对应的萌宠模型，我这边是live2d-widget-model-miku</p>
+<ol start="19">
+<li><p>插入音乐和视频</p>
+</li>
+<li><p>添加pdf</p>
+</li>
+<li><p>字数统计和阅读时长</p>
+</li>
+<li><p>鼠标点击特效</p>
+</li>
+<li><p>打字特效</p>
+</li>
+<li><p>代码块一键复制</p>
+</li>
+<li><p>个性化回到顶部</p>
+</li>
+<li><p>文章阅读统计及热度</p>
+</li>
+<li><p>设置阅读全文显示摘要图片</p>
+</li>
+</ol>
+<ul>
+<li>摘要配图，文章也有<br>在文章中使用 手动进行截断</li>
+</ul>
+<pre class="line-numbers language-bash"><code class="language-bash"><span class="token operator">&lt;</span>div id<span class="token operator">=</span><span class="token string">"zhaiyao"</span> style<span class="token operator">=</span><span class="token string">"width: 735px;height: 372px;"</span><span class="token operator">></span>
+<span class="token operator">&lt;</span>img src<span class="token operator">=</span><span class="token string">"image.jpg"</span> style<span class="token operator">=</span><span class="token string">"width: 100%;height: 100%"</span> alt<span class="token operator">=</span><span class="token string">"wechat_jump_game"</span> align<span class="token operator">=</span>center /<span class="token operator">></span>
+<span class="token operator">&lt;</span>/div<span class="token operator">></span>
+摘要内容
+<span class="token operator">&lt;</span><span class="token operator">!</span>-- <span class="token function">more</span> --<span class="token operator">></span>
+<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span></span></code></pre>
+<ul>
+<li>摘要配图，文章没有<br>在custom.styl(hexo/themes/next/source/css/_custom/custom.styl)里设计一个专有容器</li>
+</ul>
+<pre class="line-numbers language-bash"><code class="language-bash">//图片外部的容器方框 
+.out-img-topic <span class="token punctuation">{</span>
+  display: block<span class="token punctuation">;</span>
+  max-height:300px<span class="token punctuation">;</span>
+  margin-bottom: 24px<span class="token punctuation">;</span>
+  overflow: hidden<span class="token punctuation">;</span>
+<span class="token punctuation">}</span>
+//图片
+img.img-topic <span class="token punctuation">{</span>
+  display: block <span class="token punctuation">;</span>
+  margin-left: .7em<span class="token punctuation">;</span>
+  margin-right: .7em<span class="token punctuation">;</span>
+  padding: 0<span class="token punctuation">;</span>
+  float: right<span class="token punctuation">;</span>
+  clear: right<span class="token punctuation">;</span>
+<span class="token punctuation">}</span>
+<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
+<p>这里图片外部的容器用来限制图片显示的大小，最大的高度为300px，overflow: hidden;让多余部分隐藏。margin-bottom: 24px;确保图片和文章摘要部分空出一定空间。</p>
+<p>修改/themes/next/layout/ _macro/post.swig，在if is_index与if post.description and theme.excerpt_description<br>之间添加以下代码:</p>
+<pre class="line-numbers language-bash"><code class="language-bash"><span class="token punctuation">{</span>% <span class="token keyword">if</span> post.images %<span class="token punctuation">}</span>
+    <span class="token operator">&lt;</span>div class<span class="token operator">=</span><span class="token string">"out-img-topic"</span><span class="token operator">></span>
+        <span class="token operator">&lt;</span>img src<span class="token operator">=</span><span class="token string">"{{"</span> post.images<span class="token operator">=</span><span class="token string">""</span> <span class="token operator">&amp;</span><span class="token comment" spellcheck="true">#125;&amp;#125;="" class="img-topic"></span>
+    <span class="token operator">&lt;</span>/div<span class="token operator">></span>
+<span class="token punctuation">{</span>% endif %<span class="token punctuation">}</span>
+<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span></span></code></pre>
+<p>在front-matter中加一个images字段</p>
+<pre class="line-numbers language-bash"><code class="language-bash">images: <span class="token string">"/images/摘要配图/"</span>
+<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
+<ol start="28">
+<li>主页文章添加边框阴影效果<br>打开 themes/next/source/css/_custom/ 下的 custom.styl，向里面加代码：</li>
+</ol>
+<pre class="line-numbers language-bash"><code class="language-bash">.post <span class="token punctuation">{</span>
+   margin-top: 0px<span class="token punctuation">;</span>
+   margin-bottom: 60px<span class="token punctuation">;</span>
+   padding: 25px<span class="token punctuation">;</span>
+   -webkit-box-shadow: 0 0 5px rgba<span class="token punctuation">(</span>202, 203, 203, .5<span class="token punctuation">)</span><span class="token punctuation">;</span>
+   -moz-box-shadow: 0 0 5px rgba<span class="token punctuation">(</span>202, 203, 204, .5<span class="token punctuation">)</span><span class="token punctuation">;</span>
+<span class="token punctuation">}</span>
+<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
+<ol start="29">
+<li>添加背景图片<br>修改themes\next\source\css\ _custom\custom.styl文件，这个是Next故意留给用户自己个性化定制一些样式的文件，添加以下代码：</li>
+</ol>
+<pre class="line-numbers language-bash"><code class="language-bash">body <span class="token punctuation">{</span>
+    background:url<span class="token punctuation">(</span>https://source.unsplash.com/random/1600x900<span class="token punctuation">)</span><span class="token punctuation">;</span>
+    background-repeat: no-repeat<span class="token punctuation">;</span>
+    background-attachment:fixed<span class="token punctuation">;</span>
+    background-position:50% 50%<span class="token punctuation">;</span>
+<span class="token punctuation">}</span>
+<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
+<p>如果按照上一步添加完图片之后，发现出现了另外一个大问题，整个博客背景都是透明的，只能看见图片，看不清文章文字，这样绝对不行的，办法如下，照例在上面的文件下面继续追加如下代码：</p>
+<pre class="line-numbers language-bash"><code class="language-bash">.main-inner <span class="token punctuation">{</span>
+    margin-top: 60px<span class="token punctuation">;</span>
+    padding: 60px 60px 60px 60px<span class="token punctuation">;</span>
+    background: <span class="token comment" spellcheck="true">#fff;</span>
+    min-height: 500px<span class="token punctuation">;</span>
+<span class="token punctuation">}</span>
+<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
+<script>
+        document.querySelectorAll('.github-emoji')
+          .forEach(el => {
+            if (!el.dataset.src) { return; }
+            const img = document.createElement('img');
+            img.style = 'display:none !important;';
+            img.src = el.dataset.src;
+            img.addEventListener('error', () => {
+              img.remove();
+              el.style.color = 'inherit';
+              el.style.backgroundImage = 'none';
+              el.style.background = 'none';
+            });
+            img.addEventListener('load', () => {
+              img.remove();
+            });
+            document.body.appendChild(img);
+          });
+      </script>
+            </div>
+            <hr/>
+
+            
+
+    <div class="reprint" id="reprint-statement">
+        
+            <div class="reprint__author">
+                <span class="reprint-meta" style="font-weight: bold;">
+                    <i class="fas fa-user">
+                        Author:
+                    </i>
+                </span>
+                <span class="reprint-info">
+                    <a href="/about" rel="external nofollow noreferrer">Jun Wang</a>
+                </span>
+            </div>
+            <div class="reprint__type">
+                <span class="reprint-meta" style="font-weight: bold;">
+                    <i class="fas fa-link">
+                        Link:
+                    </i>
+                </span>
+                <span class="reprint-info">
+                    <a href="http://www.drjun.wang/2019/03/29/20190329-hexo-usage/">http://www.drjun.wang/2019/03/29/20190329-hexo-usage/</a>
+                </span>
+            </div>
+            <div class="reprint__notice">
+                <span class="reprint-meta" style="font-weight: bold;">
+                    <i class="fas fa-copyright">
+                        Reprint policy:
+                    </i>
+                </span>
+                <span class="reprint-info">
+                    All articles in this blog are used except for special statements
+                    <a href="https://creativecommons.org/licenses/by/4.0/deed.zh" rel="external nofollow noreferrer" target="_blank">CC BY 4.0</a>
+                    reprint policy. If reproduced, please indicate source
+                    <a href="/about" target="_blank">Jun Wang</a>
+                    !
+                </span>
+            </div>
+        
+    </div>
+
+    <script async defer>
+      document.addEventListener("copy", function (e) {
+        let toastHTML = '<span>Copied successfully, please follow the reprint policy of this article</span><button class="btn-flat toast-action" onclick="navToReprintStatement()" style="font-size: smaller">more</a>';
+        M.toast({html: toastHTML})
+      });
+
+      function navToReprintStatement() {
+        $("html, body").animate({scrollTop: $("#reprint-statement").offset().top - 80}, 800);
+      }
+    </script>
+
+
+
+            <div class="tag_share" style="display: block;">
+                <div class="post-meta__tag-list" style="display: inline-block;">
+                    
+                        <div class="article-tag">
+                            
+                                <a href="/tags/Blog/">
+                                    <span class="chip bg-color">Blog</span>
+                                </a>
+                            
+                        </div>
+                    
+                </div>
+                <div class="post_share" style="zoom: 80%; width: fit-content; display: inline-block; float: right; margin: -0.15rem 0;">
+                    <link rel="stylesheet" type="text/css" href="/libs/share/css/share.min.css">
+<div id="article-share">
+
+    
+    <div class="social-share" data-sites="twitter,facebook,google,qq,qzone,wechat,weibo,douban,linkedin" data-wechat-qrcode-helper="<p>微信扫一扫即可分享！</p>"></div>
+    <script src="/libs/share/js/social-share.min.js"></script>
+    
+
+    
+
+</div>
+
+                </div>
+            </div>
+            
+                <style>
+    #reward {
+        margin: 40px 0;
+        text-align: center;
+    }
+
+    #reward .reward-link {
+        font-size: 1.4rem;
+        line-height: 38px;
+    }
+
+    #reward .btn-floating:hover {
+        box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2), 0 5px 15px rgba(0, 0, 0, 0.2);
+    }
+
+    #rewardModal {
+        width: 320px;
+        height: 350px;
+    }
+
+    #rewardModal .reward-title {
+        margin: 15px auto;
+        padding-bottom: 5px;
+    }
+
+    #rewardModal .modal-content {
+        padding: 10px;
+    }
+
+    #rewardModal .close {
+        position: absolute;
+        right: 15px;
+        top: 15px;
+        color: rgba(0, 0, 0, 0.5);
+        font-size: 1.3rem;
+        line-height: 20px;
+        cursor: pointer;
+    }
+
+    #rewardModal .close:hover {
+        color: #ef5350;
+        transform: scale(1.3);
+        -moz-transform:scale(1.3);
+        -webkit-transform:scale(1.3);
+        -o-transform:scale(1.3);
+    }
+
+    #rewardModal .reward-tabs {
+        margin: 0 auto;
+        width: 210px;
+    }
+
+    .reward-tabs .tabs {
+        height: 38px;
+        margin: 10px auto;
+        padding-left: 0;
+    }
+
+    .reward-content ul {
+        padding-left: 0 !important;
+    }
+
+    .reward-tabs .tabs .tab {
+        height: 38px;
+        line-height: 38px;
+    }
+
+    .reward-tabs .tab a {
+        color: #fff;
+        background-color: #ccc;
+    }
+
+    .reward-tabs .tab a:hover {
+        background-color: #ccc;
+        color: #fff;
+    }
+
+    .reward-tabs .wechat-tab .active {
+        color: #fff !important;
+        background-color: #22AB38 !important;
+    }
+
+    .reward-tabs .alipay-tab .active {
+        color: #fff !important;
+        background-color: #019FE8 !important;
+    }
+
+    .reward-tabs .reward-img {
+        width: 210px;
+        height: 210px;
+    }
+</style>
+
+<div id="reward">
+    <a href="#rewardModal" class="reward-link modal-trigger btn-floating btn-medium waves-effect waves-light red">赏</a>
+
+    <!-- Modal Structure -->
+    <div id="rewardModal" class="modal">
+        <div class="modal-content">
+            <a class="close modal-close"><i class="fas fa-times"></i></a>
+            <h4 class="reward-title">Thanks for your donation!</h4>
+            <div class="reward-content">
+                <div class="reward-tabs">
+                    <ul class="tabs row">
+                        <li class="tab col s6 alipay-tab waves-effect waves-light"><a href="#alipay">支付宝</a></li>
+                        <li class="tab col s6 wechat-tab waves-effect waves-light"><a href="#wechat">微 信</a></li>
+                    </ul>
+                    <div id="alipay">
+                        <img src="/medias/reward/alipay.jpg" class="reward-img" alt="支付宝打赏二维码">
+                    </div>
+                    <div id="wechat">
+                        <img src="/medias/reward/wechat.png" class="reward-img" alt="微信打赏二维码">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script>
+    $(function () {
+        $('.tabs').tabs();
+    });
+</script>
+
+            
+        </div>
+    </div>
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+<article id="prenext-posts" class="prev-next articles">
+    <div class="row article-row">
+        
+        <div class="article col s12 m6" data-aos="fade-up">
+            <div class="article-badge left-badge text-color">
+                <i class="fas fa-chevron-left"></i>&nbsp;Previous</div>
+            <div class="card">
+                <a href="/2019/05/06/20190506-latex-ppt/">
+                    <div class="card-image">
+                        
+                        <img src="/medias/images/08.jpg" class="responsive-img" alt="Latex Presentation Notes">
+                        
+                        <span class="card-title">Latex Presentation Notes</span>
+                    </div>
+                </a>
+                <div class="card-content article-content">
+                    <div class="summary block-with-text">
+                        
+                            This article illustrates the usage of LaTeX.
+                        
+                    </div>
+                    <div class="publish-info">
+                        <span class="publish-date">
+                            <i class="far fa-clock fa-fw icon-date"></i>2019-05-06
+                        </span>
+                        <span class="publish-author">
+                            
+                            <i class="fas fa-bookmark fa-fw icon-category"></i>
+                            
+                            <a href="/categories/Learn/" class="post-category">
+                                    Learn
+                                </a>
+                            
+                            
+                        </span>
+                    </div>
+                </div>
+                
+                <div class="card-action article-tags">
+                    
+                    <a href="/tags/Latex/">
+                        <span class="chip bg-color">Latex</span>
+                    </a>
+                    
+                </div>
+                
+            </div>
+        </div>
+        
+        
+        <div class="article col s12 m6" data-aos="fade-up">
+            <div class="article-badge right-badge text-color">
+                Next&nbsp;<i class="fas fa-chevron-right"></i>
+            </div>
+            <div class="card">
+                <a href="/2019/03/26/20190326-hexo-template/">
+                    <div class="card-image">
+                        
+                        <img src="/medias/images/06.jpg" class="responsive-img" alt="Markdown Template">
+                        
+                        <span class="card-title">Markdown Template</span>
+                    </div>
+                </a>
+                <div class="card-content article-content">
+                    <div class="summary block-with-text">
+                        
+                            This article illustrates the usage youdao markdown.
+                        
+                    </div>
+                    <div class="publish-info">
+                            <span class="publish-date">
+                                <i class="far fa-clock fa-fw icon-date"></i>2019-03-26
+                            </span>
+                        <span class="publish-author">
+                            
+                            <i class="fas fa-bookmark fa-fw icon-category"></i>
+                            
+                            <a href="/categories/Learn/" class="post-category">
+                                    Learn
+                                </a>
+                            
+                            
+                        </span>
+                    </div>
+                </div>
+                
+                <div class="card-action article-tags">
+                    
+                    <a href="/tags/Personal/">
+                        <span class="chip bg-color">Personal</span>
+                    </a>
+                    
+                    <a href="/tags/Blog/">
+                        <span class="chip bg-color">Blog</span>
+                    </a>
+                    
+                </div>
+                
+            </div>
+        </div>
+        
+    </div>
+</article>
+
+</div>
+
+
+
+<!-- 代码块功能依赖 -->
+<script type="text/javascript" src="/libs/codeBlock/codeBlockFuction.js"></script>
+
+<!-- 代码语言 -->
+
+<script type="text/javascript" src="/libs/codeBlock/codeLang.js"></script>
+
+
+<!-- 代码块复制 -->
+
+<script type="text/javascript" src="/libs/codeBlock/codeCopy.js"></script>
+
+
+<!-- 代码块收缩 -->
+
+<script type="text/javascript" src="/libs/codeBlock/codeShrink.js"></script>
+
+
+<!-- 代码块折行 -->
+
+<style type="text/css">
+code[class*="language-"], pre[class*="language-"] { white-space: pre !important; }
+</style>
+
+
+    
+
+</main>
+
+
+<script src="https://cdn.bootcss.com/mathjax/2.7.5/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+<script>
+    MathJax.Hub.Config({
+        tex2jax: {inlineMath: [['$', '$'], ['\(', '\)']]}
+    });
+</script>
+
+
+
+    <footer class="page-footer bg-color">
+    
+        <link rel="stylesheet" href="/libs/aplayer/APlayer.min.css">
+<style>
+    .aplayer .aplayer-lrc p {
+        
+        display: none;
+        
+        font-size: 12px;
+        font-weight: 700;
+        line-height: 16px !important;
+    }
+
+    .aplayer .aplayer-lrc p.aplayer-lrc-current {
+        
+        display: none;
+        
+        font-size: 15px;
+        color: #42b983;
+    }
+
+    
+    .aplayer.aplayer-fixed.aplayer-narrow .aplayer-body {
+        left: -66px !important;
+    }
+
+    .aplayer.aplayer-fixed.aplayer-narrow .aplayer-body:hover {
+        left: 0px !important;
+    }
+
+    
+</style>
+<div class="">
+    
+    <div class="row">
+        <meting-js class="col l8 offset-l2 m10 offset-m1 s12"
+                   server="netease"
+                   type="playlist"
+                   id="503838841"
+                   fixed='true'
+                   autoplay='false'
+                   theme='#42b983'
+                   loop='all'
+                   order='random'
+                   preload='auto'
+                   volume='0.7'
+                   list-folded='true'
+        >
+        </meting-js>
+    </div>
+</div>
+
+<script src="/libs/aplayer/APlayer.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/meting@2/dist/Meting.min.js"></script>
+
+    
+    <div class="container row center-align" style="margin-bottom: 0px !important;">
+        <div class="col s12 m8 l8 copy-right">
+            Copyright&nbsp;&copy;
+            <span id="year">2019</span>
+            <a href="/about" target="_blank">Jun Wang</a>
+            |&nbsp;Powered by&nbsp;<a href="https://github.com/" target="_blank">GitHub</a>
+            |&nbsp;Theme&nbsp;<a href="https://www.astrondog.com" target="_blank">AstronDog</a>
+            <br>
+            
+            
+            
+            
+            
+            
+            <span id="busuanzi_container_site_pv">
+                |&nbsp;<i class="far fa-eye"></i>&nbsp;总访问量:&nbsp;<span id="busuanzi_value_site_pv"
+                    class="white-color"></span>&nbsp;次
+            </span>
+            
+            
+            <span id="busuanzi_container_site_uv">
+                |&nbsp;<i class="fas fa-users"></i>&nbsp;总访问人数:&nbsp;<span id="busuanzi_value_site_uv"
+                    class="white-color"></span>&nbsp;人
+            </span>
+            
+            <br>
+            
+            <br>
+            
+        </div>
+        <div class="col s12 m4 l4 social-link social-statis">
+    <a href="https://github.com/astrondog" class="tooltipped" target="_blank" data-tooltip="Vist GitHub" data-position="top" data-delay="50">
+        <i class="fab fa-github"></i>
+    </a>
+
+
+
+    <a href="mailto:junwang@drjun.wang" class="tooltipped" target="_blank" data-tooltip="Contact me via Email" data-position="top" data-delay="50">
+        <i class="fas fa-envelope-open"></i>
+    </a>
+
+
+
+
+
+
+
+    <a href="tencent://AddContact/?fromId=50&fromSubId=1&subcmd=all&uin=454450168" class="tooltipped" target="_blank" data-tooltip="Contact me via QQ: 454450168" data-position="top" data-delay="50">
+        <i class="fab fa-qq"></i>
+    </a>
+
+
+
+
+
+
+
+    <a href="/atom.xml" class="tooltipped" target="_blank" data-tooltip="RSS subscribe" data-position="top" data-delay="50">
+        <i class="fas fa-rss"></i>
+    </a>
+
+</div>
+    </div>
+</footer>
+
+<div class="progress-bar"></div>
+
+
+    <!-- 搜索遮罩框 -->
+<div id="searchModal" class="modal">
+    <div class="modal-content">
+        <div class="search-header">
+            <span class="title"><i class="fas fa-search"></i>&nbsp;&nbsp;Search</span>
+            <input type="search" id="searchInput" name="s" placeholder="Please enter a search keyword"
+                   class="search-input">
+        </div>
+        <div id="searchResult"></div>
+    </div>
+</div>
+
+<script src="/js/search.js"></script>
+<script type="text/javascript">
+$(function () {
+    searchFunc("/search.xml", 'searchInput', 'searchResult');
+});
+</script>
+
+    <!-- 回到顶部按钮 -->
+<div id="backTop" class="top-scroll">
+    <a class="btn-floating btn-large waves-effect waves-light" href="#!">
+        <i class="fas fa-arrow-up"></i>
+    </a>
+</div>
+
+
+    <script src="/libs/materialize/materialize.min.js"></script>
+    <script src="/libs/masonry/masonry.pkgd.min.js"></script>
+    <script src="/libs/aos/aos.js"></script>
+    <script src="/libs/scrollprogress/scrollProgress.min.js"></script>
+    <script src="/libs/lightGallery/js/lightgallery-all.min.js"></script>
+    <script src="/js/matery.js"></script>
+
+    <!-- Baidu Analytics -->
+
+    <!-- Baidu Push -->
+
+<script>
+    (function () {
+        var bp = document.createElement('script');
+        var curProtocol = window.location.protocol.split(':')[0];
+        if (curProtocol === 'https') {
+            bp.src = 'https://zz.bdstatic.com/linksubmit/push.js';
+        } else {
+            bp.src = 'http://push.zhanzhang.baidu.com/push.js';
+        }
+        var s = document.getElementsByTagName("script")[0];
+        s.parentNode.insertBefore(bp, s);
+    })();
+</script>
+
+    
+    <script src="/libs/others/clicklove.js" async="async"></script>
+    
+    
+    <script async src="/libs/others/busuanzi.pure.mini.js"></script>
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+    <script src="/libs/instantpage/instantpage.js" type="module"></script>
+    
+
+</body>
+
+</html>
+
+
+<!-- weather -->
+<script type="text/javascript">
+WIDGET = {FID: 'YWKH0s75Vi'}
+</script>
+<script type="text/javascript" src="https://apip.weatherdt.com/float/static/js/r.js?v=1111"></script>
