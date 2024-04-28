@@ -6,7 +6,7 @@
   <link href="http://www.drjun.wang/atom.xml" rel="self"/>
   
   <link href="http://www.drjun.wang/"/>
-  <updated>2024-01-10T21:21:12.000Z</updated>
+  <updated>2024-04-28T13:48:09.000Z</updated>
   <id>http://www.drjun.wang/</id>
   
   <author>
@@ -15,6 +15,32 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>20240428 LOFAR configuration</title>
+    <link href="http://www.drjun.wang/2024/04/28/20240428-LOFAR-configuration/"/>
+    <id>http://www.drjun.wang/2024/04/28/20240428-LOFAR-configuration/</id>
+    <published>2024-04-28T13:48:09.000Z</published>
+    <updated>2024-04-28T13:48:09.000Z</updated>
+    
+    <content type="html"><![CDATA[<script src="/assets/js/APlayer.min.js"> </script><h2 id="LOFAR-station-lists"><a href="#LOFAR-station-lists" class="headerlink" title="LOFAR station lists"></a>LOFAR station lists</h2><p>lofar_cs_list = [‘CS001’, ‘CS002’, ‘CS003’, ‘CS004’, ‘CS005’, ‘CS006’, ‘CS007’, ‘CS011’, ‘CS013’, ‘CS017’, ‘CS021’, ‘CS024’, ‘CS026’, ‘CS028’, ‘CS030’, ‘CS031’,’CS032’, ‘CS101’, ‘CS103’, ‘CS201’, ‘CS301’, ‘CS302’, ‘CS401’, ‘CS501’]</p><p>lofar_rs_list = [‘RS106’, ‘RS205’, ‘RS208’, ‘RS210’, ‘RS305’, ‘RS306’, ‘RS307’, ‘RS310’, ‘RS406’, ‘RS407’, ‘RS409’, ‘RS503’, ‘RS508’, ‘RS509’]</p><p>lofar_is_list = [‘DE601’, ‘DE602’, ‘DE603’, ‘DE604’, ‘DE605’, ‘FR606’, ‘SE607’, ‘UK608’, ‘DE609’, ‘PL610’, ‘PL611’, ‘PL612’, ‘IE613’, ‘LV614’]</p><h2 id="Configuration-map"><a href="#Configuration-map" class="headerlink" title="Configuration map"></a>Configuration map</h2><h3 id="Superterp"><a href="#Superterp" class="headerlink" title="Superterp:"></a>Superterp:</h3><p align="center">   <img src="/figs/20240428-LOFAR-configuration.assets/LOFAR_superterp.png" width="1800" height="1200"> </p><h3 id="Core-stations"><a href="#Core-stations" class="headerlink" title="Core stations"></a>Core stations</h3><p align="center">   <img src="/figs/20240428-LOFAR-configuration.assets/LOFAR_core.png" width="1800" height="1200"> </p><p align="center">   <img src="/figs/20240428-LOFAR-configuration.assets/CS001_configuration.png" width="1800" height="1200"> </p><p align="center">   <img src="/figs/20240428-LOFAR-configuration.assets/CS002_configuration.png" width="1800" height="1200"> </p><p align="center">   <img src="/figs/20240428-LOFAR-configuration.assets/CS003_configuration.png" width="1800" height="1200"> </p><p align="center">   <img src="/figs/20240428-LOFAR-configuration.assets/CS004_configuration.png" width="1800" height="1200"> </p><p align="center">   <img src="/figs/20240428-LOFAR-configuration.assets/CS005_configuration.png" width="1800" height="1200"> </p><p align="center">   <img src="/figs/20240428-LOFAR-configuration.assets/CS006_configuration.png" width="1800" height="1200"> </p><p align="center">   <img src="/figs/20240428-LOFAR-configuration.assets/CS007_configuration.png" width="1800" height="1200"> </p><p align="center">   <img src="/figs/20240428-LOFAR-configuration.assets/CS011_configuration.png" width="1800" height="1200"> </p><p align="center">   <img src="/figs/20240428-LOFAR-configuration.assets/CS013_configuration.png" width="1800" height="1200"> </p><p align="center">   <img src="/figs/20240428-LOFAR-configuration.assets/CS017_configuration.png" width="1800" height="1200"> </p><p align="center">   <img src="/figs/20240428-LOFAR-configuration.assets/CS021_configuration.png" width="1800" height="1200"> </p><p align="center">   <img src="/figs/20240428-LOFAR-configuration.assets/CS024_configuration.png" width="1800" height="1200"> </p><p align="center">   <img src="/figs/20240428-LOFAR-configuration.assets/CS026_configuration.png" width="1800" height="1200"> </p><p align="center">   <img src="/figs/20240428-LOFAR-configuration.assets/CS028_configuration.png" width="1800" height="1200"> </p><p align="center">   <img src="/figs/20240428-LOFAR-configuration.assets/CS030_configuration.png" width="1800" height="1200"> </p><p align="center">   <img src="/figs/20240428-LOFAR-configuration.assets/CS031_configuration.png" width="1800" height="1200"> </p><p align="center">   <img src="/figs/20240428-LOFAR-configuration.assets/CS032_configuration.png" width="1800" height="1200"> </p><p align="center">   <img src="/figs/20240428-LOFAR-configuration.assets/CS101_configuration.png" width="1800" height="1200"> </p><p align="center">   <img src="/figs/20240428-LOFAR-configuration.assets/CS103_configuration.png" width="1800" height="1200"> </p><p align="center">   <img src="/figs/20240428-LOFAR-configuration.assets/CS201_configuration.png" width="1800" height="1200"> </p><p align="center">   <img src="/figs/20240428-LOFAR-configuration.assets/CS301_configuration.png" width="1800" height="1200"> </p><p align="center">   <img src="/figs/20240428-LOFAR-configuration.assets/CS302_configuration.png" width="1800" height="1200"> </p><p align="center">   <img src="/figs/20240428-LOFAR-configuration.assets/CS401_configuration.png" width="1800" height="1200"> </p><p align="center">   <img src="/figs/20240428-LOFAR-configuration.assets/CS501_configuration.png" width="1800" height="1200"> </p><h3 id="Remote-stations"><a href="#Remote-stations" class="headerlink" title="Remote stations"></a>Remote stations</h3><p align="center">   <img src="/figs/20240428-LOFAR-configuration.assets/RS106_configuration.png" width="1800" height="1200"> </p><p align="center">   <img src="/figs/20240428-LOFAR-configuration.assets/RS205_configuration.png" width="1800" height="1200"> </p><p align="center">   <img src="/figs/20240428-LOFAR-configuration.assets/RS208_configuration.png" width="1800" height="1200"> </p><p align="center">   <img src="/figs/20240428-LOFAR-configuration.assets/RS210_configuration.png" width="1800" height="1200"> </p><p align="center">   <img src="/figs/20240428-LOFAR-configuration.assets/RS305_configuration.png" width="1800" height="1200"> </p><p align="center">   <img src="/figs/20240428-LOFAR-configuration.assets/RS306_configuration.png" width="1800" height="1200"> </p><p align="center">   <img src="/figs/20240428-LOFAR-configuration.assets/RS307_configuration.png" width="1800" height="1200"> </p><p align="center">   <img src="/figs/20240428-LOFAR-configuration.assets/RS310_configuration.png" width="1800" height="1200"> </p><p align="center">   <img src="/figs/20240428-LOFAR-configuration.assets/RS406_configuration.png" width="1800" height="1200"> </p><p align="center">   <img src="/figs/20240428-LOFAR-configuration.assets/RS407_configuration.png" width="1800" height="1200"> </p><p align="center">   <img src="/figs/20240428-LOFAR-configuration.assets/RS409_configuration.png" width="1800" height="1200"> </p><p align="center">   <img src="/figs/20240428-LOFAR-configuration.assets/RS503_configuration.png" width="1800" height="1200"> </p><p align="center">   <img src="/figs/20240428-LOFAR-configuration.assets/RS508_configuration.png" width="1800" height="1200"> </p><p align="center">   <img src="/figs/20240428-LOFAR-configuration.assets/RS509_configuration.png" width="1800" height="1200"> </p><h3 id="International-staions"><a href="#International-staions" class="headerlink" title="International staions"></a>International staions</h3><p align="center">   <img src="/figs/20240428-LOFAR-configuration.assets/DE601_configuration.png" width="1800" height="1200"> </p><p align="center">   <img src="/figs/20240428-LOFAR-configuration.assets/DE602_configuration.png" width="1800" height="1200"> </p><p align="center">   <img src="/figs/20240428-LOFAR-configuration.assets/DE603_configuration.png" width="1800" height="1200"> </p><p align="center">   <img src="/figs/20240428-LOFAR-configuration.assets/DE604_configuration.png" width="1800" height="1200"> </p><p align="center">   <img src="/figs/20240428-LOFAR-configuration.assets/DE605_configuration.png" width="1800" height="1200"> </p><p align="center">   <img src="/figs/20240428-LOFAR-configuration.assets/DE609_configuration.png" width="1800" height="1200"> </p><p align="center">   <img src="/figs/20240428-LOFAR-configuration.assets/FR606_configuration.png" width="1800" height="1200"> </p><p align="center">   <img src="/figs/20240428-LOFAR-configuration.assets/SE607_configuration.png" width="1800" height="1200"> </p><p align="center">   <img src="/figs/20240428-LOFAR-configuration.assets/UK608_configuration.png" width="1800" height="1200"> </p><p align="center">   <img src="/figs/20240428-LOFAR-configuration.assets/PL610_configuration.png" width="1800" height="1200"> </p><p align="center">   <img src="/figs/20240428-LOFAR-configuration.assets/PL611_configuration.png" width="1800" height="1200"> </p><p align="center">   <img src="/figs/20240428-LOFAR-configuration.assets/PL612_configuration.png" width="1800" height="1200"> </p><p align="center">   <img src="/figs/20240428-LOFAR-configuration.assets/IE613_configuration.png" width="1800" height="1200"> </p><p align="center">   <img src="/figs/20240428-LOFAR-configuration.assets/LV614_configuration.png" width="1800" height="1200"> </p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;script src=&quot;/assets/js/APlayer.min.js&quot;&gt; &lt;/script&gt;&lt;h2 id=&quot;LOFAR-station-lists&quot;&gt;&lt;a href=&quot;#LOFAR-station-lists&quot; class=&quot;headerlink&quot; title=&quot;LOFA</summary>
+      
+    
+    
+    
+    <category term="Learn" scheme="http://www.drjun.wang/categories/Learn/"/>
+    
+    
+    <category term="Personal" scheme="http://www.drjun.wang/tags/Personal/"/>
+    
+    <category term="Python" scheme="http://www.drjun.wang/tags/Python/"/>
+    
+  </entry>
   
   <entry>
     <title>20240110-hexo-transplant</title>
@@ -504,30 +530,6 @@
     
     
     <category term="Bash" scheme="http://www.drjun.wang/tags/Bash/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Pulsar Modules</title>
-    <link href="http://www.drjun.wang/2020/01/10/20200110-pulsar-modules/"/>
-    <id>http://www.drjun.wang/2020/01/10/20200110-pulsar-modules/</id>
-    <published>2020-01-10T13:03:33.000Z</published>
-    <updated>2020-01-10T13:03:33.000Z</updated>
-    
-    <content type="html"><![CDATA[<script src="/assets/js/APlayer.min.js"> </script><h2 id="Psrchive"><a href="#Psrchive" class="headerlink" title="Psrchive"></a>Psrchive</h2><h2 id="Astropy"><a href="#Astropy" class="headerlink" title="Astropy"></a>Astropy</h2><script>        document.querySelectorAll('.github-emoji')          .forEach(el => {            if (!el.dataset.src) { return; }            const img = document.createElement('img');            img.style = 'display:none !important;';            img.src = el.dataset.src;            img.addEventListener('error', () => {              img.remove();              el.style.color = 'inherit';              el.style.backgroundImage = 'none';              el.style.background = 'none';            });            img.addEventListener('load', () => {              img.remove();            });            document.body.appendChild(img);          });      </script>]]></content>
-    
-    
-      
-      
-    <summary type="html">&lt;script src=&quot;/assets/js/APlayer.min.js&quot;&gt; &lt;/script&gt;&lt;h2 id=&quot;Psrchive&quot;&gt;&lt;a href=&quot;#Psrchive&quot; class=&quot;headerlink&quot; title=&quot;Psrchive&quot;&gt;&lt;/a&gt;Psrchive&lt;/h2</summary>
-      
-    
-    
-    
-    <category term="Data Analysis" scheme="http://www.drjun.wang/categories/Data-Analysis/"/>
-    
-    
-    <category term="Python" scheme="http://www.drjun.wang/tags/Python/"/>
     
   </entry>
   
