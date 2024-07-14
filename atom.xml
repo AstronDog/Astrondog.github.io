@@ -251,6 +251,32 @@
   </entry>
   
   <entry>
+    <title>Azimuth and Elevation</title>
+    <link href="http://www.drjun.wang/2021/08/10/20210810-azimuth-elevation/"/>
+    <id>http://www.drjun.wang/2021/08/10/20210810-azimuth-elevation/</id>
+    <published>2021-08-10T15:41:34.000Z</published>
+    <updated>2021-08-10T15:41:34.000Z</updated>
+    
+    <content type="html"><![CDATA[<script src="/assets/js/APlayer.min.js"> </script><p>Azimuth and Elevation are two coordinates that define the position of a celestial body in the sky as viewed from a <strong>particular location</strong> at a <strong>particular time</strong>. Azimuth tells you which direction to face, while Elevation tells you how high up to look. Both are measured in degrees. </p><p>Azimuth ranges from 0° to 360°. It starts with <strong>North at 0°</strong>. As you turn to your right (in a clockwise direction), you’ll face East (90°), then South (180°), then West (270°), and finally return to North (360° and also 0°). So if the Azimuth for your celestial object is 45°, it means the object is northeast of you.</p><p>Elevation is also measured in degrees. A celestial object just barely rising above your horizon would be at 0° Elevation, while a celestial object directly overhead would be at 90° Elevation (also known as “the zenith”).</p><p>In the diagram below, the yellow circle represents the celestial object. It has an Azimuth of about 200° (southwest of the observer) and an Elevation of about 60° (about 2/3 of the way up in the sky).</p><div style="text-align: center;">    <img src="/figs/20210810-azimuth-elevation.assets/az_elevation.jpg" alt="azimuth and elevation" width="500"></div><p>As shown in the figure below, the observer’s current position is used as the origin.  An object due north has an azimuth of 0°, an object due east has an azimuth of 90°, an object due south has an azimuth of 180°, and an object due west has an azimuth of 270°.</p><div style="text-align: center;">    <img src="/figs/20210810-azimuth-elevation.assets/azimuth.png" alt="azimuth and elevation" width="500"></div><p>Similarly, as shown below, the elevation angle of a celestial body is the angle between the direction of the geometric center of the celestial body and the local horizon of the observer.</p><div style="text-align: center;">    <img src="/figs/20210810-azimuth-elevation.assets/elevation.png" alt="azimuth and elevation" width="500"></div>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;script src=&quot;/assets/js/APlayer.min.js&quot;&gt; &lt;/script&gt;&lt;p&gt;Azimuth and Elevation are two coordinates that define the position of a celestial body </summary>
+      
+    
+    
+    
+    <category term="Learn" scheme="http://www.drjun.wang/categories/Learn/"/>
+    
+    
+    <category term="Pulsar" scheme="http://www.drjun.wang/tags/Pulsar/"/>
+    
+    <category term="Astronomy" scheme="http://www.drjun.wang/tags/Astronomy/"/>
+    
+  </entry>
+  
+  <entry>
     <title>数学符号以及公式的英语读法</title>
     <link href="http://www.drjun.wang/2021/06/05/20210605-formula-english/"/>
     <id>http://www.drjun.wang/2021/06/05/20210605-formula-english/</id>
@@ -499,31 +525,6 @@
       
       
     <summary type="html">&lt;script src=&quot;/assets/js/APlayer.min.js&quot;&gt; &lt;/script&gt;&lt;p&gt;This section discusses general calibration and calibration strategies when preparing fo</summary>
-      
-    
-    
-    
-    <category term="Research" scheme="http://www.drjun.wang/categories/Research/"/>
-    
-    
-    <category term="Pulsar" scheme="http://www.drjun.wang/tags/Pulsar/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Wave Band</title>
-    <link href="http://www.drjun.wang/2020/01/20/20200120-waveband/"/>
-    <id>http://www.drjun.wang/2020/01/20/20200120-waveband/</id>
-    <published>2020-01-20T15:48:41.000Z</published>
-    <updated>2020-01-20T15:48:41.000Z</updated>
-    
-    <content type="html"><![CDATA[<script src="/assets/js/APlayer.min.js"> </script><h1 id="Band"><a href="#Band" class="headerlink" title="Band"></a>Band</h1><table><thead><tr><th align="center">波段名称</th><th align="center">频率范围</th><th align="center">波长范围</th><th align="center">波段名称</th><th align="center">频率范围</th><th align="center">波长范围</th></tr></thead><tbody><tr><td align="center"><a href="https://zh.wikipedia.org/wiki/L%E6%B3%A2%E6%AE%B5">L波段</a></td><td align="center">1 - 2 <a href="https://zh.wikipedia.org/wiki/GHz">GHz</a></td><td align="center">300.00 - 150.00 <a href="https://zh.wikipedia.org/wiki/Mm">mm</a></td><td align="center"></td><td align="center"></td><td align="center"></td></tr><tr><td align="center"><a href="https://zh.wikipedia.org/wiki/S%E6%B3%A2%E6%AE%B5">S波段</a></td><td align="center">2 - 4 GHz</td><td align="center">150.00 - 75.00 mm</td><td align="center"></td><td align="center"></td><td align="center"></td></tr><tr><td align="center">C波段</td><td align="center">4 - 8 GHz</td><td align="center">75.00 - 37.50 mm</td><td align="center"></td><td align="center"></td><td align="center"></td></tr><tr><td align="center"><a href="https://zh.wikipedia.org/wiki/X%E6%B3%A2%E6%AE%B5">X波段</a></td><td align="center">8 - 12 GHz</td><td align="center">37.50 - 25.00 mm</td><td align="center"></td><td align="center"></td><td align="center"></td></tr><tr><td align="center"><a href="https://zh.wikipedia.org/wiki/Ku%E6%B3%A2%E6%AE%B5">Ku波段</a></td><td align="center">12 - 18 GHz</td><td align="center">25.00 - 16.67 mm</td><td align="center"></td><td align="center"></td><td align="center"></td></tr><tr><td align="center"><a href="https://zh.wikipedia.org/w/index.php?title=K%E6%B3%A2%E6%AE%B5&amp;action=edit&amp;redlink=1">K波段</a></td><td align="center">18 - 27 GHz</td><td align="center">16.67 - 11.11 mm</td><td align="center"></td><td align="center"></td><td align="center"></td></tr><tr><td align="center"><a href="https://zh.wikipedia.org/w/index.php?title=Ka%E6%B3%A2%E6%AE%B5&amp;action=edit&amp;redlink=1">Ka波段</a></td><td align="center">27 - 40 GHz</td><td align="center">11.11 - 7.50 mm</td><td align="center"><a href="https://zh.wikipedia.org/w/index.php?title=Q%E6%B3%A2%E6%AE%B5&amp;action=edit&amp;redlink=1">Q波段</a></td><td align="center">30 - 50 GHz</td><td align="center">10.00 - 6.00 mm</td></tr><tr><td align="center"><a href="https://zh.wikipedia.org/w/index.php?title=U%E6%B3%A2%E6%AE%B5&amp;action=edit&amp;redlink=1">U波段</a></td><td align="center">40 - 60 GHz</td><td align="center">7.50 - 5.00 mm</td><td align="center"><a href="https://zh.wikipedia.org/w/index.php?title=V%E6%B3%A2%E6%AE%B5&amp;action=edit&amp;redlink=1">V波段</a></td><td align="center">50 - 75 GHz</td><td align="center">6.00 - 4.00 mm</td></tr><tr><td align="center"><a href="https://zh.wikipedia.org/w/index.php?title=E%E6%B3%A2%E6%AE%B5&amp;action=edit&amp;redlink=1">E波段</a></td><td align="center">60 - 90 GHz</td><td align="center">5.00 - 3.33 mm</td><td align="center"><a href="https://zh.wikipedia.org/w/index.php?title=W%E6%B3%A2%E6%AE%B5&amp;action=edit&amp;redlink=1">W波段</a></td><td align="center">75 - 110 GHz</td><td align="center">4.00 - 2.73 mm</td></tr><tr><td align="center"><a href="https://zh.wikipedia.org/w/index.php?title=F%E6%B3%A2%E6%AE%B5&amp;action=edit&amp;redlink=1">F波段</a></td><td align="center">90 - 140 GHz</td><td align="center">3.33 - 2.14 mm</td><td align="center"><a href="https://zh.wikipedia.org/w/index.php?title=D%E6%B3%A2%E6%AE%B5&amp;action=edit&amp;redlink=1">D波段</a></td><td align="center">110 - 170 GHz</td><td align="center">2.73 - 1.76 mm</td></tr></tbody></table><table><thead><tr><th align="center"><strong>波段代号</strong></th><th align="center"><strong>频率范围/GHz</strong></th></tr></thead><tbody><tr><td align="center">UHF</td><td align="center">0.30 - 1.12</td></tr><tr><td align="center">L</td><td align="center">1.12 - 1.70</td></tr><tr><td align="center">LS</td><td align="center">1.70 - 2.60</td></tr><tr><td align="center">S</td><td align="center">2.60 - 3.95</td></tr><tr><td align="center">C</td><td align="center">3.95 - 5.85</td></tr><tr><td align="center">XC</td><td align="center">5.85 - 8.20</td></tr><tr><td align="center">X</td><td align="center">8.20 - 12.40</td></tr><tr><td align="center">Ku</td><td align="center">12.40 - 18.00</td></tr><tr><td align="center">K</td><td align="center">18.00 - 26.50</td></tr><tr><td align="center">Ka</td><td align="center">26.50 - 40.00</td></tr><tr><td align="center">Q</td><td align="center">33.00 - 50.00</td></tr><tr><td align="center">U</td><td align="center">40.00 - 60.00</td></tr><tr><td align="center">M</td><td align="center">50.00 - 75.00</td></tr><tr><td align="center">E</td><td align="center">60.00 - 90.00</td></tr><tr><td align="center">F</td><td align="center">90.00 - 140.00</td></tr><tr><td align="center">G</td><td align="center">140.00 - 220.00</td></tr><tr><td align="center">R</td><td align="center">220.00 - 325.00</td></tr></tbody></table><h2 id="电磁频谱"><a href="#电磁频谱" class="headerlink" title="电磁频谱"></a>电磁频谱</h2><p><img src="/images/20200120-waveband.assets/Atmospheric_electromagnetic_opacity.svg.png" alt="地球大气对于不同波长电磁辐射的透过率。"></p><table><thead><tr><th align="center"></th><th align="center"></th><th align="center"><strong>电磁波谱</strong></th><th align="center"></th><th align="center"></th></tr></thead><tbody><tr><td align="center">名字</td><td align="center">波长</td><td align="center">频率 (Hz)</td><td align="center">光子 能量 (eV)</td><td align="center">带宽范围 (Bel)</td></tr><tr><td align="center">伽马射线</td><td align="center">小于 0.01 nm</td><td align="center">多于 15 EHz</td><td align="center">多于 62.1 keV</td><td align="center">无穷</td></tr><tr><td align="center">X射线</td><td align="center">0.01 nm – 10 nm</td><td align="center">30 EHz – 30 PHz</td><td align="center">124 keV – 124 eV</td><td align="center">3</td></tr><tr><td align="center">紫外线</td><td align="center">10 nm – 400 nm</td><td align="center">30 PHz – 750 THz</td><td align="center">124 eV –3 eV</td><td align="center">1.6</td></tr><tr><td align="center">可见光</td><td align="center">390 nm – 750 nm</td><td align="center">770 THz – 400 THz</td><td align="center">3.2 eV – 1.7 eV</td><td align="center">0.3</td></tr><tr><td align="center">红外线</td><td align="center">750 nm – 1 mm</td><td align="center">400 THz – 300 GHz</td><td align="center">1.7 eV – 1.24 meV</td><td align="center">3.1</td></tr><tr><td align="center"><strong>微波</strong></td><td align="center">1 mm – 1 m</td><td align="center">300 GHz – 300 MHz</td><td align="center">1.24 meV – 1.24 $\mu$eV</td><td align="center">3</td></tr><tr><td align="center">无线电短波</td><td align="center">1 m –100 m</td><td align="center">300 MHz – 3 MHz</td><td align="center">1.24 $\mu$ eV – 12.4 feV</td><td align="center">8</td></tr><tr><td align="center">无线电中波</td><td align="center">100 - 1000 m</td><td align="center">3 MHz - 0.3 MHz</td><td align="center"></td><td align="center"></td></tr><tr><td align="center">无线电长波</td><td align="center">1 km- 100,000 km</td><td align="center"></td><td align="center"></td><td align="center"></td></tr></tbody></table><p>伽马射线 - X射线 - 紫外线 - 可见光 - 红外线 - 太赫兹辐射 -  微波 - 无线电波<br><img src="/images/20200120-waveband.assets/1920px-Frequency_vs._wave_length.svg.png" alt="电磁波谱"></p><p>← 波长越短       波长越长 →<br>← 频率越高       频率越低 → </p><script>        document.querySelectorAll('.github-emoji')          .forEach(el => {            if (!el.dataset.src) { return; }            const img = document.createElement('img');            img.style = 'display:none !important;';            img.src = el.dataset.src;            img.addEventListener('error', () => {              img.remove();              el.style.color = 'inherit';              el.style.backgroundImage = 'none';              el.style.background = 'none';            });            img.addEventListener('load', () => {              img.remove();            });            document.body.appendChild(img);          });      </script>]]></content>
-    
-    
-      
-      
-    <summary type="html">&lt;script src=&quot;/assets/js/APlayer.min.js&quot;&gt; &lt;/script&gt;&lt;h1 id=&quot;Band&quot;&gt;&lt;a href=&quot;#Band&quot; class=&quot;headerlink&quot; title=&quot;Band&quot;&gt;&lt;/a&gt;Band&lt;/h1&gt;&lt;table&gt;
-&lt;thead&gt;</summary>
       
     
     

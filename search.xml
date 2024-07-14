@@ -245,6 +245,33 @@
     
     
     <entry>
+      <title>Azimuth and Elevation</title>
+      <link href="/2021/08/10/20210810-azimuth-elevation/"/>
+      <url>/2021/08/10/20210810-azimuth-elevation/</url>
+      
+        <content type="html"><![CDATA[<script src="/assets/js/APlayer.min.js"> </script><p>Azimuth and Elevation are two coordinates that define the position of a celestial body in the sky as viewed from a <strong>particular location</strong> at a <strong>particular time</strong>. Azimuth tells you which direction to face, while Elevation tells you how high up to look. Both are measured in degrees. </p><p>Azimuth ranges from 0° to 360°. It starts with <strong>North at 0°</strong>. As you turn to your right (in a clockwise direction), you’ll face East (90°), then South (180°), then West (270°), and finally return to North (360° and also 0°). So if the Azimuth for your celestial object is 45°, it means the object is northeast of you.</p><p>Elevation is also measured in degrees. A celestial object just barely rising above your horizon would be at 0° Elevation, while a celestial object directly overhead would be at 90° Elevation (also known as “the zenith”).</p><p>In the diagram below, the yellow circle represents the celestial object. It has an Azimuth of about 200° (southwest of the observer) and an Elevation of about 60° (about 2/3 of the way up in the sky).</p><div style="text-align: center;">    <img src="/figs/20210810-azimuth-elevation.assets/az_elevation.jpg" alt="azimuth and elevation" width="500"></div><p>As shown in the figure below, the observer’s current position is used as the origin.  An object due north has an azimuth of 0°, an object due east has an azimuth of 90°, an object due south has an azimuth of 180°, and an object due west has an azimuth of 270°.</p><div style="text-align: center;">    <img src="/figs/20210810-azimuth-elevation.assets/azimuth.png" alt="azimuth and elevation" width="500"></div><p>Similarly, as shown below, the elevation angle of a celestial body is the angle between the direction of the geometric center of the celestial body and the local horizon of the observer.</p><div style="text-align: center;">    <img src="/figs/20210810-azimuth-elevation.assets/elevation.png" alt="azimuth and elevation" width="500"></div>]]></content>
+      
+      
+      <categories>
+          
+          <category> Learn </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> Pulsar </tag>
+            
+            <tag> Astronomy </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>数学符号以及公式的英语读法</title>
       <link href="/2021/06/05/20210605-formula-english/"/>
       <url>/2021/06/05/20210605-formula-english/</url>
