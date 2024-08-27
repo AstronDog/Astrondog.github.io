@@ -2,6 +2,15 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>http://www.drjun.wang/2024/08/27/20240827-resolution-rayleigh/</loc>
+    
+    <lastmod>2024-08-27</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>http://www.drjun.wang/2024/04/28/20240428-LOFAR-configuration/</loc>
     
     <lastmod>2024-04-28</lastmod>
@@ -416,15 +425,6 @@
   </url>
   
   <url>
-    <loc>http://www.drjun.wang/2019/02/17/20190217-trave-Italy/</loc>
-    
-    <lastmod>2019-02-17</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>http://www.drjun.wang/2019/02/16/20190216-fanghua/</loc>
     
     <lastmod>2019-02-16</lastmod>
@@ -454,7 +454,7 @@
 
   <url>
     <loc>http://www.drjun.wang/</loc>
-    <lastmod>2024-07-29</lastmod>
+    <lastmod>2024-08-27</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
@@ -462,133 +462,140 @@
   
   <url>
     <loc>http://www.drjun.wang/tags/PPT/</loc>
-    <lastmod>2024-07-29</lastmod>
+    <lastmod>2024-08-27</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>http://www.drjun.wang/tags/Meeting/</loc>
-    <lastmod>2024-07-29</lastmod>
+    <lastmod>2024-08-27</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>http://www.drjun.wang/tags/Pulsar/</loc>
-    <lastmod>2024-07-29</lastmod>
+    <lastmod>2024-08-27</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>http://www.drjun.wang/tags/Software/</loc>
-    <lastmod>2024-07-29</lastmod>
+    <lastmod>2024-08-27</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>http://www.drjun.wang/tags/Personal/</loc>
-    <lastmod>2024-07-29</lastmod>
+    <lastmod>2024-08-27</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>http://www.drjun.wang/tags/Quotes/</loc>
-    <lastmod>2024-07-29</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>http://www.drjun.wang/tags/Travel/</loc>
-    <lastmod>2024-07-29</lastmod>
+    <lastmod>2024-08-27</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>http://www.drjun.wang/tags/Latex/</loc>
-    <lastmod>2024-07-29</lastmod>
+    <lastmod>2024-08-27</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>http://www.drjun.wang/tags/Blog/</loc>
-    <lastmod>2024-07-29</lastmod>
+    <lastmod>2024-08-27</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>http://www.drjun.wang/tags/Python/</loc>
-    <lastmod>2024-07-29</lastmod>
+    <lastmod>2024-08-27</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>http://www.drjun.wang/tags/Bash/</loc>
-    <lastmod>2024-07-29</lastmod>
+    <lastmod>2024-08-27</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>http://www.drjun.wang/tags/Career/</loc>
-    <lastmod>2024-07-29</lastmod>
+    <lastmod>2024-08-27</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>http://www.drjun.wang/tags/Formula/</loc>
-    <lastmod>2024-07-29</lastmod>
+    <lastmod>2024-08-27</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>http://www.drjun.wang/tags/Linux/</loc>
-    <lastmod>2024-07-29</lastmod>
+    <lastmod>2024-08-27</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>http://www.drjun.wang/tags/PDF/</loc>
-    <lastmod>2024-07-29</lastmod>
+    <lastmod>2024-08-27</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>http://www.drjun.wang/tags/Math/</loc>
-    <lastmod>2024-07-29</lastmod>
+    <lastmod>2024-08-27</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>http://www.drjun.wang/tags/LOFAR/</loc>
-    <lastmod>2024-07-29</lastmod>
+    <lastmod>2024-08-27</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>http://www.drjun.wang/tags/GLOW/</loc>
-    <lastmod>2024-07-29</lastmod>
+    <lastmod>2024-08-27</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>http://www.drjun.wang/tags/Astronomy/</loc>
-    <lastmod>2024-07-29</lastmod>
+    <lastmod>2024-08-27</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>http://www.drjun.wang/tags/Personal/</loc>
+    <lastmod>2024-08-27</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>http://www.drjun.wang/tags/Astro/</loc>
+    <lastmod>2024-08-27</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
@@ -597,35 +604,42 @@
   
   <url>
     <loc>http://www.drjun.wang/categories/Research/</loc>
-    <lastmod>2024-07-29</lastmod>
+    <lastmod>2024-08-27</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>http://www.drjun.wang/categories/Leisure/</loc>
-    <lastmod>2024-07-29</lastmod>
+    <lastmod>2024-08-27</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>http://www.drjun.wang/categories/Learn/</loc>
-    <lastmod>2024-07-29</lastmod>
+    <lastmod>2024-08-27</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>http://www.drjun.wang/categories/Data-Analysis/</loc>
-    <lastmod>2024-07-29</lastmod>
+    <lastmod>2024-08-27</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>http://www.drjun.wang/categories/Press/</loc>
-    <lastmod>2024-07-29</lastmod>
+    <lastmod>2024-08-27</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>http://www.drjun.wang/categories/Research-Leisure-Learn-Data-Analysis/</loc>
+    <lastmod>2024-08-27</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
