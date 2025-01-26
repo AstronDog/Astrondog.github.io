@@ -6,7 +6,7 @@
   <link href="http://www.drjun.wang/atom.xml" rel="self"/>
   
   <link href="http://www.drjun.wang/"/>
-  <updated>2024-08-27T20:20:37.000Z</updated>
+  <updated>2025-01-26T14:53:11.000Z</updated>
   <id>http://www.drjun.wang/</id>
   
   <author>
@@ -15,6 +15,32 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>电离层对LOFAR的影响</title>
+    <link href="http://www.drjun.wang/2025/01/26/20250126-ionosphere-rfi/"/>
+    <id>http://www.drjun.wang/2025/01/26/20250126-ionosphere-rfi/</id>
+    <published>2025-01-26T14:53:11.000Z</published>
+    <updated>2025-01-26T14:53:11.000Z</updated>
+    
+    <content type="html"><![CDATA[<script src="/assets/js/APlayer.min.js"> </script><p>甚高频（VHF）频带是指 30 MHz 到 300 MHz 的无线电电波，高频（HF）频带是指 3 MHz 至 30 MHz 的无线电电波。电离层通常不会反射VHF的信号。但HF频带的无线电波可以通过大气中的电离层层回到地球。</p><p>电离层是地球大气层中受到太阳辐射电离的部分，通常位于距地表约50公里以上的区域。电离层的电离过程主要受到太阳活动的影响。在这一过程中，太阳光照射到大气分子时，将其电离，产生自由电子和离子。电离层中的离子和自由电子之间存在一个平衡，离子会重新捕获自由电子以维持这种平衡。</p><p>电离层的电离程度主要受太阳辐射的影响，尤其是太阳活动的强弱。因此，电离层的状态会随昼夜变化而发生变化，白天太阳辐射较强，电离程度较高，而晚上太阳辐射消失，电离度较低。此外，季节变化也会对电离层产生影响，冬季由于太阳光的入射角度较低，地面接收到的辐射较少，导致电离层的电离程度较低。</p><p>如图Figure 3所示，电离层按距离地面的高度从低向高大致可分为D，E， F层（F层有时也可细分为F1和F2层）。</p><div style="text-align: center;">    <img src="/figs/20250126-ionosphere-rfi.assets/ionosphere_layers.png" alt="Figure 1: 电离层分层" width="500"></div><p>D层是电离层最低的一层，离地球表面50至100公里。10 MHz 以下的电波会被D层吸收，但在强烈的太阳X射线活动期间，吸收频率范围可以扩展到 20 MHz 或 30 MHz，随着电波频率的增高这个吸收率下降。夜间这个吸收率最低，中午最高。日落后这个层减弱非常大。D层的吸收会阻止更高层（如 E 层和 F 层）对信号的反射。因为信号在进入更高层之前已经被 D 层吸收，所以无线电信号无法在电离层的高层之间进行“弹跳反射”。</p><p>下图为LOFAR站点记录的beamlet statitsctic数据，站点beam指向Cas A。如图所示，由于D层对对10 MHz以下电磁波的吸收，导致 7 MHz以下几乎没有信号。同时由于电离层E，F层对3至30 MHz的地表无线电波的反射，导致噪声的20MHz左右存在较大干扰。</p><div style="text-align: center;">    <img src="/figs/20250126-ionosphere-rfi.assets/20240511_LOFAR_beamlet.png" alt="Figure 2: LOFAR的beamlet观测结果" width="500"></div><p>但是，注意到Figure 3 图中11：30和15：30左右的红色圈中所示，噪声明显降低。这主要是由于太阳活动造成的。由于太阳的距离活动，导致D层的对30MHz以下电磁波的吸收增强，从而LOFAR在此波段接收不到噪声信号。下图Figure 3所示的太阳活动强度，对应了我们的观测结果。</p><div style="text-align: center;">    <img src="/figs/20250126-ionosphere-rfi.assets/20240511_solar_activity.png" alt="Figure 3: 2024-05-11当天的太阳活动历史" width="500"></div>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;script src=&quot;/assets/js/APlayer.min.js&quot;&gt; &lt;/script&gt;&lt;p&gt;甚高频（VHF）频带是指 30 MHz 到 300 MHz 的无线电电波，高频（HF）频带是指 3 MHz 至 30 MHz 的无线电电波。电离层通常不会反射VHF的信号。但</summary>
+      
+    
+    
+    
+    <category term="Research" scheme="http://www.drjun.wang/categories/Research/"/>
+    
+    
+    <category term="Python" scheme="http://www.drjun.wang/tags/Python/"/>
+    
+    <category term="LOFAR" scheme="http://www.drjun.wang/tags/LOFAR/"/>
+    
+  </entry>
   
   <entry>
     <title>Resolution and Rayleigh Criterion</title>
@@ -512,32 +538,6 @@
     <category term="Software" scheme="http://www.drjun.wang/tags/Software/"/>
     
     <category term="Linux" scheme="http://www.drjun.wang/tags/Linux/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>PDF Treatment</title>
-    <link href="http://www.drjun.wang/2021/03/05/20210305-pdf-process/"/>
-    <id>http://www.drjun.wang/2021/03/05/20210305-pdf-process/</id>
-    <published>2021-03-05T15:05:56.000Z</published>
-    <updated>2021-03-05T15:05:56.000Z</updated>
-    
-    <content type="html"><![CDATA[<script src="/assets/js/APlayer.min.js"> </script><h1 id="Ubuntu下PDF文件处理"><a href="#Ubuntu下PDF文件处理" class="headerlink" title="Ubuntu下PDF文件处理"></a>Ubuntu下PDF文件处理</h1><h2 id="1-gs命令"><a href="#1-gs命令" class="headerlink" title="1. gs命令"></a>1. gs命令</h2><p>linux下可以直接用命令进行PDF的原生操作</p><p>使用命令：gs（GhostScript）</p><p>官网：<a href="https://www.ghostscript.com/">https://www.ghostscript.com/</a></p><p>安装该命令：<code>sudo apt-get install gs</code></p><h3 id="1-1-合并多个PDF为1个"><a href="#1-1-合并多个PDF为1个" class="headerlink" title="1.1 合并多个PDF为1个"></a>1.1 合并多个PDF为1个</h3><pre><code>gs -dNOPAUSE -sDEVICE=pdfwrite -sOUTPUTFILE=target.pdf -dBATCH 1.pdf 2.pdf ... n.pdf</code></pre><h3 id="1-2-单个PDF压缩"><a href="#1-2-单个PDF压缩" class="headerlink" title="1.2 单个PDF压缩"></a>1.2 单个PDF压缩</h3><pre><code>gs -sDEVICE=pdfwrite -dCompatibilityLevel=1.4 -dPDFSETTINGS=/prepress -dNOPAUSE -dQUIET -dBATCH -sOutputFile=output.pdf input.pdf-dPDFSETTINGS 参数描述：/prepress ：质量最好，文件最大/printer ：打印模式，推荐压缩/ebook ： 电子书模式，适合文本/screen ：文件最小，不推荐 </code></pre><h2 id="2-pdftk命令"><a href="#2-pdftk命令" class="headerlink" title="2. pdftk命令"></a>2. pdftk命令</h2><p>官网：<a href="http://www.pdflabs.com/docs/install-pdftk/">http://www.pdflabs.com/docs/install-pdftk/</a><br>安装该命令：<code>sudo snap install pdftk</code></p><h3 id="2-1-pdf文件合并"><a href="#2-1-pdf文件合并" class="headerlink" title="2.1 pdf文件合并"></a>2.1 pdf文件合并</h3><pre class="line-numbers language-bash"><code class="language-bash">pdftk in1.pdf in2.pdf <span class="token function">cat</span> output out.pdf<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre><h3 id="2-2-多个不同页面合并"><a href="#2-2-多个不同页面合并" class="headerlink" title="2.2 多个不同页面合并"></a>2.2 多个不同页面合并</h3><pre class="line-numbers language-bash"><code class="language-bash">pdftk A<span class="token operator">=</span>1.pdf B<span class="token operator">=</span>2.pdf C<span class="token operator">=</span>pdf <span class="token function">cat</span> A1-2 B2-3 C3 output abc.pdf<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre><h3 id="2-3-旋转第一页"><a href="#2-3-旋转第一页" class="headerlink" title="2.3 旋转第一页"></a>2.3 旋转第一页</h3><pre class="line-numbers language-bash"><code class="language-bash">pdftk in.pdf <span class="token function">cat</span> 1E 2-end output out.pdf<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre><h3 id="2-4-加密（128位）"><a href="#2-4-加密（128位）" class="headerlink" title="2.4 加密（128位）"></a>2.4 加密（128位）</h3><pre class="line-numbers language-bash"><code class="language-bash">pdftk a.pdf output b.pdf owner_pw pass<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre><h3 id="2-5-加访问密码"><a href="#2-5-加访问密码" class="headerlink" title="2.5 加访问密码"></a>2.5 加访问密码</h3><pre class="line-numbers language-bash"><code class="language-bash">pdftk a.pdf output b.pdf user_pw pass<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre><h3 id="2-6-解密"><a href="#2-6-解密" class="headerlink" title="2.6 解密"></a>2.6 解密</h3><pre class="line-numbers language-bash"><code class="language-bash">pdftk a.pdf input_pw pass output b.pdf<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre><h3 id="2-7-解压"><a href="#2-7-解压" class="headerlink" title="2.7 解压"></a>2.7 解压</h3><pre class="line-numbers language-bash"><code class="language-bash">pdftk a.pdf output b.pdf uncompress<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre><h3 id="2-8-压缩"><a href="#2-8-压缩" class="headerlink" title="2.8 压缩"></a>2.8 压缩</h3><pre class="line-numbers language-bash"><code class="language-bash">pdftk a.pdf output b.pdf compress<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre><h3 id="2-9-修复"><a href="#2-9-修复" class="headerlink" title="2.9 修复"></a>2.9 修复</h3><pre class="line-numbers language-bash"><code class="language-bash">pdftk a.pdf output b.pdf<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre><h3 id="2-10-切割"><a href="#2-10-切割" class="headerlink" title="2.10 切割"></a>2.10 切割</h3><pre class="line-numbers language-bash"><code class="language-bash">pdftk a.pdf <span class="token function">cat</span> 1-end output b.pdf<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre><h3 id="2-11-分解成单页"><a href="#2-11-分解成单页" class="headerlink" title="2.11 分解成单页"></a>2.11 分解成单页</h3><pre class="line-numbers language-bash"><code class="language-bash">pdftk a.pdf burst<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre><h2 id="3-Imagemagick命令"><a href="#3-Imagemagick命令" class="headerlink" title="3. Imagemagick命令"></a>3. Imagemagick命令</h2><p>官网：<a href="http://www.imagemagick.org/">http://www.imagemagick.org</a></p><p>安装方法：<code>sudo apt-get install imagemagick</code></p><h3 id="3-1-PDF-TO-JPG"><a href="#3-1-PDF-TO-JPG" class="headerlink" title="3.1 PDF TO JPG"></a>3.1 PDF TO JPG</h3><p><code>convert -verbose -colorspace RGB -resize 1800 -interlace none -density 300 -quality 100 XXX.pdf XXX.jpg</code></p><p>参数：<br>-resize 1800：设置输出图片的宽度为1800像素，清晰度高了很多<br>-density 300：打印分辨率为300<br>-quality 100：JPG的质量为100%</p><h3 id="3-2-JPG-TO-PDF"><a href="#3-2-JPG-TO-PDF" class="headerlink" title="3.2 JPG TO PDF"></a>3.2 JPG TO PDF</h3><p>转换单个JPG：<code>convert x.jpg x.pdf</code><br>转换多个JPG为1个PDF：<code>convert *.jpg x.pdf</code></p><script>        document.querySelectorAll('.github-emoji')          .forEach(el => {            if (!el.dataset.src) { return; }            const img = document.createElement('img');            img.style = 'display:none !important;';            img.src = el.dataset.src;            img.addEventListener('error', () => {              img.remove();              el.style.color = 'inherit';              el.style.backgroundImage = 'none';              el.style.background = 'none';            });            img.addEventListener('load', () => {              img.remove();            });            document.body.appendChild(img);          });      </script>]]></content>
-    
-    
-      
-      
-    <summary type="html">&lt;script src=&quot;/assets/js/APlayer.min.js&quot;&gt; &lt;/script&gt;&lt;h1 id=&quot;Ubuntu下PDF文件处理&quot;&gt;&lt;a href=&quot;#Ubuntu下PDF文件处理&quot; class=&quot;headerlink&quot; title=&quot;Ubuntu下PDF文件处理</summary>
-      
-    
-    
-    
-    <category term="Learn" scheme="http://www.drjun.wang/categories/Learn/"/>
-    
-    
-    <category term="Software" scheme="http://www.drjun.wang/tags/Software/"/>
-    
-    <category term="PDF" scheme="http://www.drjun.wang/tags/PDF/"/>
     
   </entry>
   
